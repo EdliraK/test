@@ -1,0 +1,4143 @@
+Prefix(:=<https://w3id.org/oho#>)
+Prefix(oho:=<https://w3id.org/oho#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(oho-cost:=<https://w3id.org/oho-cost#>)
+
+
+Ontology(<https://w3id.org/oho#>
+<https://w3id.org/oho#/1.0.0>
+Annotation(<http://purl.org/dc/elements/1.1/contributor> "Abdel-Rahman Tawil")
+Annotation(<http://purl.org/dc/elements/1.1/contributor> "Franco Cheung")
+Annotation(<http://purl.org/dc/elements/1.1/contributor> "Kudirat Ayinla")
+Annotation(<http://purl.org/dc/elements/1.1/creator> "Edlira Vakaj")
+Annotation(<http://purl.org/dc/elements/1.1/title> "OHO: an Offsite Housing Ontology")
+
+Declaration(Class(oho:Acoustic_Insulation))
+Declaration(Class(oho:Activity))
+Declaration(Class(oho:Adhesive))
+Declaration(Class(oho:Administrative))
+Declaration(Class(oho:Angle))
+Declaration(Class(oho:Architect))
+Declaration(Class(oho:Assembly))
+Declaration(Class(oho:AssemblySub))
+Declaration(Class(oho:AssignedFacilitiesAndUtilities))
+Declaration(Class(oho:Base_Track))
+Declaration(Class(oho:Base_Track_Fixing))
+Declaration(Class(oho:Basic_Stud))
+Declaration(Class(oho:BathroomCabinet))
+Declaration(Class(oho:Battery))
+Declaration(Class(oho:Bolts))
+Declaration(Class(oho:Brackets))
+Declaration(Class(oho:BreatherMembrane))
+Declaration(Class(oho:Breather_Membrane))
+Declaration(Class(oho:BrickSlip))
+Declaration(Class(oho:Brick_Slip))
+Declaration(Class(oho:Bronze))
+Declaration(Class(oho:Building))
+Declaration(Class(oho:Business_Operation))
+Declaration(Class(oho:CPB_Mechanical_Fixing_Station))
+Declaration(Class(oho:CP_Board))
+Declaration(Class(oho:CP_Board_Fixing))
+Declaration(Class(oho:CP_Boarding_Station))
+Declaration(Class(oho:CandiWall_Rail))
+Declaration(Class(oho:CandiWall_System))
+Declaration(Class(oho:CandiwallBackingBoard))
+Declaration(Class(oho:Casual_Labour))
+Declaration(Class(oho:Cavity_Insulation_Board))
+Declaration(Class(oho:CementBoard))
+Declaration(Class(oho:CentralPodsAndPanels))
+Declaration(Class(oho:Cladding_Assembly_Line_Automated))
+Declaration(Class(oho:Cladding_Assembly_Line_Manual))
+Declaration(Class(oho:Cleaning))
+Declaration(Class(oho:Clips))
+Declaration(Class(oho:ColdSteel))
+Declaration(Class(oho:Component))
+Declaration(Class(oho:ComponentSub))
+Declaration(Class(oho:Concrete_Fixing))
+Declaration(Class(oho:Conveying_Station))
+Declaration(Class(oho:Coordinates))
+Declaration(Class(oho:Cripple_Stud))
+Declaration(Class(oho:Customer_Relation))
+Declaration(Class(oho:DPLforLoading))
+Declaration(Class(oho:DPLforPanelCladdingS-A))
+Declaration(Class(oho:DPLforPanelFrameSubAssembly))
+Declaration(Class(oho:DPLforPodFrameS-A))
+Declaration(Class(oho:DPLforPodS-A))
+Declaration(Class(oho:DPMforPanelCladdingS-A))
+Declaration(Class(oho:DPMforPanelFrameS-A))
+Declaration(Class(oho:DPMforPod_Frame_Sub_Assembly))
+Declaration(Class(oho:DPMforPod_Sub_Assembly))
+Declaration(Class(oho:DataSource))
+Declaration(Class(oho:Design_and_Engineering))
+Declaration(Class(oho:Detached))
+Declaration(Class(oho:Diagonal_Bracing))
+Declaration(Class(oho:Diagonal_Bracing_Fixing))
+Declaration(Class(oho:Diesel))
+Declaration(Class(oho:Direct_Labour))
+Declaration(Class(oho:Direct_Material))
+Declaration(Class(oho:Direct_Time))
+Declaration(Class(oho:DirectlyProcuredLabour))
+Declaration(Class(oho:DirectlyProcuredMaterial))
+Declaration(Class(oho:Door))
+Declaration(Class(oho:Door_Pod))
+Declaration(Class(oho:Duct))
+Declaration(Class(oho:EPDM))
+Declaration(Class(oho:EXT_Wall_Cladding))
+Declaration(Class(oho:E_Consult))
+Declaration(Class(oho:ElectricityCable))
+Declaration(Class(oho:EnergySystem))
+Declaration(Class(oho:External_Door))
+Declaration(Class(oho:Facade_Fixing_Station))
+Declaration(Class(oho:Factory))
+Declaration(Class(oho:Factory_Rent))
+Declaration(Class(oho:Fitting))
+Declaration(Class(oho:FrameBeam_Load_Station))
+Declaration(Class(oho:Frame_Assembly_Line))
+Declaration(Class(oho:Frame_Riveting_Station))
+Declaration(Class(oho:Frame_Transfer_Station))
+Declaration(Class(oho:Gasoline))
+Declaration(Class(oho:Gold))
+Declaration(Class(oho:Gypsum_Fireboard))
+Declaration(Class(oho:HatChannnelsSupportRails))
+Declaration(Class(oho:Head_Track))
+Declaration(Class(oho:Head_Track_Fixing))
+Declaration(Class(oho:HeatRecoveryUnit))
+Declaration(Class(oho:HotSteel))
+Declaration(Class(oho:House))
+Declaration(Class(oho:INT_CP_Board))
+Declaration(Class(oho:INT_Wall_Cladding))
+Declaration(Class(oho:In_Use))
+Declaration(Class(oho:Indirect_Labour))
+Declaration(Class(oho:Indirect_Time))
+Declaration(Class(oho:InsulationBoard))
+Declaration(Class(oho:Insulation_Board))
+Declaration(Class(oho:Insulation_Fixing))
+Declaration(Class(oho:Interface))
+Declaration(Class(oho:Internal_Door))
+Declaration(Class(oho:Internal_FitOut_Station))
+Declaration(Class(oho:JointCementBoard))
+Declaration(Class(oho:JointInternalWalls))
+Declaration(Class(oho:KitchenCabinet))
+Declaration(Class(oho:LSF_Flat_Strap))
+Declaration(Class(oho:Labour))
+Declaration(Class(oho:LightSwitch))
+Declaration(Class(oho:LightingCable))
+Declaration(Class(oho:LimeMortar))
+Declaration(Class(oho:Loading))
+Declaration(Class(oho:LoadingAndUnloading))
+Declaration(Class(oho:MCProfit))
+Declaration(Class(oho:Maintenance_and_Service))
+Declaration(Class(oho:Material))
+Declaration(Class(oho:MaterialForPodPanel))
+Declaration(Class(oho:Method))
+Declaration(Class(oho:Modular_Production))
+Declaration(Class(oho:Movable_Tools))
+Declaration(Class(oho:NecessaryNonValueAdded))
+Declaration(Class(oho:NonValueAdded))
+Declaration(Class(oho:Offload_Station))
+Declaration(Class(oho:Offsite_Production))
+Declaration(Class(oho:OnsiteAssembly))
+Declaration(Class(oho:OnsiteSubStructure))
+Declaration(Class(oho:Onsite_Support))
+Declaration(Class(oho:Onsite_Work))
+Declaration(Class(oho:Operational))
+Declaration(Class(oho:Option1_LSF3BED))
+Declaration(Class(oho:Ordering_Materials))
+Declaration(Class(oho:Overhead))
+Declaration(Class(oho:Packaging))
+Declaration(Class(oho:PackagingAndProtection))
+Declaration(Class(oho:Packaging_Material))
+Declaration(Class(oho:Panel))
+Declaration(Class(oho:PanelCladdingSubAssembly))
+Declaration(Class(oho:PanelCladdingsub-assembly))
+Declaration(Class(oho:PanelFramesub-assembly))
+Declaration(Class(oho:Panel_Testing))
+Declaration(Class(oho:Panelised))
+Declaration(Class(oho:PendantLight))
+Declaration(Class(oho:Pipe))
+Declaration(Class(oho:Planning_and_Scheduling))
+Declaration(Class(oho:Plant))
+Declaration(Class(oho:PlantAndEquipment))
+Declaration(Class(oho:Plaster_Board))
+Declaration(Class(oho:Plasterboard))
+Declaration(Class(oho:Plate))
+Declaration(Class(oho:Platform))
+Declaration(Class(oho:PodAndPanel))
+Declaration(Class(oho:PodFramesub-assembly))
+Declaration(Class(oho:Pod_Testing))
+Declaration(Class(oho:Podsub-assembly))
+Declaration(Class(oho:Procurement_and_Inventory_Control))
+Declaration(Class(oho:Product))
+Declaration(Class(oho:ProductSub))
+Declaration(Class(oho:Production))
+Declaration(Class(oho:Production_Actvities))
+Declaration(Class(oho:Production_Engineering__Management_and_Support))
+Declaration(Class(oho:Production_Time))
+Declaration(Class(oho:Programmer))
+Declaration(Class(oho:ProjectCost))
+Declaration(Class(oho:Quality_Inspection))
+Declaration(Class(oho:Quality_Inspector))
+Declaration(Class(oho:Radiator))
+Declaration(Class(oho:Receiving_Materials))
+Declaration(Class(oho:RecessedLight))
+Declaration(Class(oho:Repair_and_Replacement))
+Declaration(Class(oho:Resource))
+Declaration(Class(oho:Rework_Station))
+Declaration(Class(oho:Rivets))
+Declaration(Class(oho:Roof))
+Declaration(Class(oho:SanitaryFitting))
+Declaration(Class(oho:ScrewBracket))
+Declaration(Class(oho:Security))
+Declaration(Class(oho:Semi-Skilled_Operative))
+Declaration(Class(oho:SemiDetached))
+Declaration(Class(oho:Sheating_Board))
+Declaration(Class(oho:Silver))
+Declaration(Class(oho:Site))
+Declaration(Class(oho:Skirting))
+Declaration(Class(oho:Socket))
+Declaration(Class(oho:SolarPanel))
+Declaration(Class(oho:Special_Stud))
+Declaration(Class(oho:Stair))
+Declaration(Class(oho:Static_Tools))
+Declaration(Class(oho:Station))
+Declaration(Class(oho:Stick))
+Declaration(Class(oho:StickMethod))
+Declaration(Class(oho:Storage))
+Declaration(Class(oho:Structural_Engineer))
+Declaration(Class(oho:Stud))
+Declaration(Class(oho:SubAssembly))
+Declaration(Class(oho:SubFrame_Fixing))
+Declaration(Class(oho:SubSubAssembly))
+Declaration(Class(oho:Supporting_Activities))
+Declaration(Class(oho:Tape))
+Declaration(Class(oho:Terrace))
+Declaration(Class(oho:Time))
+Declaration(Class(oho:Tool_Maintenance))
+Declaration(Class(oho:Tooling_Transfer_Station))
+Declaration(Class(oho:Transport))
+Declaration(Class(oho:Transportation))
+Declaration(Class(oho:TransportationCost))
+Declaration(Class(oho:TransportationOP))
+Declaration(Class(oho:Transporting))
+Declaration(Class(oho:Unload_Station))
+Declaration(Class(oho:Utilities))
+Declaration(Class(oho:ValueAdded))
+Declaration(Class(oho:Volumetric))
+Declaration(Class(oho:VolumetricMethod))
+Declaration(Class(oho:Wall_Finishing))
+Declaration(Class(oho:Wall_Fixing))
+Declaration(Class(oho:Wall_Framing))
+Declaration(Class(oho:Wall_Panel))
+Declaration(Class(oho:WhiteGood))
+Declaration(Class(oho:Window))
+Declaration(Class(oho:Window_Pod))
+Declaration(Class(oho:Wonderwall_System))
+Declaration(Class(oho:X150X60_SS))
+Declaration(Class(oho:Z_Rail))
+Declaration(Class(oho:mmTHK_CS))
+Declaration(Class(oho:mmTHK_LSF_BT))
+Declaration(Class(oho:mmTHK_LSF_HT))
+Declaration(Class(oho:mmTHK_Stud))
+Declaration(Class(oho-cost:DesignChoice))
+Declaration(Class(oho-cost:Location))
+Declaration(ObjectProperty(<https://w3id.org/hasSource>))
+Declaration(ObjectProperty(oho:composedOf))
+Declaration(ObjectProperty(oho:hasActivity))
+Declaration(ObjectProperty(oho:hasComponentPart))
+Declaration(ObjectProperty(oho:hasCost))
+Declaration(ObjectProperty(oho:hasMethod))
+Declaration(ObjectProperty(oho:hasNextActivity))
+Declaration(ObjectProperty(oho:hasStartingActivity))
+Declaration(ObjectProperty(oho:hasStation))
+Declaration(ObjectProperty(oho:hasSubActivity))
+Declaration(ObjectProperty(oho:hasWorker))
+Declaration(ObjectProperty(oho:isComponentPartOf))
+Declaration(ObjectProperty(oho:isFinishingActivity))
+Declaration(ObjectProperty(oho:isInterfaceOf))
+Declaration(ObjectProperty(oho:isNextActivityOf))
+Declaration(ObjectProperty(oho:isStartingActivity))
+Declaration(ObjectProperty(oho:usesResources))
+Declaration(ObjectProperty(oho:workingOnActivity))
+Declaration(DataProperty(oho:AC1))
+Declaration(DataProperty(oho:AC2))
+Declaration(DataProperty(oho:AC3))
+Declaration(DataProperty(oho:AC4))
+Declaration(DataProperty(oho:AC5))
+Declaration(DataProperty(oho:AC6))
+Declaration(DataProperty(oho:C1))
+Declaration(DataProperty(oho:C2))
+Declaration(DataProperty(oho:C3))
+Declaration(DataProperty(oho:C4))
+Declaration(DataProperty(oho:C5))
+Declaration(DataProperty(oho:C5-AC1))
+Declaration(DataProperty(oho:C5-AC1-SA1))
+Declaration(DataProperty(oho:C5-AC1-SA2))
+Declaration(DataProperty(oho:C5-AC1-SA3))
+Declaration(DataProperty(oho:C5-AC1-SA4))
+Declaration(DataProperty(oho:C5-AC1-SA5))
+Declaration(DataProperty(oho:C5-AC2))
+Declaration(DataProperty(oho:C5-AC2-SA1))
+Declaration(DataProperty(oho:C5-AC2-SA2))
+Declaration(DataProperty(oho:C6))
+Declaration(DataProperty(oho:HasSiteStaffAndLabourCost))
+Declaration(DataProperty(oho:NoOfHousesPerProject))
+Declaration(DataProperty(oho:NoOfHousesPerProjectAC))
+Declaration(DataProperty(oho:SA1))
+Declaration(DataProperty(oho:SA2))
+Declaration(DataProperty(oho:SA3))
+Declaration(DataProperty(oho:SA4))
+Declaration(DataProperty(oho:SA5))
+Declaration(DataProperty(oho:TS1))
+Declaration(DataProperty(oho:TS2))
+Declaration(DataProperty(oho:TS3))
+Declaration(DataProperty(oho:TS4))
+Declaration(DataProperty(oho:hasActivityCost))
+Declaration(DataProperty(oho:hasActivityCostFromStart))
+Declaration(DataProperty(oho:hasArea))
+Declaration(DataProperty(oho:hasAssignedBusinessOperationCostPP))
+Declaration(DataProperty(oho:hasAssignedCostPerDistance))
+Declaration(DataProperty(oho:hasAssignedFacilitiesUtilitiesCost))
+Declaration(DataProperty(oho:hasAssignedFacilitiesUtilitiesCostSA1))
+Declaration(DataProperty(oho:hasAssignedPlantEquipmentCost))
+Declaration(DataProperty(oho:hasAssignedSitePreliminariesCost))
+Declaration(DataProperty(oho:hasAssignedSiteStaffAndLabourCost))
+Declaration(DataProperty(oho:hasAssignedTotalCustomerRelationsCostPP))
+Declaration(DataProperty(oho:hasAssignedTotalFactoryAdministrationCost))
+Declaration(DataProperty(oho:hasAssignedTotalPlanningSchedulingCost))
+Declaration(DataProperty(oho:hasAssignedTotalProcurementInventoryCost))
+Declaration(DataProperty(oho:hasBatch))
+Declaration(DataProperty(oho:hasBussinesOperationCostC1))
+Declaration(DataProperty(oho:hasCostFromStart))
+Declaration(DataProperty(oho:hasCostumerRelationCostAC1))
+Declaration(DataProperty(oho:hasCount))
+Declaration(DataProperty(oho:hasDecorationCost))
+Declaration(DataProperty(oho:hasDepreciationValue))
+Declaration(DataProperty(oho:hasDesignEngineeringCostC2))
+Declaration(DataProperty(oho:hasDetached))
+Declaration(DataProperty(oho:hasDiameter))
+Declaration(DataProperty(oho:hasDimensions))
+Declaration(DataProperty(oho:hasDirectLabourCost))
+Declaration(DataProperty(oho:hasDirectMaterialCost))
+Declaration(DataProperty(oho:hasDirectlyProcuredLabourCost))
+Declaration(DataProperty(oho:hasDirectlyProcuredLabourCostSA1))
+Declaration(DataProperty(oho:hasDirectlyProcuredMaterialsCostSA1))
+Declaration(DataProperty(oho:hasDistance))
+Declaration(DataProperty(oho:hasDistancePerJourney))
+Declaration(DataProperty(oho:hasDurationInMins))
+Declaration(DataProperty(oho:hasEnergyCostPerAnnum))
+Declaration(DataProperty(oho:hasFactoryAdministrationCostAC4))
+Declaration(DataProperty(oho:hasHeight))
+Declaration(DataProperty(oho:hasInUseCostC6))
+Declaration(DataProperty(oho:hasIndirectLabourCost))
+Declaration(DataProperty(oho:hasIndirectMaterialCost))
+Declaration(DataProperty(oho:hasLCCPerNo))
+Declaration(DataProperty(oho:hasLabourContent))
+Declaration(DataProperty(oho:hasLabourCost))
+Declaration(DataProperty(oho:hasLabourHrRate))
+Declaration(DataProperty(oho:hasLabourQuantity))
+Declaration(DataProperty(oho:hasLabourRate))
+Declaration(DataProperty(oho:hasLength))
+Declaration(DataProperty(oho:hasLifePlantEquipment))
+Declaration(DataProperty(oho:hasMaterialCost))
+Declaration(DataProperty(oho:hasMaterialQuantity))
+Declaration(DataProperty(oho:hasMaterialQuantitySA1))
+Declaration(DataProperty(oho:hasMaterialUnitRate))
+Declaration(DataProperty(oho:hasMaterialUnitRateSA1))
+Declaration(DataProperty(oho:hasMaxWeightCapacity))
+Declaration(DataProperty(oho:hasModularProductionCostAC5))
+Declaration(DataProperty(oho:hasModuleAssemblyCost))
+Declaration(DataProperty(oho:hasNoAnticipatedNB))
+Declaration(DataProperty(oho:hasNoOfHousesBatch))
+Declaration(DataProperty(oho:hasNoOfHousesBatchFacilities))
+Declaration(DataProperty(oho:hasNoOfHousesInProjectSA1))
+Declaration(DataProperty(oho:hasNoOfHousesInProjectSA2))
+Declaration(DataProperty(oho:hasNoOfHousesPPTS1))
+Declaration(DataProperty(oho:hasNoOfHousesPPTS2))
+Declaration(DataProperty(oho:hasNoOfHousesPPTS3))
+Declaration(DataProperty(oho:hasNoOfHousesPPTS4))
+Declaration(DataProperty(oho:hasNoOfHousesPerBatch))
+Declaration(DataProperty(oho:hasNoOfJourneyPerHouse))
+Declaration(DataProperty(oho:hasNoOfOperatives))
+Declaration(DataProperty(oho:hasOffsiteConstructionCostC3))
+Declaration(DataProperty(oho:hasOnsiteCostC5))
+Declaration(DataProperty(oho:hasOnsiteSupportCost))
+Declaration(DataProperty(oho:hasOnsiteWorksCost))
+Declaration(DataProperty(oho:hasOpeningArea))
+Declaration(DataProperty(oho:hasOverheadCost))
+Declaration(DataProperty(oho:hasPackagingProtectionCostSA5))
+Declaration(DataProperty(oho:hasPanelCladdingSubAssemblyCostSA2))
+Declaration(DataProperty(oho:hasPanelFrameSubAssemblyCostSA1))
+Declaration(DataProperty(oho:hasPeriodOfProduction))
+Declaration(DataProperty(oho:hasPeriodOfProductionFacilities))
+Declaration(DataProperty(oho:hasPeriodofProduction))
+Declaration(DataProperty(oho:hasPlanningSchedulingCostAC2))
+Declaration(DataProperty(oho:hasPlantDayRate))
+Declaration(DataProperty(oho:hasPlantDepreciationCost))
+Declaration(DataProperty(oho:hasPlantEquipmentCost))
+Declaration(DataProperty(oho:hasPlantEquipmentCostSA1))
+Declaration(DataProperty(oho:hasPodFrameSubAssemblyCostSA3))
+Declaration(DataProperty(oho:hasPodSubAssembyCostSA4))
+Declaration(DataProperty(oho:hasProcessTime))
+Declaration(DataProperty(oho:hasProcurementInventoryCostAC3))
+Declaration(DataProperty(oho:hasProductionEngineeringCostTS1))
+Declaration(DataProperty(oho:hasProductionEngineeringManagementSupportCostAC6))
+Declaration(DataProperty(oho:hasProductionManagementCostTS2))
+Declaration(DataProperty(oho:hasQAQCCostTS3))
+Declaration(DataProperty(oho:hasQuantity))
+Declaration(DataProperty(oho:hasRentCost))
+Declaration(DataProperty(oho:hasRoofCost))
+Declaration(DataProperty(oho:hasSemiDetached))
+Declaration(DataProperty(oho:hasSitePreliminariesCost))
+Declaration(DataProperty(oho:hasSitePreparationCost))
+Declaration(DataProperty(oho:hasSubContractorCostSA3))
+Declaration(DataProperty(oho:hasSubContractorCostSA4))
+Declaration(DataProperty(oho:hasSurfaceArea))
+Declaration(DataProperty(oho:hasTerrace))
+Declaration(DataProperty(oho:hasThickness))
+Declaration(DataProperty(oho:hasToolMaintenanceCostTS4))
+Declaration(DataProperty(oho:hasToolQuantity))
+Declaration(DataProperty(oho:hasTotalAssignedIndividualConsultantCostPerProduct))
+Declaration(DataProperty(oho:hasTransportationCostC4))
+Declaration(DataProperty(oho:hasUnitRate))
+Declaration(DataProperty(oho:hasUsefulLife))
+Declaration(DataProperty(oho:hasWaitingWaste))
+Declaration(DataProperty(oho:hasWallArea))
+Declaration(DataProperty(oho:hasWaste))
+Declaration(DataProperty(oho:hasWeight))
+Declaration(DataProperty(oho:hasWidth))
+Declaration(DataProperty(oho:latitude))
+Declaration(DataProperty(oho:longitude))
+Declaration(NamedIndividual(oho:A))
+Declaration(NamedIndividual(oho:Adhesive))
+Declaration(NamedIndividual(oho:Architect))
+Declaration(NamedIndividual(oho:AssignedFacilitiesAndUtilities150))
+Declaration(NamedIndividual(oho:AssignedFacilitiesAndUtilities200))
+Declaration(NamedIndividual(oho:AssignedFacilitiesAndUtilities50))
+Declaration(NamedIndividual(oho:AssignedFacilitiesAndUtilities6))
+Declaration(NamedIndividual(oho:AssignedFacilitiesAndUtilities80))
+Declaration(NamedIndividual(oho:Band))
+Declaration(NamedIndividual(oho:Basin))
+Declaration(NamedIndividual(oho:BathroomCabinets))
+Declaration(NamedIndividual(oho:Bathtub))
+Declaration(NamedIndividual(oho:BatterySystem))
+Declaration(NamedIndividual(oho:Bolts-A))
+Declaration(NamedIndividual(oho:Bolts-B))
+Declaration(NamedIndividual(oho:BondEPDM))
+Declaration(NamedIndividual(oho:BreatherMembrane))
+Declaration(NamedIndividual(oho:BrickSlips))
+Declaration(NamedIndividual(oho:BronzeInUse))
+Declaration(NamedIndividual(oho:BussinesOperation150))
+Declaration(NamedIndividual(oho:BussinesOperation200))
+Declaration(NamedIndividual(oho:BussinesOperation50))
+Declaration(NamedIndividual(oho:BussinesOperation6))
+Declaration(NamedIndividual(oho:BussinesOperation80))
+Declaration(NamedIndividual(oho:CL_1))
+Declaration(NamedIndividual(oho:CL_2))
+Declaration(NamedIndividual(oho:CL_3))
+Declaration(NamedIndividual(oho:CL_4))
+Declaration(NamedIndividual(oho:CL_5))
+Declaration(NamedIndividual(oho:CL_6))
+Declaration(NamedIndividual(oho:CO2Detector))
+Declaration(NamedIndividual(oho:CPBoardScrewStation))
+Declaration(NamedIndividual(oho:CandiwallBackingBoard))
+Declaration(NamedIndividual(oho:Carpenter))
+Declaration(NamedIndividual(oho:CementBoard))
+Declaration(NamedIndividual(oho:CentralPodsAndPanelsProject))
+Declaration(NamedIndividual(oho:CheckAlignment))
+Declaration(NamedIndividual(oho:Clips))
+Declaration(NamedIndividual(oho:Customer_Relation))
+Declaration(NamedIndividual(oho:DataCable))
+Declaration(NamedIndividual(oho:DesignAndEngineering150))
+Declaration(NamedIndividual(oho:DesignAndEngineering200))
+Declaration(NamedIndividual(oho:DesignAndEngineering50))
+Declaration(NamedIndividual(oho:DesignAndEngineering6))
+Declaration(NamedIndividual(oho:DesignAndEngineering80))
+Declaration(NamedIndividual(oho:Design_and_Engineering))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabour50))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourCentralPod))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourPanelised150))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourPanelised200))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourPanelised50))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourPanelised6))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourPanelised80))
+Declaration(NamedIndividual(oho:DirectlyProcuredLabourVolumatric80))
+Declaration(NamedIndividual(oho:DirectlyProcuredMaterialCentralPod))
+Declaration(NamedIndividual(oho:DirectlyProcuredMaterialPanelised))
+Declaration(NamedIndividual(oho:DirectlyProcuredMaterialStick))
+Declaration(NamedIndividual(oho:DirectlyProcuredMaterialVolumetric))
+Declaration(NamedIndividual(oho:DrainagePipe))
+Declaration(NamedIndividual(oho:E_Consult))
+Declaration(NamedIndividual(oho:ElectricalInstallationType))
+Declaration(NamedIndividual(oho:Electrician))
+Declaration(NamedIndividual(oho:ElectricityCable))
+Declaration(NamedIndividual(oho:EnergyAndFaultMonitoringRequired))
+Declaration(NamedIndividual(oho:EntranceDoor))
+Declaration(NamedIndividual(oho:FixWindowAndDoorPods))
+Declaration(NamedIndividual(oho:FlatRoofWithSinglePlyMembrane))
+Declaration(NamedIndividual(oho:Fork_Lift))
+Declaration(NamedIndividual(oho:FrameAndMaterialLoadingAndUnloading))
+Declaration(NamedIndividual(oho:Gold))
+Declaration(NamedIndividual(oho:GoldInUse))
+Declaration(NamedIndividual(oho:Guard))
+Declaration(NamedIndividual(oho:HatChannelsAndSupportRails))
+Declaration(NamedIndividual(oho:HeatDetector))
+Declaration(NamedIndividual(oho:HotAndColdWaterPipe))
+Declaration(NamedIndividual(oho:HotWaterCylinderType))
+Declaration(NamedIndividual(oho:House-A))
+Declaration(NamedIndividual(oho:InspectionStation))
+Declaration(NamedIndividual(oho:InstallBreatherMembrane))
+Declaration(NamedIndividual(oho:InstallCavityInsulation))
+Declaration(NamedIndividual(oho:InstallCladdingSub-frame))
+Declaration(NamedIndividual(oho:InstallWindowAndDoor))
+Declaration(NamedIndividual(oho:InsulationBoard))
+Declaration(NamedIndividual(oho:InsulationToExternalWall))
+Declaration(NamedIndividual(oho:JointTapeToCementBoard))
+Declaration(NamedIndividual(oho:JointTapeToInternalWalls))
+Declaration(NamedIndividual(oho:KicthenMixer))
+Declaration(NamedIndividual(oho:KitchenCabinets))
+Declaration(NamedIndividual(oho:KitchenSink))
+Declaration(NamedIndividual(oho:LSF_3BED_01_LHS))
+Declaration(NamedIndividual(oho:LSF_3BED_01_RHS))
+Declaration(NamedIndividual(oho:LSF_3BED_02_LHS))
+Declaration(NamedIndividual(oho:LSF_3BED_02_RHS))
+Declaration(NamedIndividual(oho:LSF_3BED_03_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_03_LHS_R))
+Declaration(NamedIndividual(oho:LSF_3BED_03_RHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_03_RHS_R))
+Declaration(NamedIndividual(oho:LSF_3BED_04_LHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_04_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_04_RHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_04_RHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_05_LHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_05_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_05_RHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_05_RHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_06_LHS))
+Declaration(NamedIndividual(oho:LSF_3BED_06_RHS))
+Declaration(NamedIndividual(oho:LSF_3BED_07_LHS))
+Declaration(NamedIndividual(oho:LSF_3BED_07_RHS))
+Declaration(NamedIndividual(oho:LSF_3BED_08_LHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_08_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_08_RHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_08_RHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_09_LHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_09_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_09_RHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_09_RHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_10_LHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_10_LHS_F))
+Declaration(NamedIndividual(oho:LSF_3BED_10_RHS_B))
+Declaration(NamedIndividual(oho:LSF_3BED_10_RHS_F))
+Declaration(NamedIndividual(oho:LampsToBeSupplied))
+Declaration(NamedIndividual(oho:LightSwitches))
+Declaration(NamedIndividual(oho:LightingCable))
+Declaration(NamedIndividual(oho:LoadCPBoardOnFrame))
+Declaration(NamedIndividual(oho:LoadFinishedPanelsToTransportTrolley))
+Declaration(NamedIndividual(oho:LoadToStorageArea))
+Declaration(NamedIndividual(oho:LoadingAndUnloading))
+Declaration(NamedIndividual(oho:MCProfitCentralPod))
+Declaration(NamedIndividual(oho:MCProfitPanelised))
+Declaration(NamedIndividual(oho:MCProfitStick))
+Declaration(NamedIndividual(oho:MVHR))
+Declaration(NamedIndividual(oho:Maintenance_and_Service))
+Declaration(NamedIndividual(oho:ManualInstallation))
+Declaration(NamedIndividual(oho:ManualReworkAndCPBoardLoadStation))
+Declaration(NamedIndividual(oho:ManualReworkStation))
+Declaration(NamedIndividual(oho:MaterialDelivery))
+Declaration(NamedIndividual(oho:MeasuringAndCuttingCPBoard))
+Declaration(NamedIndividual(oho:Method-B))
+Declaration(NamedIndividual(oho:MethodA))
+Declaration(NamedIndividual(oho:Modular_Production))
+Declaration(NamedIndividual(oho:NutAndBoltFrame))
+Declaration(NamedIndividual(oho:OnsiteAssemblyRenderingCentralPod))
+Declaration(NamedIndividual(oho:OnsiteAssemblyRenderingPanelised))
+Declaration(NamedIndividual(oho:OnsiteAssemblyRenderingStick))
+Declaration(NamedIndividual(oho:OnsiteAssemblyRenderingVolumatric))
+Declaration(NamedIndividual(oho:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick))
+Declaration(NamedIndividual(oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod))
+Declaration(NamedIndividual(oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised))
+Declaration(NamedIndividual(oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric))
+Declaration(NamedIndividual(oho:OnsiteSubstructureAndExternalWall))
+Declaration(NamedIndividual(oho:Onsite_Support))
+Declaration(NamedIndividual(oho:Onsite_Work))
+Declaration(NamedIndividual(oho:Operational))
+Declaration(NamedIndividual(oho:PG_1))
+Declaration(NamedIndividual(oho:PG_2))
+Declaration(NamedIndividual(oho:PackagingAndProtection))
+Declaration(NamedIndividual(oho:PanelCladdingsub-assembly))
+Declaration(NamedIndividual(oho:PanelFramesub-assembly))
+Declaration(NamedIndividual(oho:PanelHeaters))
+Declaration(NamedIndividual(oho:PanelTurnoverAndToolingReturnStation))
+Declaration(NamedIndividual(oho:Panel_Testing))
+Declaration(NamedIndividual(oho:Panelised))
+Declaration(NamedIndividual(oho:PanelisedProject))
+Declaration(NamedIndividual(oho:PendantLights))
+Declaration(NamedIndividual(oho:PitchedRoofWithClayTileCovering))
+Declaration(NamedIndividual(oho:PitchedRoofWithPlasticTileCovering))
+Declaration(NamedIndividual(oho:PitchedRoofWithSlateTileCovering))
+Declaration(NamedIndividual(oho:Planning_and_Scheduling))
+Declaration(NamedIndividual(oho:PlantAndEquipment))
+Declaration(NamedIndividual(oho:PlantAndEquipmentCentralPod))
+Declaration(NamedIndividual(oho:PlantAndEquipmentVolumetric))
+Declaration(NamedIndividual(oho:Plant_and_Equipment))
+Declaration(NamedIndividual(oho:Plasterboard))
+Declaration(NamedIndividual(oho:Platform))
+Declaration(NamedIndividual(oho:Plumber))
+Declaration(NamedIndividual(oho:PodFramesub-assembly))
+Declaration(NamedIndividual(oho:PodLoadingAndUnloading))
+Declaration(NamedIndividual(oho:Pod_Testing))
+Declaration(NamedIndividual(oho:Podsub-assembly))
+Declaration(NamedIndividual(oho:ProcessCoordination))
+Declaration(NamedIndividual(oho:Procurement_and_Inventory_Control))
+Declaration(NamedIndividual(oho:Product-A))
+Declaration(NamedIndividual(oho:Production_Engineering_Management_and_Support))
+Declaration(NamedIndividual(oho:QI_101))
+Declaration(NamedIndividual(oho:QI_102))
+Declaration(NamedIndividual(oho:QualityInspection))
+Declaration(NamedIndividual(oho:QualityInspectionAndSignOff))
+Declaration(NamedIndividual(oho:QualityInspectionOnFixings))
+Declaration(NamedIndividual(oho:RecessedLights))
+Declaration(NamedIndividual(oho:Repair_and_Replacement))
+Declaration(NamedIndividual(oho:ResourceAllocation))
+Declaration(NamedIndividual(oho:Rework))
+Declaration(NamedIndividual(oho:ReworkOnBonding))
+Declaration(NamedIndividual(oho:ReworkOnDefectOrScrap))
+Declaration(NamedIndividual(oho:ReworkOnFailedJoints))
+Declaration(NamedIndividual(oho:ReworkOnFrames))
+Declaration(NamedIndividual(oho:SSO_1))
+Declaration(NamedIndividual(oho:SSO_2))
+Declaration(NamedIndividual(oho:SSO_3))
+Declaration(NamedIndividual(oho:SSO_4))
+Declaration(NamedIndividual(oho:SSO_5))
+Declaration(NamedIndividual(oho:SSO_6))
+Declaration(NamedIndividual(oho:SSO_7))
+Declaration(NamedIndividual(oho:SSO_8))
+Declaration(NamedIndividual(oho:SSO_9))
+Declaration(NamedIndividual(oho:ScrewBoardToFrame))
+Declaration(NamedIndividual(oho:ScrewBracketForPod))
+Declaration(NamedIndividual(oho:SedumGreenRoof))
+Declaration(NamedIndividual(oho:ShowerScreen))
+Declaration(NamedIndividual(oho:ShowerThermostaticMixer))
+Declaration(NamedIndividual(oho:SilverInUse))
+Declaration(NamedIndividual(oho:SmokeDetector))
+Declaration(NamedIndividual(oho:Sockets))
+Declaration(NamedIndividual(oho:SolarPV))
+Declaration(NamedIndividual(oho:SortingSteelSections))
+Declaration(NamedIndividual(oho:StairsAndBalustrades))
+Declaration(NamedIndividual(oho:StationA))
+Declaration(NamedIndividual(oho:Stick))
+Declaration(NamedIndividual(oho:StickProject))
+Declaration(NamedIndividual(oho:Storage))
+Declaration(NamedIndividual(oho:Structural_Engineer))
+Declaration(NamedIndividual(oho:T10_Frame_transfer))
+Declaration(NamedIndividual(oho:T11_Load_and_Place_CPB))
+Declaration(NamedIndividual(oho:T12_Offload))
+Declaration(NamedIndividual(oho:T12_Transfer_to_Mech_Fixing))
+Declaration(NamedIndividual(oho:T13_CPBoard_Fixing))
+Declaration(NamedIndividual(oho:T13_Return_Conveyor))
+Declaration(NamedIndividual(oho:T14_Transfer_Panels_to_Manual_Station))
+Declaration(NamedIndividual(oho:T15_Cut_Wall_Opening))
+Declaration(NamedIndividual(oho:T16_Fix_Pods))
+Declaration(NamedIndividual(oho:T17_Bond_EPDM))
+Declaration(NamedIndividual(oho:T18_Install_Breather_Membrane))
+Declaration(NamedIndividual(oho:T19_Fix_SubFrame))
+Declaration(NamedIndividual(oho:T1_Deliver_Pallets))
+Declaration(NamedIndividual(oho:T20_Install_CandiWall_System))
+Declaration(NamedIndividual(oho:T21_Install_Brick_Cladding))
+Declaration(NamedIndividual(oho:T22_Install_Window_and_Door))
+Declaration(NamedIndividual(oho:T23_Transfer_to_InternalFitOut))
+Declaration(NamedIndividual(oho:T24_First_Fix_Electrics))
+Declaration(NamedIndividual(oho:T25_First_Fix_Mechanical))
+Declaration(NamedIndividual(oho:T26_Install_Insulation_btw_Studs))
+Declaration(NamedIndividual(oho:T27_Install_Vapour_Control))
+Declaration(NamedIndividual(oho:T28_Fix_Plaster_Board))
+Declaration(NamedIndividual(oho:T29_Fix_Skirting))
+Declaration(NamedIndividual(oho:T2_Select_and_Load_Beam))
+Declaration(NamedIndividual(oho:T30_Checking_and_Transfer))
+Declaration(NamedIndividual(oho:T30_Fix_Architrave))
+Declaration(NamedIndividual(oho:T31_Feed_Adhesive))
+Declaration(NamedIndividual(oho:T32_Dispense_Adhesive))
+Declaration(NamedIndividual(oho:T33_Transfer_Frame))
+Declaration(NamedIndividual(oho:T34_Feeding_Briquettes))
+Declaration(NamedIndividual(oho:T35_Place_Briquettes))
+Declaration(NamedIndividual(oho:T3_Clamp_Beam))
+Declaration(NamedIndividual(oho:T4_Transfer_Beam))
+Declaration(NamedIndividual(oho:T5_Rivet_Joints))
+Declaration(NamedIndividual(oho:T6_Move_Frame_to_Lift))
+Declaration(NamedIndividual(oho:T7_Lift_Frame))
+Declaration(NamedIndividual(oho:T8_Rework_on_failed_joints))
+Declaration(NamedIndividual(oho:T9_Transfer_Frame))
+Declaration(NamedIndividual(oho:TEKScrewStation1))
+Declaration(NamedIndividual(oho:TEKScrewStation2))
+Declaration(NamedIndividual(oho:Taps))
+Declaration(NamedIndividual(oho:TeamBriefing))
+Declaration(NamedIndividual(oho:TelephoneAndTVDistribution))
+Declaration(NamedIndividual(oho:Timber))
+Declaration(NamedIndividual(oho:TimberStuds))
+Declaration(NamedIndividual(oho:ToolingSetUpStation))
+Declaration(NamedIndividual(oho:TransportationOP))
+Declaration(NamedIndividual(oho:TransportationPanelised))
+Declaration(NamedIndividual(oho:TransportationStick))
+Declaration(NamedIndividual(oho:Trolley))
+Declaration(NamedIndividual(oho:Truck-A))
+Declaration(NamedIndividual(oho:Type1_House))
+Declaration(NamedIndividual(oho:UPVC))
+Declaration(NamedIndividual(oho:UnloadStation))
+Declaration(NamedIndividual(oho:VisualInspectionOnBonding))
+Declaration(NamedIndividual(oho:VisualInspectionOnsub-frameFixing))
+Declaration(NamedIndividual(oho:VolumetricProject))
+Declaration(NamedIndividual(oho:Wall-1))
+Declaration(NamedIndividual(oho:WaterCistern))
+Declaration(NamedIndividual(oho:Window-1))
+Declaration(NamedIndividual(oho:WindowAndFrenchDoor))
+Declaration(NamedIndividual(oho:WithBricklSlip))
+Declaration(NamedIndividual(oho:WithRendering))
+Declaration(NamedIndividual(oho:WithWeatherboard))
+Declaration(NamedIndividual(oho:brick-slipSystem))
+Declaration(NamedIndividual(oho:designcosttest))
+Declaration(NamedIndividual(oho:mmBT))
+Declaration(NamedIndividual(oho:mmCS))
+Declaration(NamedIndividual(oho:mmFS))
+Declaration(NamedIndividual(oho:mmHT))
+Declaration(NamedIndividual(oho:mmS))
+Declaration(NamedIndividual(oho:mmSS))
+Declaration(NamedIndividual(oho:mmStud))
+Declaration(NamedIndividual(oho:test))
+Declaration(NamedIndividual(oho:test1))
+Declaration(NamedIndividual(oho:test3))
+Declaration(NamedIndividual(oho:type-1))
+Declaration(NamedIndividual(oho:type-2))
+Declaration(NamedIndividual(oho:type-3))
+Declaration(NamedIndividual(oho:xProjectCostEstimation))
+Declaration(NamedIndividual(<https://w3id.org/oho#1-20>))
+Declaration(NamedIndividual(<https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#100-200>))
+Declaration(NamedIndividual(<https://w3id.org/oho#150>))
+Declaration(NamedIndividual(<https://w3id.org/oho#200>))
+Declaration(NamedIndividual(<https://w3id.org/oho#21-100>))
+Declaration(NamedIndividual(<https://w3id.org/oho#Bolts(TypeA)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#Bolts(TypeB)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)>))
+Declaration(NamedIndividual(<https://w3id.org/oho#Rework/bufferStation>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/contributor>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
+Declaration(AnnotationProperty(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <https://w3id.org/hasSource> (<https://w3id.org/hasSource>)
+
+FunctionalObjectProperty(<https://w3id.org/hasSource>)
+ObjectPropertyDomain(<https://w3id.org/hasSource> oho:ProjectCost)
+ObjectPropertyRange(<https://w3id.org/hasSource> oho:DataSource)
+
+# Object Property: oho:composedOf (oho:composedOf)
+
+TransitiveObjectProperty(oho:composedOf)
+ObjectPropertyDomain(oho:composedOf oho:Building)
+ObjectPropertyRange(oho:composedOf oho:Assembly)
+ObjectPropertyRange(oho:composedOf oho:Component)
+ObjectPropertyRange(oho:composedOf oho:Product)
+ObjectPropertyRange(oho:composedOf oho:SubAssembly)
+
+# Object Property: oho:hasActivity (oho:hasActivity)
+
+ObjectPropertyDomain(oho:hasActivity oho:Station)
+ObjectPropertyRange(oho:hasActivity oho:Activity)
+
+# Object Property: oho:hasComponentPart (oho:hasComponentPart)
+
+InverseObjectProperties(oho:hasComponentPart oho:isComponentPartOf)
+TransitiveObjectProperty(oho:hasComponentPart)
+ObjectPropertyDomain(oho:hasComponentPart oho:Product)
+ObjectPropertyRange(oho:hasComponentPart oho:Material)
+
+# Object Property: oho:hasMethod (oho:hasMethod)
+
+FunctionalObjectProperty(oho:hasMethod)
+SymmetricObjectProperty(oho:hasMethod)
+ObjectPropertyDomain(oho:hasMethod oho:Product)
+ObjectPropertyRange(oho:hasMethod oho:Method)
+
+# Object Property: oho:hasStartingActivity (oho:hasStartingActivity)
+
+InverseObjectProperties(oho:hasStartingActivity oho:isStartingActivity)
+ObjectPropertyDomain(oho:hasStartingActivity oho:Product)
+ObjectPropertyRange(oho:hasStartingActivity oho:Activity)
+
+# Object Property: oho:hasStation (oho:hasStation)
+
+ObjectPropertyDomain(oho:hasStation oho:Method)
+ObjectPropertyRange(oho:hasStation oho:Station)
+
+# Object Property: oho:hasSubActivity (oho:hasSubActivity)
+
+SubObjectPropertyOf(oho:hasSubActivity oho:hasActivity)
+
+# Object Property: oho:hasWorker (oho:hasWorker)
+
+InverseObjectProperties(oho:hasWorker oho:workingOnActivity)
+ObjectPropertyDomain(oho:hasWorker oho:Labour)
+ObjectPropertyRange(oho:hasWorker oho:Activity)
+
+# Object Property: oho:isFinishingActivity (oho:isFinishingActivity)
+
+ObjectPropertyDomain(oho:isFinishingActivity oho:Activity)
+
+# Object Property: oho:isInterfaceOf (oho:isInterfaceOf)
+
+ObjectPropertyDomain(oho:isInterfaceOf oho:Interface)
+ObjectPropertyRange(oho:isInterfaceOf oho:Component)
+ObjectPropertyRange(oho:isInterfaceOf oho:Product)
+
+# Object Property: oho:usesResources (oho:usesResources)
+
+ObjectPropertyDomain(oho:usesResources ObjectUnionOf(oho:Activity oho:Station))
+ObjectPropertyRange(oho:usesResources oho:Resource)
+
+# Object Property: oho:workingOnActivity (oho:workingOnActivity)
+
+ObjectPropertyDomain(oho:workingOnActivity oho:Activity)
+ObjectPropertyRange(oho:workingOnActivity oho:Labour)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: oho:AC1 (oho:AC1)
+
+SubDataPropertyOf(oho:AC1 oho:C3)
+
+# Data Property: oho:AC2 (oho:AC2)
+
+SubDataPropertyOf(oho:AC2 oho:C3)
+
+# Data Property: oho:AC3 (oho:AC3)
+
+SubDataPropertyOf(oho:AC3 oho:C3)
+
+# Data Property: oho:AC4 (oho:AC4)
+
+SubDataPropertyOf(oho:AC4 oho:C3)
+
+# Data Property: oho:AC5 (oho:AC5)
+
+SubDataPropertyOf(oho:AC5 oho:C3)
+
+# Data Property: oho:AC6 (oho:AC6)
+
+SubDataPropertyOf(oho:AC6 oho:C3)
+
+# Data Property: oho:C5-AC1 (oho:C5-AC1)
+
+SubDataPropertyOf(oho:C5-AC1 oho:C5)
+
+# Data Property: oho:C5-AC1-SA1 (oho:C5-AC1-SA1)
+
+SubDataPropertyOf(oho:C5-AC1-SA1 oho:C5-AC1)
+
+# Data Property: oho:C5-AC1-SA2 (oho:C5-AC1-SA2)
+
+SubDataPropertyOf(oho:C5-AC1-SA2 oho:C5-AC1)
+
+# Data Property: oho:C5-AC1-SA3 (oho:C5-AC1-SA3)
+
+SubDataPropertyOf(oho:C5-AC1-SA3 oho:C5-AC1)
+
+# Data Property: oho:C5-AC1-SA4 (oho:C5-AC1-SA4)
+
+SubDataPropertyOf(oho:C5-AC1-SA4 oho:C5-AC1)
+
+# Data Property: oho:C5-AC1-SA5 (oho:C5-AC1-SA5)
+
+SubDataPropertyOf(oho:C5-AC1-SA5 oho:C5-AC1)
+
+# Data Property: oho:C5-AC2 (oho:C5-AC2)
+
+SubDataPropertyOf(oho:C5-AC2 oho:C5)
+
+# Data Property: oho:C5-AC2-SA1 (oho:C5-AC2-SA1)
+
+SubDataPropertyOf(oho:C5-AC2-SA1 oho:C5-AC2)
+
+# Data Property: oho:C5-AC2-SA2 (oho:C5-AC2-SA2)
+
+SubDataPropertyOf(oho:C5-AC2-SA2 oho:C5-AC2)
+
+# Data Property: oho:HasSiteStaffAndLabourCost (oho:HasSiteStaffAndLabourCost)
+
+SubDataPropertyOf(oho:HasSiteStaffAndLabourCost oho:C5-AC2-SA1)
+
+# Data Property: oho:NoOfHousesPerProject (oho:NoOfHousesPerProject)
+
+SubDataPropertyOf(oho:NoOfHousesPerProject oho:C1)
+
+# Data Property: oho:NoOfHousesPerProjectAC (oho:NoOfHousesPerProjectAC)
+
+AnnotationAssertion(rdfs:comment oho:NoOfHousesPerProjectAC "Different from no. of houses per Project NoOfHousesPerProject")
+SubDataPropertyOf(oho:NoOfHousesPerProjectAC oho:C3)
+
+# Data Property: oho:SA1 (oho:SA1)
+
+SubDataPropertyOf(oho:SA1 oho:AC5)
+
+# Data Property: oho:SA2 (oho:SA2)
+
+SubDataPropertyOf(oho:SA2 oho:AC5)
+
+# Data Property: oho:SA3 (oho:SA3)
+
+SubDataPropertyOf(oho:SA3 oho:AC5)
+
+# Data Property: oho:SA4 (oho:SA4)
+
+SubDataPropertyOf(oho:SA4 oho:AC5)
+
+# Data Property: oho:SA5 (oho:SA5)
+
+SubDataPropertyOf(oho:SA5 oho:AC5)
+
+# Data Property: oho:TS1 (oho:TS1)
+
+SubDataPropertyOf(oho:TS1 oho:AC6)
+
+# Data Property: oho:TS2 (oho:TS2)
+
+SubDataPropertyOf(oho:TS2 oho:AC6)
+
+# Data Property: oho:TS3 (oho:TS3)
+
+SubDataPropertyOf(oho:TS3 oho:AC6)
+
+# Data Property: oho:TS4 (oho:TS4)
+
+SubDataPropertyOf(oho:TS4 oho:AC6)
+
+# Data Property: oho:hasAssignedBusinessOperationCostPP (oho:hasAssignedBusinessOperationCostPP)
+
+SubDataPropertyOf(oho:hasAssignedBusinessOperationCostPP oho:C1)
+
+# Data Property: oho:hasAssignedCostPerDistance (oho:hasAssignedCostPerDistance)
+
+SubDataPropertyOf(oho:hasAssignedCostPerDistance oho:C4)
+
+# Data Property: oho:hasAssignedFacilitiesUtilitiesCost (oho:hasAssignedFacilitiesUtilitiesCost)
+
+AnnotationAssertion(rdfs:comment oho:hasAssignedFacilitiesUtilitiesCost "Per month")
+SubDataPropertyOf(oho:hasAssignedFacilitiesUtilitiesCost oho:hasAssignedFacilitiesUtilitiesCostSA1)
+
+# Data Property: oho:hasAssignedFacilitiesUtilitiesCostSA1 (oho:hasAssignedFacilitiesUtilitiesCostSA1)
+
+AnnotationAssertion(rdfs:comment oho:hasAssignedFacilitiesUtilitiesCostSA1 "Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)")
+SubDataPropertyOf(oho:hasAssignedFacilitiesUtilitiesCostSA1 oho:SA1)
+
+# Data Property: oho:hasAssignedPlantEquipmentCost (oho:hasAssignedPlantEquipmentCost)
+
+SubDataPropertyOf(oho:hasAssignedPlantEquipmentCost oho:hasPlantEquipmentCostSA1)
+
+# Data Property: oho:hasAssignedSitePreliminariesCost (oho:hasAssignedSitePreliminariesCost)
+
+SubDataPropertyOf(oho:hasAssignedSitePreliminariesCost oho:C5-AC2-SA2)
+
+# Data Property: oho:hasAssignedSiteStaffAndLabourCost (oho:hasAssignedSiteStaffAndLabourCost)
+
+SubDataPropertyOf(oho:hasAssignedSiteStaffAndLabourCost oho:C5-AC2-SA1)
+
+# Data Property: oho:hasAssignedTotalCustomerRelationsCostPP (oho:hasAssignedTotalCustomerRelationsCostPP)
+
+AnnotationAssertion(rdfs:comment oho:hasAssignedTotalCustomerRelationsCostPP "Assigned total cost of customer relations per project")
+SubDataPropertyOf(oho:hasAssignedTotalCustomerRelationsCostPP oho:AC1)
+
+# Data Property: oho:hasAssignedTotalFactoryAdministrationCost (oho:hasAssignedTotalFactoryAdministrationCost)
+
+SubDataPropertyOf(oho:hasAssignedTotalFactoryAdministrationCost oho:AC4)
+
+# Data Property: oho:hasAssignedTotalPlanningSchedulingCost (oho:hasAssignedTotalPlanningSchedulingCost)
+
+SubDataPropertyOf(oho:hasAssignedTotalPlanningSchedulingCost oho:AC2)
+
+# Data Property: oho:hasAssignedTotalProcurementInventoryCost (oho:hasAssignedTotalProcurementInventoryCost)
+
+SubDataPropertyOf(oho:hasAssignedTotalProcurementInventoryCost oho:AC3)
+
+# Data Property: oho:hasBatch (oho:hasBatch)
+
+FunctionalDataProperty(oho:hasBatch)
+DataPropertyDomain(oho:hasBatch oho:Panel)
+DataPropertyRange(oho:hasBatch DataOneOf("150"^^xsd:integer "200"^^xsd:integer "50"^^xsd:integer "6"^^xsd:integer "80"^^xsd:integer))
+
+# Data Property: oho:hasBussinesOperationCostC1 (oho:hasBussinesOperationCostC1)
+
+SubDataPropertyOf(oho:hasBussinesOperationCostC1 oho:C1)
+
+# Data Property: oho:hasCostumerRelationCostAC1 (oho:hasCostumerRelationCostAC1)
+
+SubDataPropertyOf(oho:hasCostumerRelationCostAC1 oho:AC1)
+
+# Data Property: oho:hasCount (oho:hasCount)
+
+DataPropertyRange(oho:hasCount xsd:integer)
+
+# Data Property: oho:hasDecorationCost (oho:hasDecorationCost)
+
+SubDataPropertyOf(oho:hasDecorationCost oho:C5-AC1-SA3)
+
+# Data Property: oho:hasDepreciationValue (oho:hasDepreciationValue)
+
+FunctionalDataProperty(oho:hasDepreciationValue)
+
+# Data Property: oho:hasDesignEngineeringCostC2 (oho:hasDesignEngineeringCostC2)
+
+SubDataPropertyOf(oho:hasDesignEngineeringCostC2 oho:C2)
+
+# Data Property: oho:hasDetached (oho:hasDetached)
+
+FunctionalDataProperty(oho:hasDetached)
+DataPropertyDomain(oho:hasDetached oho:House)
+DataPropertyDomain(oho:hasDetached oho:Panel)
+
+# Data Property: oho:hasDiameter (oho:hasDiameter)
+
+SubDataPropertyOf(oho:hasDiameter oho:hasDimensions)
+
+# Data Property: oho:hasDimensions (oho:hasDimensions)
+
+DataPropertyRange(oho:hasDimensions xsd:double)
+
+# Data Property: oho:hasDirectLabourCost (oho:hasDirectLabourCost)
+
+SubDataPropertyOf(oho:hasDirectLabourCost owl:topDataProperty)
+
+# Data Property: oho:hasDirectMaterialCost (oho:hasDirectMaterialCost)
+
+SubDataPropertyOf(oho:hasDirectMaterialCost owl:topDataProperty)
+
+# Data Property: oho:hasDirectlyProcuredLabourCost (oho:hasDirectlyProcuredLabourCost)
+
+AnnotationAssertion(rdfs:comment oho:hasDirectlyProcuredLabourCost "Eq. 7")
+SubDataPropertyOf(oho:hasDirectlyProcuredLabourCost oho:C5-AC1-SA2)
+
+# Data Property: oho:hasDirectlyProcuredLabourCostSA1 (oho:hasDirectlyProcuredLabourCostSA1)
+
+AnnotationAssertion(rdfs:comment oho:hasDirectlyProcuredLabourCostSA1 "Directly procured labour (Ref. Eq. 7)")
+SubDataPropertyOf(oho:hasDirectlyProcuredLabourCostSA1 oho:SA1)
+
+# Data Property: oho:hasDirectlyProcuredMaterialsCostSA1 (oho:hasDirectlyProcuredMaterialsCostSA1)
+
+AnnotationAssertion(rdfs:comment oho:hasDirectlyProcuredMaterialsCostSA1 "Directly procured materials (Ref. Eq. 6)")
+SubDataPropertyOf(oho:hasDirectlyProcuredMaterialsCostSA1 oho:SA1)
+
+# Data Property: oho:hasDistance (oho:hasDistance)
+
+AnnotationAssertion(rdfs:comment oho:hasDistance "Distance between factory and site. Site is the location estimated for the project implemtation. The factory postcode is fixed and the site postcode is given from the user of the estimation tool.")
+FunctionalDataProperty(oho:hasDistance)
+DataPropertyDomain(oho:hasDistance oho:Panel)
+DataPropertyRange(oho:hasDistance xsd:double)
+
+# Data Property: oho:hasDistancePerJourney (oho:hasDistancePerJourney)
+
+SubDataPropertyOf(oho:hasDistancePerJourney oho:C4)
+
+# Data Property: oho:hasEnergyCostPerAnnum (oho:hasEnergyCostPerAnnum)
+
+SubDataPropertyOf(oho:hasEnergyCostPerAnnum oho:C6)
+
+# Data Property: oho:hasFactoryAdministrationCostAC4 (oho:hasFactoryAdministrationCostAC4)
+
+SubDataPropertyOf(oho:hasFactoryAdministrationCostAC4 oho:AC4)
+
+# Data Property: oho:hasHeight (oho:hasHeight)
+
+SubDataPropertyOf(oho:hasHeight oho:hasDimensions)
+
+# Data Property: oho:hasInUseCostC6 (oho:hasInUseCostC6)
+
+SubDataPropertyOf(oho:hasInUseCostC6 oho:C6)
+
+# Data Property: oho:hasIndirectLabourCost (oho:hasIndirectLabourCost)
+
+SubDataPropertyOf(oho:hasIndirectLabourCost oho:hasOverheadCost)
+
+# Data Property: oho:hasIndirectMaterialCost (oho:hasIndirectMaterialCost)
+
+SubDataPropertyOf(oho:hasIndirectMaterialCost oho:hasOverheadCost)
+
+# Data Property: oho:hasLCCPerNo (oho:hasLCCPerNo)
+
+AnnotationAssertion(rdfs:comment oho:hasLCCPerNo "Estimated Life Cycle Cost per No. of Type 1  house")
+
+# Data Property: oho:hasLabourContent (oho:hasLabourContent)
+
+SubDataPropertyOf(oho:hasLabourContent oho:hasDirectlyProcuredLabourCostSA1)
+
+# Data Property: oho:hasLabourCost (oho:hasLabourCost)
+
+SubDataPropertyOf(oho:hasLabourCost owl:topDataProperty)
+
+# Data Property: oho:hasLabourHrRate (oho:hasLabourHrRate)
+
+SubDataPropertyOf(oho:hasLabourHrRate oho:hasUnitRate)
+
+# Data Property: oho:hasLabourQuantity (oho:hasLabourQuantity)
+
+SubDataPropertyOf(oho:hasLabourQuantity oho:hasQuantity)
+DataPropertyRange(oho:hasLabourQuantity xsd:integer)
+
+# Data Property: oho:hasLabourRate (oho:hasLabourRate)
+
+SubDataPropertyOf(oho:hasLabourRate oho:hasDirectlyProcuredLabourCostSA1)
+
+# Data Property: oho:hasLength (oho:hasLength)
+
+SubDataPropertyOf(oho:hasLength oho:hasDimensions)
+
+# Data Property: oho:hasLifePlantEquipment (oho:hasLifePlantEquipment)
+
+SubDataPropertyOf(oho:hasLifePlantEquipment oho:hasPlantEquipmentCostSA1)
+
+# Data Property: oho:hasMaterialCost (oho:hasMaterialCost)
+
+SubDataPropertyOf(oho:hasMaterialCost owl:topDataProperty)
+
+# Data Property: oho:hasMaterialQuantity (oho:hasMaterialQuantity)
+
+SubDataPropertyOf(oho:hasMaterialQuantity oho:hasQuantity)
+DataPropertyRange(oho:hasMaterialQuantity xsd:double)
+
+# Data Property: oho:hasMaterialQuantitySA1 (oho:hasMaterialQuantitySA1)
+
+SubDataPropertyOf(oho:hasMaterialQuantitySA1 oho:hasDirectlyProcuredMaterialsCostSA1)
+
+# Data Property: oho:hasMaterialUnitRate (oho:hasMaterialUnitRate)
+
+SubDataPropertyOf(oho:hasMaterialUnitRate oho:hasUnitRate)
+
+# Data Property: oho:hasMaterialUnitRateSA1 (oho:hasMaterialUnitRateSA1)
+
+SubDataPropertyOf(oho:hasMaterialUnitRateSA1 oho:hasDirectlyProcuredMaterialsCostSA1)
+
+# Data Property: oho:hasMaxWeightCapacity (oho:hasMaxWeightCapacity)
+
+DataPropertyDomain(oho:hasMaxWeightCapacity oho:Transport)
+
+# Data Property: oho:hasModularProductionCostAC5 (oho:hasModularProductionCostAC5)
+
+AnnotationAssertion(rdfs:comment oho:hasModularProductionCostAC5 "Eq. 5) Estimated Cost for Modular Production per No. of Type 1  house (〖AC〗_5):")
+SubDataPropertyOf(oho:hasModularProductionCostAC5 oho:AC5)
+
+# Data Property: oho:hasModuleAssemblyCost (oho:hasModuleAssemblyCost)
+
+SubDataPropertyOf(oho:hasModuleAssemblyCost oho:C5-AC1-SA2)
+
+# Data Property: oho:hasNoAnticipatedNB (oho:hasNoAnticipatedNB)
+
+AnnotationAssertion(rdfs:comment oho:hasNoAnticipatedNB "Anticipated no.of houses per product type per batch (NB)")
+SubDataPropertyOf(oho:hasNoAnticipatedNB oho:C2)
+
+# Data Property: oho:hasNoOfHousesBatch (oho:hasNoOfHousesBatch)
+
+SubDataPropertyOf(oho:hasNoOfHousesBatch oho:hasDirectlyProcuredLabourCostSA1)
+
+# Data Property: oho:hasNoOfHousesBatchFacilities (oho:hasNoOfHousesBatchFacilities)
+
+SubDataPropertyOf(oho:hasNoOfHousesBatchFacilities oho:hasAssignedFacilitiesUtilitiesCostSA1)
+
+# Data Property: oho:hasNoOfHousesInProjectSA1 (oho:hasNoOfHousesInProjectSA1)
+
+SubDataPropertyOf(oho:hasNoOfHousesInProjectSA1 oho:C5-AC2-SA1)
+
+# Data Property: oho:hasNoOfHousesInProjectSA2 (oho:hasNoOfHousesInProjectSA2)
+
+SubDataPropertyOf(oho:hasNoOfHousesInProjectSA2 oho:C5-AC2-SA2)
+
+# Data Property: oho:hasNoOfHousesPPTS1 (oho:hasNoOfHousesPPTS1)
+
+SubDataPropertyOf(oho:hasNoOfHousesPPTS1 oho:TS1)
+
+# Data Property: oho:hasNoOfHousesPPTS2 (oho:hasNoOfHousesPPTS2)
+
+SubDataPropertyOf(oho:hasNoOfHousesPPTS2 oho:TS2)
+
+# Data Property: oho:hasNoOfHousesPPTS3 (oho:hasNoOfHousesPPTS3)
+
+SubDataPropertyOf(oho:hasNoOfHousesPPTS3 oho:TS3)
+
+# Data Property: oho:hasNoOfHousesPPTS4 (oho:hasNoOfHousesPPTS4)
+
+SubDataPropertyOf(oho:hasNoOfHousesPPTS4 oho:TS4)
+
+# Data Property: oho:hasNoOfHousesPerBatch (oho:hasNoOfHousesPerBatch)
+
+SubDataPropertyOf(oho:hasNoOfHousesPerBatch oho:hasPlantEquipmentCostSA1)
+
+# Data Property: oho:hasNoOfJourneyPerHouse (oho:hasNoOfJourneyPerHouse)
+
+SubDataPropertyOf(oho:hasNoOfJourneyPerHouse oho:C4)
+
+# Data Property: oho:hasOffsiteConstructionCostC3 (oho:hasOffsiteConstructionCostC3)
+
+SubDataPropertyOf(oho:hasOffsiteConstructionCostC3 oho:C3)
+
+# Data Property: oho:hasOnsiteCostC5 (oho:hasOnsiteCostC5)
+
+SubDataPropertyOf(oho:hasOnsiteCostC5 oho:C5)
+
+# Data Property: oho:hasOnsiteSupportCost (oho:hasOnsiteSupportCost)
+
+SubDataPropertyOf(oho:hasOnsiteSupportCost oho:C5-AC2)
+
+# Data Property: oho:hasOnsiteWorksCost (oho:hasOnsiteWorksCost)
+
+SubDataPropertyOf(oho:hasOnsiteWorksCost oho:C5-AC1)
+
+# Data Property: oho:hasOpeningArea (oho:hasOpeningArea)
+
+SubDataPropertyOf(oho:hasOpeningArea oho:hasArea)
+
+# Data Property: oho:hasPackagingProtectionCostSA5 (oho:hasPackagingProtectionCostSA5)
+
+SubDataPropertyOf(oho:hasPackagingProtectionCostSA5 oho:SA5)
+
+# Data Property: oho:hasPanelCladdingSubAssemblyCostSA2 (oho:hasPanelCladdingSubAssemblyCostSA2)
+
+SubDataPropertyOf(oho:hasPanelCladdingSubAssemblyCostSA2 oho:SA2)
+
+# Data Property: oho:hasPanelFrameSubAssemblyCostSA1 (oho:hasPanelFrameSubAssemblyCostSA1)
+
+AnnotationAssertion(rdfs:comment oho:hasPanelFrameSubAssemblyCostSA1 "Sub-activity (SA)	Cost Calculation
+Panel frame sub-assembly	Directly procured materials (Ref. Eq. 6) + Directly procured labour (Ref. Eq. 7) + Plant and equipment (Ref. Eq. 8) + Assigned Facilities and Utilities (based on % of cost) (Ref. Eq. 9)")
+SubDataPropertyOf(oho:hasPanelFrameSubAssemblyCostSA1 oho:SA1)
+
+# Data Property: oho:hasPeriodOfProduction (oho:hasPeriodOfProduction)
+
+SubDataPropertyOf(oho:hasPeriodOfProduction oho:hasDirectlyProcuredLabourCostSA1)
+
+# Data Property: oho:hasPeriodOfProductionFacilities (oho:hasPeriodOfProductionFacilities)
+
+SubDataPropertyOf(oho:hasPeriodOfProductionFacilities oho:hasAssignedFacilitiesUtilitiesCostSA1)
+
+# Data Property: oho:hasPeriodofProduction (oho:hasPeriodofProduction)
+
+SubDataPropertyOf(oho:hasPeriodofProduction oho:hasPlantEquipmentCostSA1)
+
+# Data Property: oho:hasPlanningSchedulingCostAC2 (oho:hasPlanningSchedulingCostAC2)
+
+AnnotationAssertion(rdfs:comment oho:hasPlanningSchedulingCostAC2 "Customer Relations	(Assigned total cost of customer relations per project)/(No.of houses in the Project) 
+(Project dependent – i.e. the cost is based on the project)")
+SubDataPropertyOf(oho:hasPlanningSchedulingCostAC2 oho:AC2)
+
+# Data Property: oho:hasPlantDayRate (oho:hasPlantDayRate)
+
+SubDataPropertyOf(oho:hasPlantDayRate oho:hasUnitRate)
+
+# Data Property: oho:hasPlantDepreciationCost (oho:hasPlantDepreciationCost)
+
+SubDataPropertyOf(oho:hasPlantDepreciationCost oho:hasOverheadCost)
+
+# Data Property: oho:hasPlantEquipmentCost (oho:hasPlantEquipmentCost)
+
+AnnotationAssertion(rdfs:comment oho:hasPlantEquipmentCost "Eq. 8")
+SubDataPropertyOf(oho:hasPlantEquipmentCost oho:C5-AC1-SA2)
+
+# Data Property: oho:hasPlantEquipmentCostSA1 (oho:hasPlantEquipmentCostSA1)
+
+AnnotationAssertion(rdfs:comment oho:hasPlantEquipmentCostSA1 "Plant and equipment (Ref. Eq. 8)")
+SubDataPropertyOf(oho:hasPlantEquipmentCostSA1 oho:SA1)
+
+# Data Property: oho:hasPodFrameSubAssemblyCostSA3 (oho:hasPodFrameSubAssemblyCostSA3)
+
+SubDataPropertyOf(oho:hasPodFrameSubAssemblyCostSA3 oho:SA3)
+
+# Data Property: oho:hasPodSubAssembyCostSA4 (oho:hasPodSubAssembyCostSA4)
+
+SubDataPropertyOf(oho:hasPodSubAssembyCostSA4 oho:SA4)
+
+# Data Property: oho:hasProcessTime (oho:hasProcessTime)
+
+DataPropertyRange(oho:hasProcessTime xsd:double)
+
+# Data Property: oho:hasProcurementInventoryCostAC3 (oho:hasProcurementInventoryCostAC3)
+
+AnnotationAssertion(rdfs:comment oho:hasProcurementInventoryCostAC3 "Planning and scheduling	(Assigned total cost of planning and scheduling per project)/(No.of houses in the Project) (Project dependent)")
+SubDataPropertyOf(oho:hasProcurementInventoryCostAC3 oho:AC3)
+
+# Data Property: oho:hasProductionEngineeringCostTS1 (oho:hasProductionEngineeringCostTS1)
+
+SubDataPropertyOf(oho:hasProductionEngineeringCostTS1 oho:TS1)
+
+# Data Property: oho:hasProductionEngineeringManagementSupportCostAC6 (oho:hasProductionEngineeringManagementSupportCostAC6)
+
+SubDataPropertyOf(oho:hasProductionEngineeringManagementSupportCostAC6 oho:AC6)
+
+# Data Property: oho:hasProductionManagementCostTS2 (oho:hasProductionManagementCostTS2)
+
+SubDataPropertyOf(oho:hasProductionManagementCostTS2 oho:TS2)
+
+# Data Property: oho:hasQAQCCostTS3 (oho:hasQAQCCostTS3)
+
+SubDataPropertyOf(oho:hasQAQCCostTS3 oho:TS3)
+
+# Data Property: oho:hasRentCost (oho:hasRentCost)
+
+SubDataPropertyOf(oho:hasRentCost oho:hasOverheadCost)
+
+# Data Property: oho:hasRoofCost (oho:hasRoofCost)
+
+SubDataPropertyOf(oho:hasRoofCost oho:C5-AC1-SA4)
+
+# Data Property: oho:hasSemiDetached (oho:hasSemiDetached)
+
+FunctionalDataProperty(oho:hasSemiDetached)
+DataPropertyDomain(oho:hasSemiDetached oho:House)
+DataPropertyDomain(oho:hasSemiDetached oho:Panel)
+
+# Data Property: oho:hasSitePreliminariesCost (oho:hasSitePreliminariesCost)
+
+SubDataPropertyOf(oho:hasSitePreliminariesCost oho:C5-AC2-SA2)
+
+# Data Property: oho:hasSitePreparationCost (oho:hasSitePreparationCost)
+
+SubDataPropertyOf(oho:hasSitePreparationCost oho:C5-AC1-SA1)
+
+# Data Property: oho:hasSubContractorCostSA3 (oho:hasSubContractorCostSA3)
+
+SubDataPropertyOf(oho:hasSubContractorCostSA3 oho:C5-AC1-SA3)
+
+# Data Property: oho:hasSubContractorCostSA4 (oho:hasSubContractorCostSA4)
+
+AnnotationAssertion(rdfs:comment oho:hasSubContractorCostSA4 "Eq. 10")
+SubDataPropertyOf(oho:hasSubContractorCostSA4 oho:C5-AC1-SA4)
+
+# Data Property: oho:hasSurfaceArea (oho:hasSurfaceArea)
+
+SubDataPropertyOf(oho:hasSurfaceArea oho:hasArea)
+
+# Data Property: oho:hasTerrace (oho:hasTerrace)
+
+DataPropertyDomain(oho:hasTerrace oho:House)
+DataPropertyDomain(oho:hasTerrace oho:Panel)
+
+# Data Property: oho:hasThickness (oho:hasThickness)
+
+SubDataPropertyOf(oho:hasThickness oho:hasDimensions)
+
+# Data Property: oho:hasToolMaintenanceCostTS4 (oho:hasToolMaintenanceCostTS4)
+
+SubDataPropertyOf(oho:hasToolMaintenanceCostTS4 oho:TS4)
+
+# Data Property: oho:hasToolQuantity (oho:hasToolQuantity)
+
+SubDataPropertyOf(oho:hasToolQuantity oho:hasQuantity)
+
+# Data Property: oho:hasTotalAssignedIndividualConsultantCostPerProduct (oho:hasTotalAssignedIndividualConsultantCostPerProduct)
+
+AnnotationAssertion(rdfs:comment oho:hasTotalAssignedIndividualConsultantCostPerProduct "The total of Assigned Individual consultant and testing cost for  house development per product type")
+SubDataPropertyOf(oho:hasTotalAssignedIndividualConsultantCostPerProduct oho:C2)
+
+# Data Property: oho:hasTransportationCostC4 (oho:hasTransportationCostC4)
+
+SubDataPropertyOf(oho:hasTransportationCostC4 oho:C4)
+
+# Data Property: oho:hasUnitRate (oho:hasUnitRate)
+
+DataPropertyRange(oho:hasUnitRate xsd:double)
+
+# Data Property: oho:hasUsefulLife (oho:hasUsefulLife)
+
+FunctionalDataProperty(oho:hasUsefulLife)
+
+# Data Property: oho:hasWaitingWaste (oho:hasWaitingWaste)
+
+SubDataPropertyOf(oho:hasWaitingWaste oho:hasWaste)
+DataPropertyRange(oho:hasWaitingWaste xsd:boolean)
+
+# Data Property: oho:hasWallArea (oho:hasWallArea)
+
+SubDataPropertyOf(oho:hasWallArea oho:hasArea)
+
+# Data Property: oho:hasWaste (oho:hasWaste)
+
+DataPropertyRange(oho:hasWaste xsd:boolean)
+
+# Data Property: oho:hasWidth (oho:hasWidth)
+
+SubDataPropertyOf(oho:hasWidth oho:hasDimensions)
+
+# Data Property: oho:latitude (oho:latitude)
+
+FunctionalDataProperty(oho:latitude)
+DataPropertyDomain(oho:latitude oho:Coordinates)
+DataPropertyDomain(oho:latitude oho-cost:Location)
+
+# Data Property: oho:longitude (oho:longitude)
+
+DataPropertyDomain(oho:longitude oho:Coordinates)
+DataPropertyDomain(oho:longitude oho-cost:Location)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: oho:Acoustic_Insulation (oho:Acoustic_Insulation)
+
+SubClassOf(oho:Acoustic_Insulation oho:INT_Wall_Cladding)
+
+# Class: oho:Activity (oho:Activity)
+
+SubClassOf(oho:Activity oho:Production)
+
+# Class: oho:Adhesive (oho:Adhesive)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Adhesive "BIM Model")
+SubClassOf(oho:Adhesive oho:MaterialForPodPanel)
+
+# Class: oho:Administrative (oho:Administrative)
+
+SubClassOf(oho:Administrative oho:Indirect_Labour)
+
+# Class: oho:Angle (oho:Angle)
+
+SubClassOf(oho:Angle oho:Fitting)
+
+# Class: oho:Architect (oho:Architect)
+
+SubClassOf(oho:Architect oho:Design_and_Engineering)
+
+# Class: oho:Assembly (oho:Assembly)
+
+SubClassOf(oho:Assembly oho:Building)
+
+# Class: oho:AssemblySub (oho:AssemblySub)
+
+SubClassOf(oho:AssemblySub oho:SubAssembly)
+
+# Class: oho:AssignedFacilitiesAndUtilities (oho:AssignedFacilitiesAndUtilities)
+
+SubClassOf(oho:AssignedFacilitiesAndUtilities oho:ProjectCost)
+
+# Class: oho:Base_Track (oho:Base_Track)
+
+SubClassOf(oho:Base_Track oho:Wall_Framing)
+
+# Class: oho:Base_Track_Fixing (oho:Base_Track_Fixing)
+
+SubClassOf(oho:Base_Track_Fixing oho:Wall_Fixing)
+
+# Class: oho:Basic_Stud (oho:Basic_Stud)
+
+SubClassOf(oho:Basic_Stud oho:Stud)
+
+# Class: oho:BathroomCabinet (oho:BathroomCabinet)
+
+SubClassOf(oho:BathroomCabinet oho:Component)
+
+# Class: oho:Battery (oho:Battery)
+
+SubClassOf(oho:Battery oho:Component)
+
+# Class: oho:Bolts (oho:Bolts)
+
+SubClassOf(oho:Bolts oho:MaterialForPodPanel)
+
+# Class: oho:Brackets (oho:Brackets)
+
+SubClassOf(oho:Brackets oho:EXT_Wall_Cladding)
+
+# Class: oho:BreatherMembrane (oho:BreatherMembrane)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:BreatherMembrane "BIM Model")
+SubClassOf(oho:BreatherMembrane oho:MaterialForPodPanel)
+
+# Class: oho:Breather_Membrane (oho:Breather_Membrane)
+
+SubClassOf(oho:Breather_Membrane oho:EXT_Wall_Cladding)
+
+# Class: oho:BrickSlip (oho:BrickSlip)
+
+SubClassOf(oho:BrickSlip oho:MaterialForPodPanel)
+
+# Class: oho:Brick_Slip (oho:Brick_Slip)
+
+SubClassOf(oho:Brick_Slip oho:EXT_Wall_Cladding)
+
+# Class: oho:Bronze (oho:Bronze)
+
+SubClassOf(oho:Bronze oho:EnergySystem)
+
+# Class: oho:Building (oho:Building)
+
+SubClassOf(oho:Building oho:Platform)
+
+# Class: oho:Business_Operation (oho:Business_Operation)
+
+SubClassOf(oho:Business_Operation oho:ProjectCost)
+
+# Class: oho:CPB_Mechanical_Fixing_Station (oho:CPB_Mechanical_Fixing_Station)
+
+SubClassOf(oho:CPB_Mechanical_Fixing_Station oho:Cladding_Assembly_Line_Automated)
+
+# Class: oho:CP_Board (oho:CP_Board)
+
+SubClassOf(oho:CP_Board oho:EXT_Wall_Cladding)
+
+# Class: oho:CP_Board_Fixing (oho:CP_Board_Fixing)
+
+SubClassOf(oho:CP_Board_Fixing oho:Wall_Fixing)
+
+# Class: oho:CP_Boarding_Station (oho:CP_Boarding_Station)
+
+SubClassOf(oho:CP_Boarding_Station oho:Cladding_Assembly_Line_Automated)
+
+# Class: oho:CandiWall_Rail (oho:CandiWall_Rail)
+
+SubClassOf(oho:CandiWall_Rail oho:EXT_Wall_Cladding)
+
+# Class: oho:CandiWall_System (oho:CandiWall_System)
+
+SubClassOf(oho:CandiWall_System oho:EXT_Wall_Cladding)
+
+# Class: oho:CandiwallBackingBoard (oho:CandiwallBackingBoard)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:CandiwallBackingBoard "BIM Model")
+SubClassOf(oho:CandiwallBackingBoard oho:MaterialForPodPanel)
+
+# Class: oho:Casual_Labour (oho:Casual_Labour)
+
+SubClassOf(oho:Casual_Labour oho:Direct_Labour)
+
+# Class: oho:Cavity_Insulation_Board (oho:Cavity_Insulation_Board)
+
+SubClassOf(oho:Cavity_Insulation_Board oho:EXT_Wall_Cladding)
+
+# Class: oho:CementBoard (oho:CementBoard)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:CementBoard "BIM Model")
+SubClassOf(oho:CementBoard oho:MaterialForPodPanel)
+
+# Class: oho:CentralPodsAndPanels (oho:CentralPodsAndPanels)
+
+AnnotationAssertion(rdfs:comment oho:CentralPodsAndPanels "Semi-automated line production for panels and manual assembled pods.")
+SubClassOf(oho:CentralPodsAndPanels oho:Method)
+
+# Class: oho:Cladding_Assembly_Line_Automated (oho:Cladding_Assembly_Line_Automated)
+
+AnnotationAssertion(rdfs:comment oho:Cladding_Assembly_Line_Automated "Assembly line for cladding production to the frame")
+SubClassOf(oho:Cladding_Assembly_Line_Automated oho:Production_Actvities)
+DisjointClasses(oho:Cladding_Assembly_Line_Automated oho:Frame_Assembly_Line)
+
+# Class: oho:Cladding_Assembly_Line_Manual (oho:Cladding_Assembly_Line_Manual)
+
+SubClassOf(oho:Cladding_Assembly_Line_Manual oho:Production_Actvities)
+
+# Class: oho:Cleaning (oho:Cleaning)
+
+SubClassOf(oho:Cleaning oho:Overhead)
+
+# Class: oho:Clips (oho:Clips)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Clips "BIM Model")
+SubClassOf(oho:Clips oho:MaterialForPodPanel)
+
+# Class: oho:ColdSteel (oho:ColdSteel)
+
+AnnotationAssertion(rdfs:comment oho:ColdSteel "Cold rolled steel members for panel.")
+SubClassOf(oho:ColdSteel oho:MaterialForPodPanel)
+
+# Class: oho:Component (oho:Component)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> oho:Component "Manufactured individual building element
+including prefabricated elements e.g. precast
+staircases, refuse chutes, structural members
+such as columns, reinforcement cages etc.")
+SubClassOf(oho:Component oho:Building)
+
+# Class: oho:ComponentSub (oho:ComponentSub)
+
+SubClassOf(oho:ComponentSub oho:SubAssembly)
+
+# Class: oho:Concrete_Fixing (oho:Concrete_Fixing)
+
+SubClassOf(oho:Concrete_Fixing oho:Wall_Fixing)
+
+# Class: oho:Conveying_Station (oho:Conveying_Station)
+
+SubClassOf(oho:Conveying_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Coordinates (oho:Coordinates)
+
+SubClassOf(oho:Coordinates oho-cost:Location)
+
+# Class: oho:Cripple_Stud (oho:Cripple_Stud)
+
+SubClassOf(oho:Cripple_Stud oho:Stud)
+
+# Class: oho:Customer_Relation (oho:Customer_Relation)
+
+SubClassOf(oho:Customer_Relation oho:Offsite_Production)
+
+# Class: oho:DPLforLoading (oho:DPLforLoading)
+
+SubClassOf(oho:DPLforLoading oho:LoadingAndUnloading)
+
+# Class: oho:DPLforPanelCladdingS-A (oho:DPLforPanelCladdingS-A)
+
+SubClassOf(oho:DPLforPanelCladdingS-A oho:PanelCladdingsub-assembly)
+
+# Class: oho:DPLforPanelFrameSubAssembly (oho:DPLforPanelFrameSubAssembly)
+
+SubClassOf(oho:DPLforPanelFrameSubAssembly oho:PanelFramesub-assembly)
+
+# Class: oho:DPLforPodFrameS-A (oho:DPLforPodFrameS-A)
+
+SubClassOf(oho:DPLforPodFrameS-A oho:PodFramesub-assembly)
+
+# Class: oho:DPLforPodS-A (oho:DPLforPodS-A)
+
+SubClassOf(oho:DPLforPodS-A oho:Podsub-assembly)
+
+# Class: oho:DPMforPanelCladdingS-A (oho:DPMforPanelCladdingS-A)
+
+SubClassOf(oho:DPMforPanelCladdingS-A oho:PanelCladdingsub-assembly)
+
+# Class: oho:DPMforPanelFrameS-A (oho:DPMforPanelFrameS-A)
+
+SubClassOf(oho:DPMforPanelFrameS-A oho:PanelFramesub-assembly)
+
+# Class: oho:DPMforPod_Frame_Sub_Assembly (oho:DPMforPod_Frame_Sub_Assembly)
+
+SubClassOf(oho:DPMforPod_Frame_Sub_Assembly oho:PodFramesub-assembly)
+
+# Class: oho:DPMforPod_Sub_Assembly (oho:DPMforPod_Sub_Assembly)
+
+SubClassOf(oho:DPMforPod_Sub_Assembly oho:Podsub-assembly)
+
+# Class: oho:DataSource (oho:DataSource)
+
+AnnotationAssertion(rdfs:comment oho:DataSource "Defines the data source where a certain data what collected from i.e a BIM file, a database of material prices ect.")
+
+# Class: oho:Design_and_Engineering (oho:Design_and_Engineering)
+
+SubClassOf(oho:Design_and_Engineering oho:ProjectCost)
+
+# Class: oho:Detached (oho:Detached)
+
+AnnotationAssertion(rdfs:comment oho:Detached "Type of house.")
+SubClassOf(oho:Detached oho:House)
+
+# Class: oho:Diagonal_Bracing (oho:Diagonal_Bracing)
+
+AnnotationAssertion(rdfs:comment oho:Diagonal_Bracing "This is also known as the flat strap. It is a member connecting the studs for better stability.")
+SubClassOf(oho:Diagonal_Bracing oho:Wall_Framing)
+
+# Class: oho:Diagonal_Bracing_Fixing (oho:Diagonal_Bracing_Fixing)
+
+SubClassOf(oho:Diagonal_Bracing_Fixing oho:Wall_Fixing)
+
+# Class: oho:Diesel (oho:Diesel)
+
+SubClassOf(oho:Diesel oho:Transport)
+
+# Class: oho:Direct_Labour (oho:Direct_Labour)
+
+SubClassOf(oho:Direct_Labour oho:Labour)
+
+# Class: oho:Direct_Material (oho:Direct_Material)
+
+SubClassOf(oho:Direct_Material oho:Material)
+
+# Class: oho:Direct_Time (oho:Direct_Time)
+
+SubClassOf(oho:Direct_Time oho:Production_Time)
+
+# Class: oho:DirectlyProcuredLabour (oho:DirectlyProcuredLabour)
+
+SubClassOf(oho:DirectlyProcuredLabour oho:ProjectCost)
+
+# Class: oho:DirectlyProcuredMaterial (oho:DirectlyProcuredMaterial)
+
+SubClassOf(oho:DirectlyProcuredMaterial oho:ProjectCost)
+
+# Class: oho:Door (oho:Door)
+
+SubClassOf(oho:Door oho:Component)
+
+# Class: oho:Door_Pod (oho:Door_Pod)
+
+SubClassOf(oho:Door_Pod oho:Wall_Finishing)
+
+# Class: oho:Duct (oho:Duct)
+
+SubClassOf(oho:Duct oho:Component)
+
+# Class: oho:EPDM (oho:EPDM)
+
+SubClassOf(oho:EPDM oho:EXT_Wall_Cladding)
+
+# Class: oho:EXT_Wall_Cladding (oho:EXT_Wall_Cladding)
+
+SubClassOf(oho:EXT_Wall_Cladding oho:Direct_Material)
+
+# Class: oho:E_Consult (oho:E_Consult)
+
+SubClassOf(oho:E_Consult oho:Design_and_Engineering)
+
+# Class: oho:ElectricityCable (oho:ElectricityCable)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ElectricityCable "Quantity conversation factor datasheet")
+SubClassOf(oho:ElectricityCable oho:Component)
+
+# Class: oho:External_Door (oho:External_Door)
+
+SubClassOf(oho:External_Door oho:Wall_Finishing)
+
+# Class: oho:Facade_Fixing_Station (oho:Facade_Fixing_Station)
+
+SubClassOf(oho:Facade_Fixing_Station oho:Cladding_Assembly_Line_Manual)
+
+# Class: oho:Factory (oho:Factory)
+
+SubClassOf(oho:Factory oho-cost:Location)
+
+# Class: oho:Factory_Rent (oho:Factory_Rent)
+
+SubClassOf(oho:Factory_Rent oho:Overhead)
+
+# Class: oho:Fitting (oho:Fitting)
+
+SubClassOf(oho:Fitting oho:Wall_Framing)
+
+# Class: oho:FrameBeam_Load_Station (oho:FrameBeam_Load_Station)
+
+AnnotationAssertion(rdfs:comment oho:FrameBeam_Load_Station "Station where the cut to size frame is loaded to a pellet as required (by an operator) then placed on the conveyor belt ready to be fixed together")
+SubClassOf(oho:FrameBeam_Load_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Frame_Assembly_Line (oho:Frame_Assembly_Line)
+
+AnnotationAssertion(rdfs:comment oho:Frame_Assembly_Line "Assembly line for making the skeletal system of the walls")
+SubClassOf(oho:Frame_Assembly_Line oho:Production_Actvities)
+
+# Class: oho:Frame_Riveting_Station (oho:Frame_Riveting_Station)
+
+AnnotationAssertion(rdfs:comment oho:Frame_Riveting_Station "Frame is being screwed together to form one panel")
+SubClassOf(oho:Frame_Riveting_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Frame_Transfer_Station (oho:Frame_Transfer_Station)
+
+SubClassOf(oho:Frame_Transfer_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Gasoline (oho:Gasoline)
+
+SubClassOf(oho:Gasoline oho:Transport)
+
+# Class: oho:Gold (oho:Gold)
+
+SubClassOf(oho:Gold oho:EnergySystem)
+
+# Class: oho:Gypsum_Fireboard (oho:Gypsum_Fireboard)
+
+SubClassOf(oho:Gypsum_Fireboard oho:INT_Wall_Cladding)
+
+# Class: oho:HatChannnelsSupportRails (oho:HatChannnelsSupportRails)
+
+SubClassOf(oho:HatChannnelsSupportRails oho:MaterialForPodPanel)
+
+# Class: oho:Head_Track (oho:Head_Track)
+
+SubClassOf(oho:Head_Track oho:Wall_Framing)
+
+# Class: oho:Head_Track_Fixing (oho:Head_Track_Fixing)
+
+SubClassOf(oho:Head_Track_Fixing oho:Wall_Fixing)
+
+# Class: oho:HeatRecoveryUnit (oho:HeatRecoveryUnit)
+
+SubClassOf(oho:HeatRecoveryUnit oho:Component)
+
+# Class: oho:HotSteel (oho:HotSteel)
+
+AnnotationAssertion(rdfs:comment oho:HotSteel "Hot rolled steel members for pod.")
+SubClassOf(oho:HotSteel oho:MaterialForPodPanel)
+
+# Class: oho:INT_CP_Board (oho:INT_CP_Board)
+
+SubClassOf(oho:INT_CP_Board oho:INT_Wall_Cladding)
+
+# Class: oho:INT_Wall_Cladding (oho:INT_Wall_Cladding)
+
+SubClassOf(oho:INT_Wall_Cladding oho:Direct_Material)
+
+# Class: oho:In_Use (oho:In_Use)
+
+SubClassOf(oho:In_Use oho:ProjectCost)
+
+# Class: oho:Indirect_Labour (oho:Indirect_Labour)
+
+SubClassOf(oho:Indirect_Labour oho:Labour)
+
+# Class: oho:Indirect_Time (oho:Indirect_Time)
+
+SubClassOf(oho:Indirect_Time oho:Production_Time)
+
+# Class: oho:InsulationBoard (oho:InsulationBoard)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:InsulationBoard "BIM Model")
+SubClassOf(oho:InsulationBoard oho:MaterialForPodPanel)
+
+# Class: oho:Insulation_Board (oho:Insulation_Board)
+
+SubClassOf(oho:Insulation_Board oho:EXT_Wall_Cladding)
+
+# Class: oho:Insulation_Fixing (oho:Insulation_Fixing)
+
+SubClassOf(oho:Insulation_Fixing oho:Wall_Fixing)
+
+# Class: oho:Internal_Door (oho:Internal_Door)
+
+SubClassOf(oho:Internal_Door oho:Wall_Finishing)
+
+# Class: oho:Internal_FitOut_Station (oho:Internal_FitOut_Station)
+
+SubClassOf(oho:Internal_FitOut_Station oho:Cladding_Assembly_Line_Manual)
+
+# Class: oho:JointCementBoard (oho:JointCementBoard)
+
+AnnotationAssertion(rdfs:comment oho:JointCementBoard "Joint tape to cement board.")
+SubClassOf(oho:JointCementBoard oho:MaterialForPodPanel)
+
+# Class: oho:JointInternalWalls (oho:JointInternalWalls)
+
+AnnotationAssertion(rdfs:comment oho:JointInternalWalls "Joint tape to internal walls.")
+SubClassOf(oho:JointInternalWalls oho:MaterialForPodPanel)
+
+# Class: oho:KitchenCabinet (oho:KitchenCabinet)
+
+SubClassOf(oho:KitchenCabinet oho:Component)
+
+# Class: oho:LSF_Flat_Strap (oho:LSF_Flat_Strap)
+
+SubClassOf(oho:LSF_Flat_Strap oho:Diagonal_Bracing)
+
+# Class: oho:Labour (oho:Labour)
+
+SubClassOf(oho:Labour oho:Resource)
+
+# Class: oho:LightSwitch (oho:LightSwitch)
+
+SubClassOf(oho:LightSwitch oho:Component)
+
+# Class: oho:LightingCable (oho:LightingCable)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:LightingCable "Quantity conversation factor datasheet")
+SubClassOf(oho:LightingCable oho:Component)
+
+# Class: oho:LimeMortar (oho:LimeMortar)
+
+SubClassOf(oho:LimeMortar oho:MaterialForPodPanel)
+
+# Class: oho:Loading (oho:Loading)
+
+SubClassOf(oho:Loading oho:Supporting_Activities)
+
+# Class: oho:LoadingAndUnloading (oho:LoadingAndUnloading)
+
+SubClassOf(oho:LoadingAndUnloading oho:Modular_Production)
+
+# Class: oho:MCProfit (oho:MCProfit)
+
+SubClassOf(oho:MCProfit oho:ProjectCost)
+
+# Class: oho:Maintenance_and_Service (oho:Maintenance_and_Service)
+
+SubClassOf(oho:Maintenance_and_Service oho:In_Use)
+
+# Class: oho:Material (oho:Material)
+
+SubClassOf(oho:Material oho:Resource)
+SubClassOf(oho:Material DataSomeValuesFrom(oho:hasMaterialQuantity xsd:double))
+SubClassOf(oho:Material DataSomeValuesFrom(oho:hasMaterialUnitRate xsd:double))
+
+# Class: oho:MaterialForPodPanel (oho:MaterialForPodPanel)
+
+SubClassOf(oho:MaterialForPodPanel oho:Product)
+
+# Class: oho:Method (oho:Method)
+
+SubClassOf(oho:Method oho:Production)
+
+# Class: oho:Modular_Production (oho:Modular_Production)
+
+SubClassOf(oho:Modular_Production oho:Offsite_Production)
+
+# Class: oho:Movable_Tools (oho:Movable_Tools)
+
+AnnotationAssertion(rdfs:comment oho:Movable_Tools "Used to describe other tools (mostly small plants) that may be increased or reduced as need arises")
+SubClassOf(oho:Movable_Tools oho:Plant)
+
+# Class: oho:NecessaryNonValueAdded (oho:NecessaryNonValueAdded)
+
+SubClassOf(oho:NecessaryNonValueAdded oho:Activity)
+
+# Class: oho:NonValueAdded (oho:NonValueAdded)
+
+SubClassOf(oho:NonValueAdded oho:Activity)
+
+# Class: oho:Offload_Station (oho:Offload_Station)
+
+SubClassOf(oho:Offload_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Offsite_Production (oho:Offsite_Production)
+
+SubClassOf(oho:Offsite_Production oho:ProjectCost)
+
+# Class: oho:OnsiteAssembly (oho:OnsiteAssembly)
+
+SubClassOf(oho:OnsiteAssembly oho:ProjectCost)
+
+# Class: oho:OnsiteSubStructure (oho:OnsiteSubStructure)
+
+SubClassOf(oho:OnsiteSubStructure oho:ProjectCost)
+
+# Class: oho:Onsite_Support (oho:Onsite_Support)
+
+SubClassOf(oho:Onsite_Support oho:OnsiteAssembly)
+
+# Class: oho:Onsite_Work (oho:Onsite_Work)
+
+SubClassOf(oho:Onsite_Work oho:OnsiteAssembly)
+
+# Class: oho:Operational (oho:Operational)
+
+SubClassOf(oho:Operational oho:In_Use)
+
+# Class: oho:Option1_LSF3BED (oho:Option1_LSF3BED)
+
+SubClassOf(oho:Option1_LSF3BED oho:Wall_Panel)
+
+# Class: oho:Ordering_Materials (oho:Ordering_Materials)
+
+SubClassOf(oho:Ordering_Materials oho:Supporting_Activities)
+
+# Class: oho:Overhead (oho:Overhead)
+
+SubClassOf(oho:Overhead oho:Resource)
+
+# Class: oho:Packaging (oho:Packaging)
+
+SubClassOf(oho:Packaging oho:Supporting_Activities)
+
+# Class: oho:PackagingAndProtection (oho:PackagingAndProtection)
+
+SubClassOf(oho:PackagingAndProtection oho:Modular_Production)
+
+# Class: oho:Packaging_Material (oho:Packaging_Material)
+
+SubClassOf(oho:Packaging_Material oho:Material)
+
+# Class: oho:PanelCladdingSubAssembly (oho:PanelCladdingSubAssembly)
+
+SubClassOf(oho:PanelCladdingSubAssembly oho:Offsite_Production)
+
+# Class: oho:PanelCladdingsub-assembly (oho:PanelCladdingsub-assembly)
+
+SubClassOf(oho:PanelCladdingsub-assembly oho:Modular_Production)
+
+# Class: oho:PanelFramesub-assembly (oho:PanelFramesub-assembly)
+
+SubClassOf(oho:PanelFramesub-assembly oho:Modular_Production)
+
+# Class: oho:Panel_Testing (oho:Panel_Testing)
+
+SubClassOf(oho:Panel_Testing oho:Design_and_Engineering)
+
+# Class: oho:Panelised (oho:Panelised)
+
+AnnotationAssertion(rdfs:comment oho:Panelised "Semi-automated line of production.")
+SubClassOf(oho:Panelised oho:Method)
+
+# Class: oho:PendantLight (oho:PendantLight)
+
+SubClassOf(oho:PendantLight oho:Component)
+
+# Class: oho:Pipe (oho:Pipe)
+
+SubClassOf(oho:Pipe oho:Component)
+
+# Class: oho:Planning_and_Scheduling (oho:Planning_and_Scheduling)
+
+SubClassOf(oho:Planning_and_Scheduling oho:Offsite_Production)
+
+# Class: oho:Plant (oho:Plant)
+
+SubClassOf(oho:Plant oho:Resource)
+
+# Class: oho:PlantAndEquipment (oho:PlantAndEquipment)
+
+SubClassOf(oho:PlantAndEquipment oho:ProjectCost)
+
+# Class: oho:Plaster_Board (oho:Plaster_Board)
+
+SubClassOf(oho:Plaster_Board oho:INT_Wall_Cladding)
+
+# Class: oho:Plasterboard (oho:Plasterboard)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Plasterboard "Quantity conversation factor datasheet")
+SubClassOf(oho:Plasterboard oho:MaterialForPodPanel)
+
+# Class: oho:Plate (oho:Plate)
+
+SubClassOf(oho:Plate oho:Fitting)
+
+# Class: oho:PodFramesub-assembly (oho:PodFramesub-assembly)
+
+SubClassOf(oho:PodFramesub-assembly oho:Modular_Production)
+
+# Class: oho:Pod_Testing (oho:Pod_Testing)
+
+SubClassOf(oho:Pod_Testing oho:Design_and_Engineering)
+
+# Class: oho:Podsub-assembly (oho:Podsub-assembly)
+
+SubClassOf(oho:Podsub-assembly oho:Modular_Production)
+
+# Class: oho:Procurement_and_Inventory_Control (oho:Procurement_and_Inventory_Control)
+
+SubClassOf(oho:Procurement_and_Inventory_Control oho:Offsite_Production)
+
+# Class: oho:Product (oho:Product)
+
+SubClassOf(oho:Product oho:Building)
+SubClassOf(oho:Product ObjectSomeValuesFrom(oho:hasActivity oho:Production_Actvities))
+SubClassOf(oho:Product ObjectSomeValuesFrom(oho:hasActivity oho:Supporting_Activities))
+
+# Class: oho:ProductSub (oho:ProductSub)
+
+SubClassOf(oho:ProductSub oho:SubAssembly)
+
+# Class: oho:Production_Actvities (oho:Production_Actvities)
+
+SubClassOf(oho:Production_Actvities oho:Activity)
+
+# Class: oho:Production_Engineering__Management_and_Support (oho:Production_Engineering__Management_and_Support)
+
+SubClassOf(oho:Production_Engineering__Management_and_Support oho:Offsite_Production)
+
+# Class: oho:Production_Time (oho:Production_Time)
+
+SubClassOf(oho:Production_Time oho:Time)
+
+# Class: oho:Programmer (oho:Programmer)
+
+SubClassOf(oho:Programmer oho:Direct_Labour)
+
+# Class: oho:Quality_Inspection (oho:Quality_Inspection)
+
+SubClassOf(oho:Quality_Inspection oho:Supporting_Activities)
+
+# Class: oho:Quality_Inspector (oho:Quality_Inspector)
+
+SubClassOf(oho:Quality_Inspector oho:Direct_Labour)
+
+# Class: oho:Radiator (oho:Radiator)
+
+SubClassOf(oho:Radiator oho:Component)
+
+# Class: oho:Receiving_Materials (oho:Receiving_Materials)
+
+SubClassOf(oho:Receiving_Materials oho:Supporting_Activities)
+
+# Class: oho:RecessedLight (oho:RecessedLight)
+
+SubClassOf(oho:RecessedLight oho:Component)
+
+# Class: oho:Repair_and_Replacement (oho:Repair_and_Replacement)
+
+SubClassOf(oho:Repair_and_Replacement oho:In_Use)
+
+# Class: oho:Resource (oho:Resource)
+
+SubClassOf(oho:Resource oho:Production)
+
+# Class: oho:Rework_Station (oho:Rework_Station)
+
+AnnotationAssertion(rdfs:comment oho:Rework_Station "Frames that have not been properly fixed into place is corrected by an operative before moving innto the transfer station")
+SubClassOf(oho:Rework_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Rivets (oho:Rivets)
+
+SubClassOf(oho:Rivets oho:MaterialForPodPanel)
+
+# Class: oho:Roof (oho:Roof)
+
+SubClassOf(oho:Roof oho:ProjectCost)
+
+# Class: oho:SanitaryFitting (oho:SanitaryFitting)
+
+SubClassOf(oho:SanitaryFitting oho:Component)
+
+# Class: oho:ScrewBracket (oho:ScrewBracket)
+
+AnnotationAssertion(rdfs:comment oho:ScrewBracket "Screw Bracket for pod.")
+SubClassOf(oho:ScrewBracket oho:MaterialForPodPanel)
+
+# Class: oho:Security (oho:Security)
+
+SubClassOf(oho:Security oho:Overhead)
+
+# Class: oho:Semi-Skilled_Operative (oho:Semi-Skilled_Operative)
+
+SubClassOf(oho:Semi-Skilled_Operative oho:Direct_Labour)
+
+# Class: oho:SemiDetached (oho:SemiDetached)
+
+SubClassOf(oho:SemiDetached oho:House)
+
+# Class: oho:Sheating_Board (oho:Sheating_Board)
+
+SubClassOf(oho:Sheating_Board oho:EXT_Wall_Cladding)
+
+# Class: oho:Silver (oho:Silver)
+
+SubClassOf(oho:Silver oho:EnergySystem)
+
+# Class: oho:Site (oho:Site)
+
+SubClassOf(oho:Site oho-cost:Location)
+
+# Class: oho:Skirting (oho:Skirting)
+
+SubClassOf(oho:Skirting oho:Wall_Finishing)
+
+# Class: oho:Socket (oho:Socket)
+
+SubClassOf(oho:Socket oho:Component)
+
+# Class: oho:SolarPanel (oho:SolarPanel)
+
+SubClassOf(oho:SolarPanel oho:Component)
+
+# Class: oho:Special_Stud (oho:Special_Stud)
+
+SubClassOf(oho:Special_Stud oho:Stud)
+
+# Class: oho:Stair (oho:Stair)
+
+SubClassOf(oho:Stair oho:Component)
+
+# Class: oho:Static_Tools (oho:Static_Tools)
+
+AnnotationAssertion(rdfs:comment oho:Static_Tools "Used to describe the initial investment of the production line inlcuding the fabricated structure and the static robotic cells")
+SubClassOf(oho:Static_Tools oho:Plant)
+
+# Class: oho:Station (oho:Station)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> oho:Station "A work station in the production line.")
+SubClassOf(oho:Station oho:Production)
+
+# Class: oho:StickMethod (oho:StickMethod)
+
+AnnotationAssertion(rdfs:comment oho:StickMethod "For this method most of the work is done onsite.")
+SubClassOf(oho:StickMethod oho:Method)
+
+# Class: oho:Storage (oho:Storage)
+
+SubClassOf(oho:Storage oho:Modular_Production)
+
+# Class: oho:Structural_Engineer (oho:Structural_Engineer)
+
+SubClassOf(oho:Structural_Engineer oho:Design_and_Engineering)
+
+# Class: oho:Stud (oho:Stud)
+
+SubClassOf(oho:Stud oho:Wall_Framing)
+
+# Class: oho:SubAssembly (oho:SubAssembly)
+
+SubClassOf(oho:SubAssembly oho:Building)
+
+# Class: oho:SubFrame_Fixing (oho:SubFrame_Fixing)
+
+SubClassOf(oho:SubFrame_Fixing oho:Wall_Fixing)
+
+# Class: oho:SubSubAssembly (oho:SubSubAssembly)
+
+SubClassOf(oho:SubSubAssembly oho:SubAssembly)
+
+# Class: oho:Supporting_Activities (oho:Supporting_Activities)
+
+SubClassOf(oho:Supporting_Activities oho:Activity)
+
+# Class: oho:Tape (oho:Tape)
+
+SubClassOf(oho:Tape oho:Component)
+
+# Class: oho:Terrace (oho:Terrace)
+
+SubClassOf(oho:Terrace oho:House)
+
+# Class: oho:Tool_Maintenance (oho:Tool_Maintenance)
+
+SubClassOf(oho:Tool_Maintenance oho:Supporting_Activities)
+
+# Class: oho:Tooling_Transfer_Station (oho:Tooling_Transfer_Station)
+
+AnnotationAssertion(rdfs:comment oho:Tooling_Transfer_Station "This is where the the frame is being transfered to the next station")
+SubClassOf(oho:Tooling_Transfer_Station oho:Frame_Assembly_Line)
+
+# Class: oho:Transportation (oho:Transportation)
+
+SubClassOf(oho:Transportation oho:Indirect_Labour)
+
+# Class: oho:TransportationCost (oho:TransportationCost)
+
+SubClassOf(oho:TransportationCost oho:ProjectCost)
+
+# Class: oho:TransportationOP (oho:TransportationOP)
+
+SubClassOf(oho:TransportationOP oho:Modular_Production)
+
+# Class: oho:Transporting (oho:Transporting)
+
+AnnotationAssertion(rdfs:comment oho:Transporting "Transporting finished product to site")
+SubClassOf(oho:Transporting oho:Supporting_Activities)
+
+# Class: oho:Unload_Station (oho:Unload_Station)
+
+SubClassOf(oho:Unload_Station oho:Cladding_Assembly_Line_Automated)
+
+# Class: oho:Utilities (oho:Utilities)
+
+SubClassOf(oho:Utilities oho:Overhead)
+
+# Class: oho:ValueAdded (oho:ValueAdded)
+
+SubClassOf(oho:ValueAdded oho:Activity)
+
+# Class: oho:VolumetricMethod (oho:VolumetricMethod)
+
+AnnotationAssertion(rdfs:comment oho:VolumetricMethod "All Pods. Semi-automated line production for panels and manual assembled pods.")
+SubClassOf(oho:VolumetricMethod oho:Method)
+
+# Class: oho:Wall_Finishing (oho:Wall_Finishing)
+
+SubClassOf(oho:Wall_Finishing oho:Direct_Material)
+
+# Class: oho:Wall_Fixing (oho:Wall_Fixing)
+
+SubClassOf(oho:Wall_Fixing oho:Direct_Material)
+
+# Class: oho:Wall_Framing (oho:Wall_Framing)
+
+SubClassOf(oho:Wall_Framing oho:Direct_Material)
+
+# Class: oho:Wall_Panel (oho:Wall_Panel)
+
+SubClassOf(oho:Wall_Panel oho:Product)
+SubClassOf(oho:Wall_Panel ObjectSomeValuesFrom(oho:hasComponentPart oho:Material))
+
+# Class: oho:WhiteGood (oho:WhiteGood)
+
+SubClassOf(oho:WhiteGood oho:Component)
+
+# Class: oho:Window (oho:Window)
+
+SubClassOf(oho:Window oho:Component)
+SubClassOf(oho:Window oho:Wall_Finishing)
+
+# Class: oho:Window_Pod (oho:Window_Pod)
+
+SubClassOf(oho:Window_Pod oho:Wall_Finishing)
+
+# Class: oho:Wonderwall_System (oho:Wonderwall_System)
+
+SubClassOf(oho:Wonderwall_System oho:EXT_Wall_Cladding)
+
+# Class: oho:X150X60_SS (oho:X150X60_SS)
+
+SubClassOf(oho:X150X60_SS oho:Special_Stud)
+
+# Class: oho:Z_Rail (oho:Z_Rail)
+
+SubClassOf(oho:Z_Rail oho:EXT_Wall_Cladding)
+
+# Class: oho:mmTHK_CS (oho:mmTHK_CS)
+
+SubClassOf(oho:mmTHK_CS oho:Cripple_Stud)
+
+# Class: oho:mmTHK_LSF_BT (oho:mmTHK_LSF_BT)
+
+SubClassOf(oho:mmTHK_LSF_BT oho:Base_Track)
+
+# Class: oho:mmTHK_LSF_HT (oho:mmTHK_LSF_HT)
+
+SubClassOf(oho:mmTHK_LSF_HT oho:Head_Track)
+
+# Class: oho:mmTHK_Stud (oho:mmTHK_Stud)
+
+SubClassOf(oho:mmTHK_Stud oho:Basic_Stud)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: oho:A (oho:A)
+
+ClassAssertion(oho:Time oho:A)
+DataPropertyAssertion(oho:hasCount oho:A "100"^^xsd:integer)
+
+# Individual: oho:Adhesive (oho:Adhesive)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:Adhesive)
+DataPropertyAssertion(oho:hasActivityCost oho:Adhesive "4.0"^^xsd:double)
+
+# Individual: oho:Architect (oho:Architect)
+
+ClassAssertion(oho:Architect oho:Architect)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Architect oho:E_Consult)
+DataPropertyAssertion(oho:hasActivityCost oho:Architect "2500.0"^^xsd:double)
+
+# Individual: oho:AssignedFacilitiesAndUtilities150 (oho:AssignedFacilitiesAndUtilities150)
+
+ClassAssertion(oho:AssignedFacilitiesAndUtilities oho:AssignedFacilitiesAndUtilities150)
+ClassAssertion(oho:Panel oho:AssignedFacilitiesAndUtilities150)
+DataPropertyAssertion(oho:hasActivityCost oho:AssignedFacilitiesAndUtilities150 "2073.0"^^xsd:double)
+
+# Individual: oho:AssignedFacilitiesAndUtilities200 (oho:AssignedFacilitiesAndUtilities200)
+
+ClassAssertion(oho:AssignedFacilitiesAndUtilities oho:AssignedFacilitiesAndUtilities200)
+ClassAssertion(oho:Panel oho:AssignedFacilitiesAndUtilities200)
+DataPropertyAssertion(oho:hasActivityCost oho:AssignedFacilitiesAndUtilities200 "1590.0"^^xsd:double)
+
+# Individual: oho:AssignedFacilitiesAndUtilities50 (oho:AssignedFacilitiesAndUtilities50)
+
+ClassAssertion(oho:AssignedFacilitiesAndUtilities oho:AssignedFacilitiesAndUtilities50)
+ClassAssertion(oho:Panel oho:AssignedFacilitiesAndUtilities50)
+DataPropertyAssertion(oho:hasActivityCost oho:AssignedFacilitiesAndUtilities50 "5937.0"^^xsd:double)
+
+# Individual: oho:AssignedFacilitiesAndUtilities6 (oho:AssignedFacilitiesAndUtilities6)
+
+ClassAssertion(oho:AssignedFacilitiesAndUtilities oho:AssignedFacilitiesAndUtilities6)
+ClassAssertion(oho:Panel oho:AssignedFacilitiesAndUtilities6)
+DataPropertyAssertion(oho:hasActivityCost oho:AssignedFacilitiesAndUtilities6 "48497.0"^^xsd:double)
+
+# Individual: oho:AssignedFacilitiesAndUtilities80 (oho:AssignedFacilitiesAndUtilities80)
+
+ClassAssertion(oho:AssignedFacilitiesAndUtilities oho:AssignedFacilitiesAndUtilities80)
+ClassAssertion(oho:Panel oho:AssignedFacilitiesAndUtilities80)
+DataPropertyAssertion(oho:hasActivityCost oho:AssignedFacilitiesAndUtilities80 "3798.0"^^xsd:double)
+
+# Individual: oho:Band (oho:Band)
+
+ClassAssertion(oho:Interface oho:Band)
+ObjectPropertyAssertion(oho:isInterfaceOf oho:Band oho:Wall-1)
+ObjectPropertyAssertion(oho:isInterfaceOf oho:Band oho:Window-1)
+
+# Individual: oho:Basin (oho:Basin)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Basin "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:Basin)
+DataPropertyAssertion(oho:hasActivityCost oho:Basin "1200.0"^^xsd:double)
+
+# Individual: oho:BathroomCabinets (oho:BathroomCabinets)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:BathroomCabinets "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:BathroomCabinets)
+DataPropertyAssertion(oho:hasActivityCost oho:BathroomCabinets "1600.0"^^xsd:double)
+
+# Individual: oho:Bathtub (oho:Bathtub)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Bathtub "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:Bathtub)
+DataPropertyAssertion(oho:hasActivityCost oho:Bathtub "960.0"^^xsd:double)
+
+# Individual: oho:BatterySystem (oho:BatterySystem)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:BatterySystem "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:BatterySystem)
+DataPropertyAssertion(oho:hasActivityCost oho:BatterySystem "16000.0"^^xsd:double)
+
+# Individual: oho:Bolts-A (oho:Bolts-A)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Bolts-A "BIM Model Extraction")
+ClassAssertion(oho:DPMforPanelFrameS-A oho:Bolts-A)
+DataPropertyAssertion(oho:hasActivityCost oho:Bolts-A "176.4"^^xsd:double)
+
+# Individual: oho:Bolts-B (oho:Bolts-B)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Bolts-B "BIM Model Extraction")
+ClassAssertion(oho:DPMforPanelFrameS-A oho:Bolts-B)
+DataPropertyAssertion(oho:hasActivityCost oho:Bolts-B "840.0"^^xsd:double)
+
+# Individual: oho:BondEPDM (oho:BondEPDM)
+
+ClassAssertion(oho:Activity oho:BondEPDM)
+
+# Individual: oho:BreatherMembrane (oho:BreatherMembrane)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:BreatherMembrane)
+DataPropertyAssertion(oho:hasActivityCost oho:BreatherMembrane "1104.0"^^xsd:double)
+
+# Individual: oho:BrickSlips (oho:BrickSlips)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:BrickSlips "BIM Model")
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:BrickSlips)
+DataPropertyAssertion(oho:hasActivityCost oho:BrickSlips "97.5"^^xsd:double)
+
+# Individual: oho:BronzeInUse (oho:BronzeInUse)
+
+ClassAssertion(oho:In_Use oho:BronzeInUse)
+ClassAssertion(oho:Panel oho:BronzeInUse)
+ClassAssertion(oho:Stick oho:BronzeInUse)
+DataPropertyAssertion(oho:hasActivityCost oho:BronzeInUse "184762.98"^^xsd:double)
+
+# Individual: oho:BussinesOperation150 (oho:BussinesOperation150)
+
+ClassAssertion(oho:Business_Operation oho:BussinesOperation150)
+ClassAssertion(oho:Panel oho:BussinesOperation150)
+ClassAssertion(oho:PodAndPanel oho:BussinesOperation150)
+ClassAssertion(oho:Stick oho:BussinesOperation150)
+ClassAssertion(oho:Volumetric oho:BussinesOperation150)
+DataPropertyAssertion(oho:hasActivityCost oho:BussinesOperation150 "2959.0"^^xsd:double)
+
+# Individual: oho:BussinesOperation200 (oho:BussinesOperation200)
+
+ClassAssertion(oho:Business_Operation oho:BussinesOperation200)
+ClassAssertion(oho:Panel oho:BussinesOperation200)
+ClassAssertion(oho:PodAndPanel oho:BussinesOperation200)
+ClassAssertion(oho:Volumetric oho:BussinesOperation200)
+DataPropertyAssertion(oho:hasActivityCost oho:BussinesOperation200 "3038.0"^^xsd:double)
+
+# Individual: oho:BussinesOperation50 (oho:BussinesOperation50)
+
+ClassAssertion(oho:Business_Operation oho:BussinesOperation50)
+ClassAssertion(oho:Panel oho:BussinesOperation50)
+ClassAssertion(oho:PodAndPanel oho:BussinesOperation50)
+ClassAssertion(oho:Stick oho:BussinesOperation50)
+ClassAssertion(oho:Volumetric oho:BussinesOperation50)
+DataPropertyAssertion(oho:C1 oho:BussinesOperation50 "2186.0"^^xsd:double)
+
+# Individual: oho:BussinesOperation6 (oho:BussinesOperation6)
+
+ClassAssertion(oho:Business_Operation oho:BussinesOperation6)
+ClassAssertion(oho:Panel oho:BussinesOperation6)
+ClassAssertion(oho:PodAndPanel oho:BussinesOperation6)
+ClassAssertion(oho:Stick oho:BussinesOperation6)
+ClassAssertion(oho:Volumetric oho:BussinesOperation6)
+DataPropertyAssertion(oho:hasActivityCost oho:BussinesOperation6 "16183.0"^^xsd:double)
+
+# Individual: oho:BussinesOperation80 (oho:BussinesOperation80)
+
+ClassAssertion(oho:Business_Operation oho:BussinesOperation80)
+ClassAssertion(oho:Panel oho:BussinesOperation80)
+ClassAssertion(oho:PodAndPanel oho:BussinesOperation80)
+ClassAssertion(oho:Stick oho:BussinesOperation80)
+ClassAssertion(oho:Volumetric oho:BussinesOperation80)
+DataPropertyAssertion(oho:hasActivityCost oho:BussinesOperation80 "3016.0"^^xsd:double)
+
+# Individual: oho:CL_1 (oho:CL_1)
+
+AnnotationAssertion(rdfs:comment oho:CL_1 "Casual Labour with unique  ID number 1")
+ClassAssertion(oho:Casual_Labour oho:CL_1)
+ClassAssertion(oho:Resource oho:CL_1)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_1 "9.0"^^xsd:double)
+
+# Individual: oho:CL_2 (oho:CL_2)
+
+AnnotationAssertion(rdfs:comment oho:CL_2 "Casual Labour with unique  ID number 2")
+ClassAssertion(oho:Casual_Labour oho:CL_2)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_2 "9.0"^^xsd:double)
+
+# Individual: oho:CL_3 (oho:CL_3)
+
+AnnotationAssertion(rdfs:comment oho:CL_3 "Casual Labour with unique  ID number 3")
+ClassAssertion(oho:Casual_Labour oho:CL_3)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_3 "9.0"^^xsd:double)
+
+# Individual: oho:CL_4 (oho:CL_4)
+
+AnnotationAssertion(rdfs:comment oho:CL_4 "Casual Labour with unique  ID number 4")
+ClassAssertion(oho:Casual_Labour oho:CL_4)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_4 "9.0"^^xsd:double)
+
+# Individual: oho:CL_5 (oho:CL_5)
+
+AnnotationAssertion(rdfs:comment oho:CL_5 "Casual Labour with unique  ID number 5")
+ClassAssertion(oho:Casual_Labour oho:CL_5)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_5 "9.0"^^xsd:double)
+
+# Individual: oho:CL_6 (oho:CL_6)
+
+AnnotationAssertion(rdfs:comment oho:CL_6 "Casual Labour with unique  ID number 6")
+ClassAssertion(oho:Casual_Labour oho:CL_6)
+DataPropertyAssertion(oho:hasLabourHrRate oho:CL_6 "9.0"^^xsd:double)
+
+# Individual: oho:CO2Detector (oho:CO2Detector)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:CO2Detector "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:CO2Detector)
+DataPropertyAssertion(oho:hasActivityCost oho:CO2Detector "200.0"^^xsd:double)
+
+# Individual: oho:CPBoardScrewStation (oho:CPBoardScrewStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:CPBoardScrewStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelCladdingS-A oho:CPBoardScrewStation)
+DataPropertyAssertion(oho:hasActivityCost oho:CPBoardScrewStation "1996.8000000000004"^^xsd:double)
+
+# Individual: oho:CandiwallBackingBoard (oho:CandiwallBackingBoard)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:CandiwallBackingBoard)
+DataPropertyAssertion(oho:hasActivityCost oho:CandiwallBackingBoard "15456.0"^^xsd:double)
+
+# Individual: oho:Carpenter (oho:Carpenter)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Carpenter "Productivity datasheet")
+ClassAssertion(oho:DPLforPodS-A oho:Carpenter)
+DataPropertyAssertion(oho:hasActivityCost oho:Carpenter "11520.0"^^xsd:double)
+
+# Individual: oho:CementBoard (oho:CementBoard)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:CementBoard)
+DataPropertyAssertion(oho:hasActivityCost oho:CementBoard "15456.0"^^xsd:double)
+
+# Individual: oho:CentralPodsAndPanelsProject (oho:CentralPodsAndPanelsProject)
+
+AnnotationAssertion(rdfs:comment oho:CentralPodsAndPanelsProject "Central Pods and Panels (Semi-automated line production for panels and manual assembled pods)")
+ClassAssertion(oho:ProjectCost oho:CentralPodsAndPanelsProject)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:AssignedFacilitiesAndUtilities80)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:BussinesOperation80)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:DesignAndEngineering80)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:DirectlyProcuredLabourCentralPod)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:DirectlyProcuredMaterialCentralPod)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:GoldInUse)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:MCProfitCentralPod)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:OnsiteSubstructureAndExternalWall)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:PitchedRoofWithClayTileCovering)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:PlantAndEquipmentCentralPod)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:Timber)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:TransportationPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:CentralPodsAndPanelsProject oho:WithWeatherboard)
+DataPropertyAssertion(oho:hasDetached oho:CentralPodsAndPanelsProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasDistance oho:CentralPodsAndPanelsProject "20.0"^^xsd:double)
+DataPropertyAssertion(oho:hasSemiDetached oho:CentralPodsAndPanelsProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasTerrace oho:CentralPodsAndPanelsProject "4.0"^^xsd:double)
+
+# Individual: oho:CheckAlignment (oho:CheckAlignment)
+
+ClassAssertion(oho:Activity oho:CheckAlignment)
+
+# Individual: oho:Clips (oho:Clips)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:Clips)
+DataPropertyAssertion(oho:hasActivityCost oho:Clips "5520.0"^^xsd:double)
+
+# Individual: oho:Customer_Relation (oho:Customer_Relation)
+
+ClassAssertion(oho:Customer_Relation oho:Customer_Relation)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Customer_Relation oho:Procurement_and_Inventory_Control)
+DataPropertyAssertion(oho:hasActivityCost oho:Customer_Relation "2000.0"^^xsd:double)
+
+# Individual: oho:DataCable (oho:DataCable)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:DataCable "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:DataCable)
+DataPropertyAssertion(oho:hasActivityCost oho:DataCable "273.0"^^xsd:double)
+
+# Individual: oho:DesignAndEngineering150 (oho:DesignAndEngineering150)
+
+ClassAssertion(oho:Design_and_Engineering oho:DesignAndEngineering150)
+ClassAssertion(oho:Panel oho:DesignAndEngineering150)
+DataPropertyAssertion(oho:hasActivityCost oho:DesignAndEngineering150 "12973.0"^^xsd:double)
+
+# Individual: oho:DesignAndEngineering200 (oho:DesignAndEngineering200)
+
+ClassAssertion(oho:Design_and_Engineering oho:DesignAndEngineering200)
+ClassAssertion(oho:Panel oho:DesignAndEngineering200)
+DataPropertyAssertion(oho:hasActivityCost oho:DesignAndEngineering200 "12861.0"^^xsd:double)
+
+# Individual: oho:DesignAndEngineering50 (oho:DesignAndEngineering50)
+
+ClassAssertion(oho:Design_and_Engineering oho:DesignAndEngineering50)
+ClassAssertion(oho:Panel oho:DesignAndEngineering50)
+DataPropertyAssertion(oho:hasActivityCost oho:DesignAndEngineering50 "13235.0"^^xsd:double)
+
+# Individual: oho:DesignAndEngineering6 (oho:DesignAndEngineering6)
+
+ClassAssertion(oho:Design_and_Engineering oho:DesignAndEngineering6)
+ClassAssertion(oho:Panel oho:DesignAndEngineering6)
+DataPropertyAssertion(oho:hasActivityCost oho:DesignAndEngineering6 "13423.0"^^xsd:double)
+
+# Individual: oho:DesignAndEngineering80 (oho:DesignAndEngineering80)
+
+ClassAssertion(oho:Design_and_Engineering oho:DesignAndEngineering80)
+ClassAssertion(oho:Panel oho:DesignAndEngineering80)
+DataPropertyAssertion(oho:hasActivityCost oho:DesignAndEngineering80 "13123.0"^^xsd:double)
+
+# Individual: oho:Design_and_Engineering (oho:Design_and_Engineering)
+
+ClassAssertion(oho:Design_and_Engineering oho:Design_and_Engineering)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Design_and_Engineering oho:Pod_Testing)
+DataPropertyAssertion(oho:hasActivityCost oho:Design_and_Engineering "0.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabour50 (oho:DirectlyProcuredLabour50)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabour50)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabour50 "25618.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourCentralPod (oho:DirectlyProcuredLabourCentralPod)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourCentralPod "23354.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourPanelised150 (oho:DirectlyProcuredLabourPanelised150)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourPanelised150)
+ClassAssertion(oho:Panel oho:DirectlyProcuredLabourPanelised150)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourPanelised150 "7285.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourPanelised200 (oho:DirectlyProcuredLabourPanelised200)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourPanelised200)
+ClassAssertion(oho:Panel oho:DirectlyProcuredLabourPanelised200)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourPanelised200 "6713.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourPanelised50 (oho:DirectlyProcuredLabourPanelised50)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourPanelised50)
+ClassAssertion(oho:Panel oho:DirectlyProcuredLabourPanelised50)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourPanelised50 "8059.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourPanelised6 (oho:DirectlyProcuredLabourPanelised6)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourPanelised6)
+ClassAssertion(oho:Panel oho:DirectlyProcuredLabourPanelised6)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourPanelised6 "840.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourPanelised80 (oho:DirectlyProcuredLabourPanelised80)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourPanelised80)
+ClassAssertion(oho:Panel oho:DirectlyProcuredLabourPanelised80)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredLabourPanelised80 "10332.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredLabourVolumatric80 (oho:DirectlyProcuredLabourVolumatric80)
+
+ClassAssertion(oho:DirectlyProcuredLabour oho:DirectlyProcuredLabourVolumatric80)
+DataPropertyAssertion(oho:C1 oho:DirectlyProcuredLabourVolumatric80 "28097.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredMaterialCentralPod (oho:DirectlyProcuredMaterialCentralPod)
+
+ClassAssertion(oho:DirectlyProcuredMaterial oho:DirectlyProcuredMaterialCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredMaterialCentralPod "26760.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredMaterialPanelised (oho:DirectlyProcuredMaterialPanelised)
+
+ClassAssertion(oho:DirectlyProcuredMaterial oho:DirectlyProcuredMaterialPanelised)
+ClassAssertion(oho:Panel oho:DirectlyProcuredMaterialPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredMaterialPanelised "6134.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredMaterialStick (oho:DirectlyProcuredMaterialStick)
+
+ClassAssertion(oho:DirectlyProcuredMaterial oho:DirectlyProcuredMaterialStick)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredMaterialStick "6004.0"^^xsd:double)
+
+# Individual: oho:DirectlyProcuredMaterialVolumetric (oho:DirectlyProcuredMaterialVolumetric)
+
+ClassAssertion(oho:DirectlyProcuredMaterial oho:DirectlyProcuredMaterialVolumetric)
+DataPropertyAssertion(oho:hasActivityCost oho:DirectlyProcuredMaterialVolumetric "30362.0"^^xsd:double)
+
+# Individual: oho:DrainagePipe (oho:DrainagePipe)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:DrainagePipe "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:DrainagePipe)
+DataPropertyAssertion(oho:hasActivityCost oho:DrainagePipe "264.6"^^xsd:double)
+
+# Individual: oho:E_Consult (oho:E_Consult)
+
+ClassAssertion(oho:E_Consult oho:E_Consult)
+ObjectPropertyAssertion(oho:hasNextActivity oho:E_Consult oho:Structural_Engineer)
+DataPropertyAssertion(oho:hasActivityCost oho:E_Consult "500.0"^^xsd:double)
+
+# Individual: oho:ElectricalInstallationType (oho:ElectricalInstallationType)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ElectricalInstallationType "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:ElectricalInstallationType)
+DataPropertyAssertion(oho:hasActivityCost oho:ElectricalInstallationType "800.0"^^xsd:double)
+
+# Individual: oho:Electrician (oho:Electrician)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Electrician "Productivity datasheet")
+ClassAssertion(oho:DPLforPodS-A oho:Electrician)
+DataPropertyAssertion(oho:hasActivityCost oho:Electrician "11520.0"^^xsd:double)
+
+# Individual: oho:ElectricityCable (oho:ElectricityCable)
+
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:ElectricityCable)
+DataPropertyAssertion(oho:hasActivityCost oho:ElectricityCable "344.40000000000003"^^xsd:double)
+
+# Individual: oho:EnergyAndFaultMonitoringRequired (oho:EnergyAndFaultMonitoringRequired)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:EnergyAndFaultMonitoringRequired "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:EnergyAndFaultMonitoringRequired)
+DataPropertyAssertion(oho:hasActivityCost oho:EnergyAndFaultMonitoringRequired "400.0"^^xsd:double)
+
+# Individual: oho:EntranceDoor (oho:EntranceDoor)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:EntranceDoor "BIM Model")
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:EntranceDoor)
+DataPropertyAssertion(oho:hasActivityCost oho:EntranceDoor "4000.0"^^xsd:double)
+
+# Individual: oho:FixWindowAndDoorPods (oho:FixWindowAndDoorPods)
+
+ClassAssertion(oho:Activity oho:FixWindowAndDoorPods)
+
+# Individual: oho:FlatRoofWithSinglePlyMembrane (oho:FlatRoofWithSinglePlyMembrane)
+
+ClassAssertion(oho:Panel oho:FlatRoofWithSinglePlyMembrane)
+ClassAssertion(oho:Roof oho:FlatRoofWithSinglePlyMembrane)
+DataPropertyAssertion(oho:hasActivityCost oho:FlatRoofWithSinglePlyMembrane "5405.0"^^xsd:double)
+
+# Individual: oho:Fork_Lift (oho:Fork_Lift)
+
+ClassAssertion(oho:Movable_Tools oho:Fork_Lift)
+
+# Individual: oho:FrameAndMaterialLoadingAndUnloading (oho:FrameAndMaterialLoadingAndUnloading)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:FrameAndMaterialLoadingAndUnloading "Productivity datasheet")
+ClassAssertion(oho:DPLforLoading oho:FrameAndMaterialLoadingAndUnloading)
+DataPropertyAssertion(oho:hasActivityCost oho:FrameAndMaterialLoadingAndUnloading "144.00000000000003"^^xsd:double)
+
+# Individual: oho:Gold (oho:Gold)
+
+ClassAssertion(oho:Gold oho:Gold)
+DataPropertyAssertion(oho:hasActivityCost oho:Gold "34520.0"^^xsd:double)
+
+# Individual: oho:GoldInUse (oho:GoldInUse)
+
+ClassAssertion(oho:In_Use oho:GoldInUse)
+ClassAssertion(oho:Panel oho:GoldInUse)
+ClassAssertion(oho:Stick oho:GoldInUse)
+DataPropertyAssertion(oho:hasActivityCost oho:GoldInUse "142788.85"^^xsd:double)
+
+# Individual: oho:Guard (oho:Guard)
+
+ClassAssertion(oho:Static_Tools oho:Guard)
+
+# Individual: oho:HatChannelsAndSupportRails (oho:HatChannelsAndSupportRails)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:HatChannelsAndSupportRails "BIM Model")
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:HatChannelsAndSupportRails)
+DataPropertyAssertion(oho:hasActivityCost oho:HatChannelsAndSupportRails "6480.0"^^xsd:double)
+
+# Individual: oho:HeatDetector (oho:HeatDetector)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:HeatDetector "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:HeatDetector)
+DataPropertyAssertion(oho:hasActivityCost oho:HeatDetector "200.0"^^xsd:double)
+
+# Individual: oho:HotAndColdWaterPipe (oho:HotAndColdWaterPipe)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:HotAndColdWaterPipe "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:HotAndColdWaterPipe)
+DataPropertyAssertion(oho:hasActivityCost oho:HotAndColdWaterPipe "264.6"^^xsd:double)
+
+# Individual: oho:HotWaterCylinderType (oho:HotWaterCylinderType)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:HotWaterCylinderType "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:HotWaterCylinderType)
+DataPropertyAssertion(oho:hasActivityCost oho:HotWaterCylinderType "6400.0"^^xsd:double)
+
+# Individual: oho:House-A (oho:House-A)
+
+ClassAssertion(oho:Building oho:House-A)
+ObjectPropertyAssertion(oho:composedOf oho:House-A oho:LSF_3BED_01_LHS)
+
+# Individual: oho:InspectionStation (oho:InspectionStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:InspectionStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelFrameSubAssembly oho:InspectionStation)
+DataPropertyAssertion(oho:hasActivityCost oho:InspectionStation "710.4000000000001"^^xsd:double)
+
+# Individual: oho:InstallBreatherMembrane (oho:InstallBreatherMembrane)
+
+ClassAssertion(oho:Activity oho:InstallBreatherMembrane)
+
+# Individual: oho:InstallCavityInsulation (oho:InstallCavityInsulation)
+
+ClassAssertion(oho:Activity oho:InstallCavityInsulation)
+
+# Individual: oho:InstallCladdingSub-frame (oho:InstallCladdingSub-frame)
+
+ClassAssertion(oho:Activity oho:InstallCladdingSub-frame)
+
+# Individual: oho:InstallWindowAndDoor (oho:InstallWindowAndDoor)
+
+ClassAssertion(oho:Activity oho:InstallWindowAndDoor)
+
+# Individual: oho:InsulationBoard (oho:InsulationBoard)
+
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:InsulationBoard)
+DataPropertyAssertion(oho:hasActivityCost oho:InsulationBoard "11040.0"^^xsd:double)
+
+# Individual: oho:InsulationToExternalWall (oho:InsulationToExternalWall)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:InsulationToExternalWall "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:InsulationToExternalWall)
+DataPropertyAssertion(oho:hasActivityCost oho:InsulationToExternalWall "907.2"^^xsd:double)
+
+# Individual: oho:JointTapeToCementBoard (oho:JointTapeToCementBoard)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:JointTapeToCementBoard "BIM Model")
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:JointTapeToCementBoard)
+DataPropertyAssertion(oho:hasActivityCost oho:JointTapeToCementBoard "184.00000000000003"^^xsd:double)
+
+# Individual: oho:JointTapeToInternalWalls (oho:JointTapeToInternalWalls)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:JointTapeToInternalWalls "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:JointTapeToInternalWalls)
+DataPropertyAssertion(oho:hasActivityCost oho:JointTapeToInternalWalls "71.01599999999999"^^xsd:double)
+
+# Individual: oho:KicthenMixer (oho:KicthenMixer)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:KicthenMixer "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:KicthenMixer)
+DataPropertyAssertion(oho:hasActivityCost oho:KicthenMixer "480.0"^^xsd:double)
+
+# Individual: oho:KitchenCabinets (oho:KitchenCabinets)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:KitchenCabinets "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:KitchenCabinets)
+DataPropertyAssertion(oho:hasActivityCost oho:KitchenCabinets "9600.0"^^xsd:double)
+
+# Individual: oho:KitchenSink (oho:KitchenSink)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:KitchenSink "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:KitchenSink)
+DataPropertyAssertion(oho:hasActivityCost oho:KitchenSink "320.0"^^xsd:double)
+
+# Individual: oho:LSF_3BED_01_LHS (oho:LSF_3BED_01_LHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_01_LHS "LSF 3BED 01 LHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom left hand side (LHS) when looking from the entrance of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_01_LHS)
+ClassAssertion(oho:Product oho:LSF_3BED_01_LHS)
+ObjectPropertyAssertion(oho:composedOf oho:LSF_3BED_01_LHS oho:mmHT)
+ObjectPropertyAssertion(oho:hasActivity oho:LSF_3BED_01_LHS oho:T1_Deliver_Pallets)
+ObjectPropertyAssertion(oho:hasActivity oho:LSF_3BED_01_LHS oho:T3_Clamp_Beam)
+ObjectPropertyAssertion(oho:hasActivity oho:LSF_3BED_01_LHS oho:T4_Transfer_Beam)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmBT)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmCS)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmFS)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmHT)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmS)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmSS)
+ObjectPropertyAssertion(oho:hasComponentPart oho:LSF_3BED_01_LHS oho:mmStud)
+DataPropertyAssertion(oho:hasWeight oho:LSF_3BED_01_LHS "2000.0"^^xsd:double)
+
+# Individual: oho:LSF_3BED_01_RHS (oho:LSF_3BED_01_RHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_01_RHS "LSF 3BED 01 RHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom right hand side (RHS) when looking from the entrance of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_01_RHS)
+
+# Individual: oho:LSF_3BED_02_LHS (oho:LSF_3BED_02_LHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_02_LHS "LSF 3BED 02 LHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top left hand side (LHS) when looking from the entrance of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_02_LHS)
+
+# Individual: oho:LSF_3BED_02_RHS (oho:LSF_3BED_02_RHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_02_RHS "LSF 3BED 02 RHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top right hand side (RHS) when looking from the entrance of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_02_RHS)
+
+# Individual: oho:LSF_3BED_03_LHS_F (oho:LSF_3BED_03_LHS_F)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_03_LHS_F "LSF-3BED-03-LHS-F :- This is a Light Steel Frame (LSF) panel positioned at the bottom front on the left hand side (LHS) when looking from the front of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_03_LHS_F)
+
+# Individual: oho:LSF_3BED_03_LHS_R (oho:LSF_3BED_03_LHS_R)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_03_LHS_R "LSF-3BED-03-LHS-R:- This is a Light Steel Frame (LSF) panel positioned at the bottom rear left hand side (LHS) when looking from the rear of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_03_LHS_R)
+
+# Individual: oho:LSF_3BED_03_RHS_F (oho:LSF_3BED_03_RHS_F)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_03_RHS_F "LSF-3BED-03-RHS-F :- This is a Light Steel Frame (LSF) panel positioned at the bottom front on the right hand side (RHS) when looking from the front of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_03_RHS_F)
+
+# Individual: oho:LSF_3BED_03_RHS_R (oho:LSF_3BED_03_RHS_R)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_03_RHS_R "LSF-3BED-03-RHS-R:- This is a Light Steel Frame (LSF) panel positioned at the bottom rear right hand side (RHS) when looking from the rear of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_03_RHS_R)
+
+# Individual: oho:LSF_3BED_04_LHS_B (oho:LSF_3BED_04_LHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_04_LHS_B)
+
+# Individual: oho:LSF_3BED_04_LHS_F (oho:LSF_3BED_04_LHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_04_LHS_F)
+
+# Individual: oho:LSF_3BED_04_RHS_B (oho:LSF_3BED_04_RHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_04_RHS_B)
+
+# Individual: oho:LSF_3BED_04_RHS_F (oho:LSF_3BED_04_RHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_04_RHS_F)
+
+# Individual: oho:LSF_3BED_05_LHS_B (oho:LSF_3BED_05_LHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_05_LHS_B)
+
+# Individual: oho:LSF_3BED_05_LHS_F (oho:LSF_3BED_05_LHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_05_LHS_F)
+
+# Individual: oho:LSF_3BED_05_RHS_B (oho:LSF_3BED_05_RHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_05_RHS_B)
+
+# Individual: oho:LSF_3BED_05_RHS_F (oho:LSF_3BED_05_RHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_05_RHS_F)
+
+# Individual: oho:LSF_3BED_06_LHS (oho:LSF_3BED_06_LHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_06_LHS "LSF 3BED 06 LHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom left hand side (LHS) when looking from the rear of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_06_LHS)
+
+# Individual: oho:LSF_3BED_06_RHS (oho:LSF_3BED_06_RHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_06_RHS "LSF 3BED 06 RHS - This is a Lower Front Light Steel Frame (LSF) panel positioned at the bottom right hand side (RHS) when looking from the rear of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_06_RHS)
+
+# Individual: oho:LSF_3BED_07_LHS (oho:LSF_3BED_07_LHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_07_LHS "LSF 3BED 07 LHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top left hand side (LHS) when looking from the rear of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_07_LHS)
+
+# Individual: oho:LSF_3BED_07_RHS (oho:LSF_3BED_07_RHS)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_07_RHS "LSF 3BED 07 RHS - This is a Upper Front Light Steel Frame (LSF) panel positioned at the top right hand side (RHS) when looking from the back of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_07_RHS)
+
+# Individual: oho:LSF_3BED_08_LHS_B (oho:LSF_3BED_08_LHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_08_LHS_B)
+
+# Individual: oho:LSF_3BED_08_LHS_F (oho:LSF_3BED_08_LHS_F)
+
+AnnotationAssertion(rdfs:comment oho:LSF_3BED_08_LHS_F "LSF 3BED 08 LHS F - This is a Party Wall Light Steel Frame (LSF) positioned at the bottom from left hand side (LHS) when looking from the entrance of the 3 bedroom house.")
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_08_LHS_F)
+
+# Individual: oho:LSF_3BED_08_RHS_B (oho:LSF_3BED_08_RHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_08_RHS_B)
+
+# Individual: oho:LSF_3BED_08_RHS_F (oho:LSF_3BED_08_RHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_08_RHS_F)
+
+# Individual: oho:LSF_3BED_09_LHS_B (oho:LSF_3BED_09_LHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_09_LHS_B)
+
+# Individual: oho:LSF_3BED_09_LHS_F (oho:LSF_3BED_09_LHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_09_LHS_F)
+
+# Individual: oho:LSF_3BED_09_RHS_B (oho:LSF_3BED_09_RHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_09_RHS_B)
+
+# Individual: oho:LSF_3BED_09_RHS_F (oho:LSF_3BED_09_RHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_09_RHS_F)
+
+# Individual: oho:LSF_3BED_10_LHS_B (oho:LSF_3BED_10_LHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_10_LHS_B)
+
+# Individual: oho:LSF_3BED_10_LHS_F (oho:LSF_3BED_10_LHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_10_LHS_F)
+
+# Individual: oho:LSF_3BED_10_RHS_B (oho:LSF_3BED_10_RHS_B)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_10_RHS_B)
+
+# Individual: oho:LSF_3BED_10_RHS_F (oho:LSF_3BED_10_RHS_F)
+
+ClassAssertion(oho:Option1_LSF3BED oho:LSF_3BED_10_RHS_F)
+
+# Individual: oho:LampsToBeSupplied (oho:LampsToBeSupplied)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:LampsToBeSupplied "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:LampsToBeSupplied)
+DataPropertyAssertion(oho:hasActivityCost oho:LampsToBeSupplied "4800.0"^^xsd:double)
+
+# Individual: oho:LightSwitches (oho:LightSwitches)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:LightSwitches "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:LightSwitches)
+DataPropertyAssertion(oho:hasActivityCost oho:LightSwitches "126.0"^^xsd:double)
+
+# Individual: oho:LightingCable (oho:LightingCable)
+
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:LightingCable)
+DataPropertyAssertion(oho:hasActivityCost oho:LightingCable "352.8"^^xsd:double)
+
+# Individual: oho:LoadCPBoardOnFrame (oho:LoadCPBoardOnFrame)
+
+ClassAssertion(oho:Activity oho:LoadCPBoardOnFrame)
+
+# Individual: oho:LoadFinishedPanelsToTransportTrolley (oho:LoadFinishedPanelsToTransportTrolley)
+
+ClassAssertion(oho:Activity oho:LoadFinishedPanelsToTransportTrolley)
+
+# Individual: oho:LoadToStorageArea (oho:LoadToStorageArea)
+
+ClassAssertion(oho:Activity oho:LoadToStorageArea)
+
+# Individual: oho:LoadingAndUnloading (oho:LoadingAndUnloading)
+
+ClassAssertion(oho:LoadingAndUnloading oho:LoadingAndUnloading)
+DataPropertyAssertion(oho:hasActivityCost oho:LoadingAndUnloading "107.65196074939807"^^xsd:double)
+
+# Individual: oho:MCProfitCentralPod (oho:MCProfitCentralPod)
+
+ClassAssertion(oho:MCProfit oho:MCProfitCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:MCProfitCentralPod "16676.03"^^xsd:double)
+
+# Individual: oho:MCProfitPanelised (oho:MCProfitPanelised)
+
+ClassAssertion(oho:MCProfit oho:MCProfitPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:MCProfitPanelised "16857.0"^^xsd:double)
+
+# Individual: oho:MCProfitStick (oho:MCProfitStick)
+
+ClassAssertion(oho:MCProfit oho:MCProfitStick)
+DataPropertyAssertion(oho:hasActivityCost oho:MCProfitStick "15202.94"^^xsd:double)
+
+# Individual: oho:MVHR (oho:MVHR)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:MVHR "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:MVHR)
+DataPropertyAssertion(oho:hasActivityCost oho:MVHR "9600.0"^^xsd:double)
+
+# Individual: oho:Maintenance_and_Service (oho:Maintenance_and_Service)
+
+ClassAssertion(oho:Maintenance_and_Service oho:Maintenance_and_Service)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Maintenance_and_Service oho:Operational)
+DataPropertyAssertion(oho:hasActivityCost oho:Maintenance_and_Service "42000.0"^^xsd:double)
+
+# Individual: oho:ManualInstallation (oho:ManualInstallation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ManualInstallation "Productivity datasheet")
+ClassAssertion(oho:DPLforPodS-A oho:ManualInstallation)
+DataPropertyAssertion(oho:hasActivityCost oho:ManualInstallation "39936.0"^^xsd:double)
+
+# Individual: oho:ManualReworkAndCPBoardLoadStation (oho:ManualReworkAndCPBoardLoadStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ManualReworkAndCPBoardLoadStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelCladdingS-A oho:ManualReworkAndCPBoardLoadStation)
+DataPropertyAssertion(oho:hasActivityCost oho:ManualReworkAndCPBoardLoadStation "998.4000000000002"^^xsd:double)
+
+# Individual: oho:ManualReworkStation (oho:ManualReworkStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ManualReworkStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelFrameSubAssembly oho:ManualReworkStation)
+DataPropertyAssertion(oho:hasActivityCost oho:ManualReworkStation "355.20000000000005"^^xsd:double)
+
+# Individual: oho:MaterialDelivery (oho:MaterialDelivery)
+
+ClassAssertion(oho:Activity oho:MaterialDelivery)
+ClassAssertion(oho:NonValueAdded oho:MaterialDelivery)
+DataPropertyAssertion(oho:hasWaitingWaste oho:MaterialDelivery "true"^^xsd:boolean)
+
+# Individual: oho:MeasuringAndCuttingCPBoard (oho:MeasuringAndCuttingCPBoard)
+
+ClassAssertion(oho:Activity oho:MeasuringAndCuttingCPBoard)
+
+# Individual: oho:Method-B (oho:Method-B)
+
+ClassAssertion(oho:Method oho:Method-B)
+
+# Individual: oho:MethodA (oho:MethodA)
+
+ClassAssertion(oho:Method oho:MethodA)
+ObjectPropertyAssertion(oho:hasStation oho:MethodA oho:StationA)
+
+# Individual: oho:Modular_Production (oho:Modular_Production)
+
+ClassAssertion(oho:Modular_Production oho:Modular_Production)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Modular_Production oho:Production_Engineering_Management_and_Support)
+DataPropertyAssertion(oho:hasActivityCost oho:Modular_Production "49996.0"^^xsd:double)
+
+# Individual: oho:NutAndBoltFrame (oho:NutAndBoltFrame)
+
+ClassAssertion(oho:Activity oho:NutAndBoltFrame)
+
+# Individual: oho:OnsiteAssemblyRenderingCentralPod (oho:OnsiteAssemblyRenderingCentralPod)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyRenderingCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyRenderingCentralPod "37268.0"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyRenderingPanelised (oho:OnsiteAssemblyRenderingPanelised)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyRenderingPanelised)
+ClassAssertion(oho:Panel oho:OnsiteAssemblyRenderingPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyRenderingPanelised "73310.51"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyRenderingStick (oho:OnsiteAssemblyRenderingStick)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyRenderingStick)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyRenderingStick "87225.0"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyRenderingVolumatric (oho:OnsiteAssemblyRenderingVolumatric)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyRenderingVolumatric)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyRenderingVolumatric "27484.0"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick (oho:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyRenderingWeatherBoardORBrickSlipStick "91699.0"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod (oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyWatherboardORBrickSlipCentralPod "36108.0"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised (oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised)
+ClassAssertion(oho:Panel oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised "72151.11"^^xsd:double)
+
+# Individual: oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric (oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric)
+
+ClassAssertion(oho:OnsiteAssembly oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric)
+ObjectPropertyAssertion(oho:hasCost oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric oho:TransportationPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteAssemblyWeatherboardORBrickSplipVolumatric "26325.0"^^xsd:double)
+
+# Individual: oho:OnsiteSubstructureAndExternalWall (oho:OnsiteSubstructureAndExternalWall)
+
+ClassAssertion(oho:OnsiteSubStructure oho:OnsiteSubstructureAndExternalWall)
+ClassAssertion(oho:Panel oho:OnsiteSubstructureAndExternalWall)
+DataPropertyAssertion(oho:hasActivityCost oho:OnsiteSubstructureAndExternalWall "34415.0"^^xsd:double)
+
+# Individual: oho:Onsite_Support (oho:Onsite_Support)
+
+ClassAssertion(oho:Onsite_Support oho:Onsite_Support)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Onsite_Support oho:Onsite_Work)
+DataPropertyAssertion(oho:hasActivityCost oho:Onsite_Support "7542.0"^^xsd:double)
+
+# Individual: oho:Onsite_Work (oho:Onsite_Work)
+
+ClassAssertion(oho:Onsite_Work oho:Onsite_Work)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Onsite_Work oho:Repair_and_Replacement)
+DataPropertyAssertion(oho:hasActivityCost oho:Onsite_Work "15658.0"^^xsd:double)
+
+# Individual: oho:Operational (oho:Operational)
+
+ClassAssertion(oho:Operational oho:Operational)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Operational oho:type-1)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Operational oho:type-2)
+DataPropertyAssertion(oho:hasActivityCost oho:Operational "10718.0"^^xsd:double)
+
+# Individual: oho:PG_1 (oho:PG_1)
+
+AnnotationAssertion(rdfs:comment oho:PG_1 "Programmer with ID number 1")
+ClassAssertion(oho:Programmer oho:PG_1)
+
+# Individual: oho:PG_2 (oho:PG_2)
+
+ClassAssertion(oho:Programmer oho:PG_2)
+
+# Individual: oho:PackagingAndProtection (oho:PackagingAndProtection)
+
+ClassAssertion(oho:PackagingAndProtection oho:PackagingAndProtection)
+DataPropertyAssertion(oho:hasActivityCost oho:PackagingAndProtection "195.6941565347004"^^xsd:double)
+
+# Individual: oho:PanelCladdingsub-assembly (oho:PanelCladdingsub-assembly)
+
+ClassAssertion(oho:PanelCladdingsub-assembly oho:PanelCladdingsub-assembly)
+DataPropertyAssertion(oho:hasActivityCost oho:PanelCladdingsub-assembly "11200.04816104884"^^xsd:double)
+
+# Individual: oho:PanelFramesub-assembly (oho:PanelFramesub-assembly)
+
+ClassAssertion(oho:PanelFramesub-assembly oho:PanelFramesub-assembly)
+DataPropertyAssertion(oho:hasActivityCost oho:PanelFramesub-assembly "6698.943859995457"^^xsd:double)
+
+# Individual: oho:PanelHeaters (oho:PanelHeaters)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:PanelHeaters "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:PanelHeaters)
+DataPropertyAssertion(oho:hasActivityCost oho:PanelHeaters "2000.0"^^xsd:double)
+
+# Individual: oho:PanelTurnoverAndToolingReturnStation (oho:PanelTurnoverAndToolingReturnStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:PanelTurnoverAndToolingReturnStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelFrameSubAssembly oho:PanelTurnoverAndToolingReturnStation)
+DataPropertyAssertion(oho:hasActivityCost oho:PanelTurnoverAndToolingReturnStation "0.0"^^xsd:double)
+
+# Individual: oho:Panel_Testing (oho:Panel_Testing)
+
+ClassAssertion(oho:Panel_Testing oho:Panel_Testing)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Panel_Testing oho:Pod_Testing)
+ObjectPropertyAssertion(oho:isStartingActivity oho:Panel_Testing oho:Design_and_Engineering)
+DataPropertyAssertion(oho:hasActivityCost oho:Panel_Testing "50.0"^^xsd:double)
+
+# Individual: oho:Panelised (oho:Panelised)
+
+ClassAssertion(oho:Method oho:Panelised)
+
+# Individual: oho:PanelisedProject (oho:PanelisedProject)
+
+ClassAssertion(oho:Panelised oho:PanelisedProject)
+ClassAssertion(oho:ProjectCost oho:PanelisedProject)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:AssignedFacilitiesAndUtilities80)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:BussinesOperation80)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:DesignAndEngineering80)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:DirectlyProcuredLabourPanelised80)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:DirectlyProcuredMaterialPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:GoldInUse)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:MCProfitPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:OnsiteAssemblyWeatherboardORBrickSlipPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:OnsiteSubstructureAndExternalWall)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:PlantAndEquipment)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:SedumGreenRoof)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:Timber)
+ObjectPropertyAssertion(oho:hasCost oho:PanelisedProject oho:WithWeatherboard)
+DataPropertyAssertion(oho:hasDetached oho:PanelisedProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasDistance oho:PanelisedProject "20.0"^^xsd:double)
+DataPropertyAssertion(oho:hasSemiDetached oho:PanelisedProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasTerrace oho:PanelisedProject "4.0"^^xsd:double)
+
+# Individual: oho:PendantLights (oho:PendantLights)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:PendantLights "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:PendantLights)
+DataPropertyAssertion(oho:hasActivityCost oho:PendantLights "352.8"^^xsd:double)
+
+# Individual: oho:PitchedRoofWithClayTileCovering (oho:PitchedRoofWithClayTileCovering)
+
+ClassAssertion(oho:Panel oho:PitchedRoofWithClayTileCovering)
+ClassAssertion(oho:Roof oho:PitchedRoofWithClayTileCovering)
+DataPropertyAssertion(oho:hasActivityCost oho:PitchedRoofWithClayTileCovering "8010.0"^^xsd:double)
+
+# Individual: oho:PitchedRoofWithPlasticTileCovering (oho:PitchedRoofWithPlasticTileCovering)
+
+ClassAssertion(oho:Panel oho:PitchedRoofWithPlasticTileCovering)
+ClassAssertion(oho:Roof oho:PitchedRoofWithPlasticTileCovering)
+DataPropertyAssertion(oho:hasActivityCost oho:PitchedRoofWithPlasticTileCovering "9110.0"^^xsd:double)
+
+# Individual: oho:PitchedRoofWithSlateTileCovering (oho:PitchedRoofWithSlateTileCovering)
+
+ClassAssertion(oho:Panel oho:PitchedRoofWithSlateTileCovering)
+ClassAssertion(oho:Roof oho:PitchedRoofWithSlateTileCovering)
+DataPropertyAssertion(oho:hasActivityCost oho:PitchedRoofWithSlateTileCovering "8010.0"^^xsd:double)
+
+# Individual: oho:Planning_and_Scheduling (oho:Planning_and_Scheduling)
+
+ClassAssertion(oho:Planning_and_Scheduling oho:Planning_and_Scheduling)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Planning_and_Scheduling oho:Customer_Relation)
+DataPropertyAssertion(oho:hasActivityCost oho:Planning_and_Scheduling "2500.0"^^xsd:double)
+
+# Individual: oho:PlantAndEquipment (oho:PlantAndEquipment)
+
+ClassAssertion(oho:Panel oho:PlantAndEquipment)
+ClassAssertion(oho:PlantAndEquipment oho:PlantAndEquipment)
+ClassAssertion(oho:PodAndPanel oho:PlantAndEquipment)
+ClassAssertion(oho:Stick oho:PlantAndEquipment)
+ClassAssertion(oho:Volumetric oho:PlantAndEquipment)
+DataPropertyAssertion(oho:hasActivityCost oho:PlantAndEquipment "2548.0"^^xsd:double)
+
+# Individual: oho:PlantAndEquipmentCentralPod (oho:PlantAndEquipmentCentralPod)
+
+ClassAssertion(oho:PlantAndEquipment oho:PlantAndEquipmentCentralPod)
+DataPropertyAssertion(oho:hasActivityCost oho:PlantAndEquipmentCentralPod "3130.0"^^xsd:double)
+
+# Individual: oho:PlantAndEquipmentVolumetric (oho:PlantAndEquipmentVolumetric)
+
+ClassAssertion(oho:PlantAndEquipment oho:PlantAndEquipmentVolumetric)
+DataPropertyAssertion(oho:hasActivityCost oho:PlantAndEquipmentVolumetric "3130.0"^^xsd:double)
+
+# Individual: oho:Plasterboard (oho:Plasterboard)
+
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:Plasterboard)
+DataPropertyAssertion(oho:hasActivityCost oho:Plasterboard "3709.4400000000005"^^xsd:double)
+
+# Individual: oho:Platform (oho:Platform)
+
+ClassAssertion(oho:Static_Tools oho:Platform)
+
+# Individual: oho:Plumber (oho:Plumber)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Plumber "Productivity datasheet")
+ClassAssertion(oho:DPLforPodS-A oho:Plumber)
+DataPropertyAssertion(oho:hasActivityCost oho:Plumber "11520.0"^^xsd:double)
+
+# Individual: oho:PodFramesub-assembly (oho:PodFramesub-assembly)
+
+ClassAssertion(oho:PodFramesub-assembly oho:PodFramesub-assembly)
+DataPropertyAssertion(oho:hasActivityCost oho:PodFramesub-assembly "5304.204370587974"^^xsd:double)
+
+# Individual: oho:PodLoadingAndUnloading (oho:PodLoadingAndUnloading)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:PodLoadingAndUnloading "Productivity datasheet")
+ClassAssertion(oho:DPLforLoading oho:PodLoadingAndUnloading)
+DataPropertyAssertion(oho:hasActivityCost oho:PodLoadingAndUnloading "144.00000000000003"^^xsd:double)
+
+# Individual: oho:Pod_Testing (oho:Pod_Testing)
+
+ClassAssertion(oho:Pod_Testing oho:Pod_Testing)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Pod_Testing oho:Architect)
+DataPropertyAssertion(oho:hasActivityCost oho:Pod_Testing "50.0"^^xsd:double)
+
+# Individual: oho:Podsub-assembly (oho:Podsub-assembly)
+
+ClassAssertion(oho:Podsub-assembly oho:Podsub-assembly)
+DataPropertyAssertion(oho:hasActivityCost oho:Podsub-assembly "26087.43017842151"^^xsd:double)
+
+# Individual: oho:ProcessCoordination (oho:ProcessCoordination)
+
+ClassAssertion(oho:Activity oho:ProcessCoordination)
+
+# Individual: oho:Procurement_and_Inventory_Control (oho:Procurement_and_Inventory_Control)
+
+ClassAssertion(oho:Procurement_and_Inventory_Control oho:Procurement_and_Inventory_Control)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Procurement_and_Inventory_Control oho:Modular_Production)
+DataPropertyAssertion(oho:hasActivityCost oho:Procurement_and_Inventory_Control "2500.0"^^xsd:double)
+
+# Individual: oho:Product-A (oho:Product-A)
+
+ClassAssertion(oho:Product oho:Product-A)
+ObjectPropertyAssertion(oho:hasMethod oho:Product-A oho:MethodA)
+
+# Individual: oho:Production_Engineering_Management_and_Support (oho:Production_Engineering_Management_and_Support)
+
+ClassAssertion(oho:Production_Engineering__Management_and_Support oho:Production_Engineering_Management_and_Support)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Production_Engineering_Management_and_Support oho:Onsite_Support)
+DataPropertyAssertion(oho:hasActivityCost oho:Production_Engineering_Management_and_Support "3500.0"^^xsd:double)
+
+# Individual: oho:QI_101 (oho:QI_101)
+
+AnnotationAssertion(rdfs:comment oho:QI_101 "Quality Inspector with unique  ID number 101")
+ClassAssertion(oho:Quality_Inspector oho:QI_101)
+DataPropertyAssertion(oho:hasLabourHrRate oho:QI_101 "11.0"^^xsd:double)
+
+# Individual: oho:QI_102 (oho:QI_102)
+
+AnnotationAssertion(rdfs:comment oho:QI_102 "Quality Inspector with unique  ID number 102")
+ClassAssertion(oho:Quality_Inspector oho:QI_102)
+DataPropertyAssertion(oho:hasLabourHrRate oho:QI_102 "11.0"^^xsd:double)
+
+# Individual: oho:QualityInspection (oho:QualityInspection)
+
+ClassAssertion(oho:Activity oho:QualityInspection)
+
+# Individual: oho:QualityInspectionAndSignOff (oho:QualityInspectionAndSignOff)
+
+ClassAssertion(oho:Activity oho:QualityInspectionAndSignOff)
+
+# Individual: oho:QualityInspectionOnFixings (oho:QualityInspectionOnFixings)
+
+ClassAssertion(oho:Activity oho:QualityInspectionOnFixings)
+
+# Individual: oho:RecessedLights (oho:RecessedLights)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:RecessedLights "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:RecessedLights)
+DataPropertyAssertion(oho:hasActivityCost oho:RecessedLights "273.0"^^xsd:double)
+
+# Individual: oho:Repair_and_Replacement (oho:Repair_and_Replacement)
+
+ClassAssertion(oho:Repair_and_Replacement oho:Repair_and_Replacement)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Repair_and_Replacement oho:Maintenance_and_Service)
+DataPropertyAssertion(oho:hasActivityCost oho:Repair_and_Replacement "90255.0"^^xsd:double)
+
+# Individual: oho:ResourceAllocation (oho:ResourceAllocation)
+
+ClassAssertion(oho:Activity oho:ResourceAllocation)
+
+# Individual: oho:Rework (oho:Rework)
+
+ClassAssertion(oho:Activity oho:Rework)
+
+# Individual: oho:ReworkOnBonding (oho:ReworkOnBonding)
+
+ClassAssertion(oho:Activity oho:ReworkOnBonding)
+
+# Individual: oho:ReworkOnDefectOrScrap (oho:ReworkOnDefectOrScrap)
+
+ClassAssertion(oho:Activity oho:ReworkOnDefectOrScrap)
+
+# Individual: oho:ReworkOnFailedJoints (oho:ReworkOnFailedJoints)
+
+ClassAssertion(oho:Activity oho:ReworkOnFailedJoints)
+
+# Individual: oho:ReworkOnFrames (oho:ReworkOnFrames)
+
+ClassAssertion(oho:Activity oho:ReworkOnFrames)
+
+# Individual: oho:SSO_1 (oho:SSO_1)
+
+AnnotationAssertion(rdfs:comment oho:SSO_1 "Semi Skilled Operative with ID number 1")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_1)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_1 oho:T1_Deliver_Pallets)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_1 oho:T2_Select_and_Load_Beam)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_1 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_2 (oho:SSO_2)
+
+AnnotationAssertion(rdfs:comment oho:SSO_2 "Semi Skilled Operative with unique  ID number 2")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_2)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_2 oho:T8_Rework_on_failed_joints)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_2 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_3 (oho:SSO_3)
+
+AnnotationAssertion(rdfs:comment oho:SSO_3 "Semi Skilled Operative with unique  ID number 3")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_3)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_3 oho:T15_Cut_Wall_Opening)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_3 oho:T16_Fix_Pods)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_3 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_4 (oho:SSO_4)
+
+AnnotationAssertion(rdfs:comment oho:SSO_4 "Semi Skilled Operative with unique  ID number 4")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_4)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_4 oho:T17_Bond_EPDM)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_4 oho:T18_Install_Breather_Membrane)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_4 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_5 (oho:SSO_5)
+
+AnnotationAssertion(rdfs:comment oho:SSO_5 "Semi Skilled Operative with unique  ID number 5")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_5)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_5 oho:T19_Fix_SubFrame)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_5 oho:T20_Install_CandiWall_System)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_5 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_6 (oho:SSO_6)
+
+AnnotationAssertion(rdfs:comment oho:SSO_6 "Semi Skilled Operative with unique  ID number 6")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_6)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_6 oho:T21_Install_Brick_Cladding)
+ObjectPropertyAssertion(oho:workingOnActivity oho:SSO_6 oho:T22_Install_Window_and_Door)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_6 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_7 (oho:SSO_7)
+
+AnnotationAssertion(rdfs:comment oho:SSO_7 "Semi Skilled Operative with unique  ID number 7")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_7)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_7 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_8 (oho:SSO_8)
+
+AnnotationAssertion(rdfs:comment oho:SSO_8 "Semi Skilled Operative with unique  ID number 8")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_8)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_8 "13.0"^^xsd:double)
+
+# Individual: oho:SSO_9 (oho:SSO_9)
+
+AnnotationAssertion(rdfs:comment oho:SSO_9 "Semi Skilled Operative with unique  ID number 9")
+ClassAssertion(oho:Semi-Skilled_Operative oho:SSO_9)
+DataPropertyAssertion(oho:hasLabourHrRate oho:SSO_9 "13.0"^^xsd:double)
+
+# Individual: oho:ScrewBoardToFrame (oho:ScrewBoardToFrame)
+
+ClassAssertion(oho:Activity oho:ScrewBoardToFrame)
+
+# Individual: oho:ScrewBracketForPod (oho:ScrewBracketForPod)
+
+ClassAssertion(oho:DPMforPod_Frame_Sub_Assembly oho:ScrewBracketForPod)
+DataPropertyAssertion(oho:hasActivityCost oho:ScrewBracketForPod "1512.0000000000002"^^xsd:double)
+
+# Individual: oho:SedumGreenRoof (oho:SedumGreenRoof)
+
+ClassAssertion(oho:Panel oho:SedumGreenRoof)
+ClassAssertion(oho:Roof oho:SedumGreenRoof)
+DataPropertyAssertion(oho:hasActivityCost oho:SedumGreenRoof "11750.0"^^xsd:double)
+
+# Individual: oho:ShowerScreen (oho:ShowerScreen)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ShowerScreen "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:ShowerScreen)
+DataPropertyAssertion(oho:hasActivityCost oho:ShowerScreen "640.0"^^xsd:double)
+
+# Individual: oho:ShowerThermostaticMixer (oho:ShowerThermostaticMixer)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ShowerThermostaticMixer "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:ShowerThermostaticMixer)
+DataPropertyAssertion(oho:hasActivityCost oho:ShowerThermostaticMixer "800.0"^^xsd:double)
+
+# Individual: oho:SilverInUse (oho:SilverInUse)
+
+ClassAssertion(oho:In_Use oho:SilverInUse)
+ClassAssertion(oho:Panel oho:SilverInUse)
+ClassAssertion(oho:Stick oho:SilverInUse)
+DataPropertyAssertion(oho:hasActivityCost oho:SilverInUse "179870.86"^^xsd:double)
+
+# Individual: oho:SmokeDetector (oho:SmokeDetector)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:SmokeDetector "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:SmokeDetector)
+DataPropertyAssertion(oho:hasActivityCost oho:SmokeDetector "200.0"^^xsd:double)
+
+# Individual: oho:Sockets (oho:Sockets)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Sockets "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:Sockets)
+DataPropertyAssertion(oho:hasActivityCost oho:Sockets "105.84"^^xsd:double)
+
+# Individual: oho:SolarPV (oho:SolarPV)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:SolarPV "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:SolarPV)
+DataPropertyAssertion(oho:hasActivityCost oho:SolarPV "32000.0"^^xsd:double)
+
+# Individual: oho:SortingSteelSections (oho:SortingSteelSections)
+
+ClassAssertion(oho:Activity oho:SortingSteelSections)
+
+# Individual: oho:StairsAndBalustrades (oho:StairsAndBalustrades)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:StairsAndBalustrades "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:StairsAndBalustrades)
+DataPropertyAssertion(oho:hasActivityCost oho:StairsAndBalustrades "12000.0"^^xsd:double)
+
+# Individual: oho:StationA (oho:StationA)
+
+ClassAssertion(oho:Station oho:StationA)
+ObjectPropertyAssertion(oho:hasActivity oho:StationA oho:T10_Frame_transfer)
+ObjectPropertyAssertion(oho:hasActivity oho:StationA oho:T11_Load_and_Place_CPB)
+
+# Individual: oho:Stick (oho:Stick)
+
+ClassAssertion(oho:Method oho:Stick)
+
+# Individual: oho:StickProject (oho:StickProject)
+
+ClassAssertion(oho:ProjectCost oho:StickProject)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:BussinesOperation80)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:DesignAndEngineering80)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:DirectlyProcuredMaterialStick)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:GoldInUse)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:MCProfitStick)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:OnsiteAssemblyRenderingStick)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:OnsiteSubstructureAndExternalWall)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:PitchedRoofWithClayTileCovering)
+ObjectPropertyAssertion(oho:hasCost oho:StickProject oho:TransportationStick)
+DataPropertyAssertion(oho:hasDetached oho:StickProject "2"^^xsd:int)
+DataPropertyAssertion(oho:hasDistance oho:StickProject "20.0"^^xsd:double)
+DataPropertyAssertion(oho:hasSemiDetached oho:StickProject "2"^^xsd:int)
+DataPropertyAssertion(oho:hasTerrace oho:StickProject "4.0"^^xsd:double)
+
+# Individual: oho:Storage (oho:Storage)
+
+ClassAssertion(oho:Storage oho:Storage)
+DataPropertyAssertion(oho:hasActivityCost oho:Storage "72.0375"^^xsd:double)
+
+# Individual: oho:Structural_Engineer (oho:Structural_Engineer)
+
+ClassAssertion(oho:Structural_Engineer oho:Structural_Engineer)
+ObjectPropertyAssertion(oho:hasNextActivity oho:Structural_Engineer oho:Planning_and_Scheduling)
+DataPropertyAssertion(oho:hasActivityCost oho:Structural_Engineer "500.0"^^xsd:double)
+
+# Individual: oho:T10_Frame_transfer (oho:T10_Frame_transfer)
+
+AnnotationAssertion(rdfs:comment oho:T10_Frame_transfer "T10: Frame transfer to CP Board load station")
+ClassAssertion(oho:CP_Boarding_Station oho:T10_Frame_transfer)
+ClassAssertion(oho:Resource oho:T10_Frame_transfer)
+ObjectPropertyAssertion(oho:usesResources oho:T10_Frame_transfer oho:CL_1)
+
+# Individual: oho:T11_Load_and_Place_CPB (oho:T11_Load_and_Place_CPB)
+
+AnnotationAssertion(rdfs:comment oho:T11_Load_and_Place_CPB "Task 11: Operator  load CP board to cladding area and place the CP board onto the frame using manual tooling to align it correctly")
+ClassAssertion(oho:CP_Boarding_Station oho:T11_Load_and_Place_CPB)
+
+# Individual: oho:T12_Offload (oho:T12_Offload)
+
+AnnotationAssertion(rdfs:comment oho:T12_Offload "Task 12: Place internal frames not requiring finishing onto transport trolley")
+ClassAssertion(oho:Offload_Station oho:T12_Offload)
+DataPropertyAssertion(oho:hasDurationInMins oho:T12_Offload "30.0"^^xsd:double)
+
+# Individual: oho:T12_Transfer_to_Mech_Fixing (oho:T12_Transfer_to_Mech_Fixing)
+
+AnnotationAssertion(rdfs:comment oho:T12_Transfer_to_Mech_Fixing "Task 12: Frame transfers into the mechanical fixing station")
+ClassAssertion(oho:CP_Boarding_Station oho:T12_Transfer_to_Mech_Fixing)
+DataPropertyAssertion(oho:hasProcessTime oho:T12_Transfer_to_Mech_Fixing "8.0"^^xsd:double)
+
+# Individual: oho:T13_CPBoard_Fixing (oho:T13_CPBoard_Fixing)
+
+AnnotationAssertion(rdfs:comment oho:T13_CPBoard_Fixing "Task 13: CP board is mechanically fixed onto frame")
+ClassAssertion(oho:CPB_Mechanical_Fixing_Station oho:T13_CPBoard_Fixing)
+
+# Individual: oho:T13_Return_Conveyor (oho:T13_Return_Conveyor)
+
+AnnotationAssertion(rdfs:comment oho:T13_Return_Conveyor "Task 13: Tooling return conveyor")
+ClassAssertion(oho:Conveying_Station oho:T13_Return_Conveyor)
+
+# Individual: oho:T14_Transfer_Panels_to_Manual_Station (oho:T14_Transfer_Panels_to_Manual_Station)
+
+ClassAssertion(oho:Unload_Station oho:T14_Transfer_Panels_to_Manual_Station)
+
+# Individual: oho:T15_Cut_Wall_Opening (oho:T15_Cut_Wall_Opening)
+
+AnnotationAssertion(rdfs:comment oho:T15_Cut_Wall_Opening "T15: Cut door and window openings in panels")
+ClassAssertion(oho:Facade_Fixing_Station oho:T15_Cut_Wall_Opening)
+DataPropertyAssertion(oho:hasProcessTime oho:T15_Cut_Wall_Opening "0.03"^^xsd:double)
+
+# Individual: oho:T16_Fix_Pods (oho:T16_Fix_Pods)
+
+AnnotationAssertion(rdfs:comment oho:T16_Fix_Pods "T16: Fix door and window pods to the openings in the panels")
+ClassAssertion(oho:Facade_Fixing_Station oho:T16_Fix_Pods)
+DataPropertyAssertion(oho:hasProcessTime oho:T16_Fix_Pods "0.083"^^xsd:double)
+
+# Individual: oho:T17_Bond_EPDM (oho:T17_Bond_EPDM)
+
+AnnotationAssertion(rdfs:comment oho:T17_Bond_EPDM "T17: Bond EPDM to the openings")
+ClassAssertion(oho:Facade_Fixing_Station oho:T17_Bond_EPDM)
+DataPropertyAssertion(oho:hasProcessTime oho:T17_Bond_EPDM "0.1"^^xsd:double)
+
+# Individual: oho:T18_Install_Breather_Membrane (oho:T18_Install_Breather_Membrane)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T18_Install_Breather_Membrane)
+DataPropertyAssertion(oho:hasProcessTime oho:T18_Install_Breather_Membrane "0.1"^^xsd:double)
+
+# Individual: oho:T19_Fix_SubFrame (oho:T19_Fix_SubFrame)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T19_Fix_SubFrame)
+DataPropertyAssertion(oho:hasProcessTime oho:T19_Fix_SubFrame "0.083"^^xsd:double)
+
+# Individual: oho:T1_Deliver_Pallets (oho:T1_Deliver_Pallets)
+
+AnnotationAssertion(rdfs:comment oho:T1_Deliver_Pallets "Task 1 - Deliver Pallets to loading area")
+ClassAssertion(oho:Activity oho:T1_Deliver_Pallets)
+ClassAssertion(oho:FrameBeam_Load_Station oho:T1_Deliver_Pallets)
+ObjectPropertyAssertion(oho:hasNextActivity oho:T1_Deliver_Pallets oho:T2_Select_and_Load_Beam)
+ObjectPropertyAssertion(oho:isStartingActivity oho:T1_Deliver_Pallets oho:LSF_3BED_01_LHS)
+DataPropertyAssertion(oho:hasProcessTime oho:T1_Deliver_Pallets "0.06"^^xsd:double)
+
+# Individual: oho:T20_Install_CandiWall_System (oho:T20_Install_CandiWall_System)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T20_Install_CandiWall_System)
+DataPropertyAssertion(oho:hasProcessTime oho:T20_Install_CandiWall_System "0.166"^^xsd:double)
+
+# Individual: oho:T21_Install_Brick_Cladding (oho:T21_Install_Brick_Cladding)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T21_Install_Brick_Cladding)
+DataPropertyAssertion(oho:hasProcessTime oho:T21_Install_Brick_Cladding "0.25"^^xsd:double)
+
+# Individual: oho:T22_Install_Window_and_Door (oho:T22_Install_Window_and_Door)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T22_Install_Window_and_Door)
+DataPropertyAssertion(oho:hasProcessTime oho:T22_Install_Window_and_Door "0.2"^^xsd:double)
+
+# Individual: oho:T23_Transfer_to_InternalFitOut (oho:T23_Transfer_to_InternalFitOut)
+
+ClassAssertion(oho:Facade_Fixing_Station oho:T23_Transfer_to_InternalFitOut)
+
+# Individual: oho:T24_First_Fix_Electrics (oho:T24_First_Fix_Electrics)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T24_First_Fix_Electrics)
+
+# Individual: oho:T25_First_Fix_Mechanical (oho:T25_First_Fix_Mechanical)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T25_First_Fix_Mechanical)
+
+# Individual: oho:T26_Install_Insulation_btw_Studs (oho:T26_Install_Insulation_btw_Studs)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T26_Install_Insulation_btw_Studs)
+
+# Individual: oho:T27_Install_Vapour_Control (oho:T27_Install_Vapour_Control)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T27_Install_Vapour_Control)
+
+# Individual: oho:T28_Fix_Plaster_Board (oho:T28_Fix_Plaster_Board)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T28_Fix_Plaster_Board)
+
+# Individual: oho:T29_Fix_Skirting (oho:T29_Fix_Skirting)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T29_Fix_Skirting)
+
+# Individual: oho:T2_Select_and_Load_Beam (oho:T2_Select_and_Load_Beam)
+
+ClassAssertion(oho:Activity oho:T2_Select_and_Load_Beam)
+ClassAssertion(oho:FrameBeam_Load_Station oho:T2_Select_and_Load_Beam)
+ObjectPropertyAssertion(oho:hasNextActivity oho:T2_Select_and_Load_Beam oho:T3_Clamp_Beam)
+DataPropertyAssertion(oho:hasProcessTime oho:T2_Select_and_Load_Beam "0.03"^^xsd:double)
+
+# Individual: oho:T30_Checking_and_Transfer (oho:T30_Checking_and_Transfer)
+
+AnnotationAssertion(rdfs:comment oho:T30_Checking_and_Transfer "Task 30: Panel is checked by operative before being transferred to adhesive station")
+
+# Individual: oho:T30_Fix_Architrave (oho:T30_Fix_Architrave)
+
+ClassAssertion(oho:Internal_FitOut_Station oho:T30_Fix_Architrave)
+
+# Individual: oho:T31_Feed_Adhesive (oho:T31_Feed_Adhesive)
+
+AnnotationAssertion(rdfs:comment oho:T31_Feed_Adhesive "Task 31: Feed adhesive from a twin barrel dispense system with automatic changeover")
+
+# Individual: oho:T32_Dispense_Adhesive (oho:T32_Dispense_Adhesive)
+
+AnnotationAssertion(rdfs:comment oho:T32_Dispense_Adhesive "Task 32: Dispense adhesive onto Wonderwall board")
+
+# Individual: oho:T33_Transfer_Frame (oho:T33_Transfer_Frame)
+
+AnnotationAssertion(rdfs:comment oho:T33_Transfer_Frame "Task 33: Automatic transfer of frame onto a servo transfer shuttle")
+
+# Individual: oho:T34_Feeding_Briquettes (oho:T34_Feeding_Briquettes)
+
+AnnotationAssertion(rdfs:comment oho:T34_Feeding_Briquettes "Task 34: Feed Briquettes into the cell in a pattern of 5X5")
+
+# Individual: oho:T35_Place_Briquettes (oho:T35_Place_Briquettes)
+
+AnnotationAssertion(rdfs:comment oho:T35_Place_Briquettes "Task 35: Robot places Briquettes directly to the Wonderwall Board")
+
+# Individual: oho:T3_Clamp_Beam (oho:T3_Clamp_Beam)
+
+AnnotationAssertion(rdfs:comment oho:T3_Clamp_Beam "Task 3: Hold beam in place with clamps")
+ClassAssertion(oho:Activity oho:T3_Clamp_Beam)
+ClassAssertion(oho:FrameBeam_Load_Station oho:T3_Clamp_Beam)
+ObjectPropertyAssertion(oho:hasNextActivity oho:T3_Clamp_Beam oho:T4_Transfer_Beam)
+DataPropertyAssertion(oho:hasActivityCost oho:T3_Clamp_Beam "300.0"^^xsd:double)
+
+# Individual: oho:T4_Transfer_Beam (oho:T4_Transfer_Beam)
+
+AnnotationAssertion(rdfs:comment oho:T4_Transfer_Beam "Task 4: Automatic transfer of beam to riveting station")
+ClassAssertion(oho:Tooling_Transfer_Station oho:T4_Transfer_Beam)
+
+# Individual: oho:T5_Rivet_Joints (oho:T5_Rivet_Joints)
+
+AnnotationAssertion(rdfs:comment oho:T5_Rivet_Joints "Task 5: Riveting top and bottom joints")
+ClassAssertion(oho:Frame_Riveting_Station oho:T5_Rivet_Joints)
+
+# Individual: oho:T6_Move_Frame_to_Lift (oho:T6_Move_Frame_to_Lift)
+
+AnnotationAssertion(rdfs:comment oho:T6_Move_Frame_to_Lift "Task 6: Tooling moves the frame to a lift unit")
+ClassAssertion(oho:Frame_Riveting_Station oho:T6_Move_Frame_to_Lift)
+
+# Individual: oho:T7_Lift_Frame (oho:T7_Lift_Frame)
+
+AnnotationAssertion(rdfs:comment oho:T7_Lift_Frame "Task 7: Automatically lift riveted frame off tooling")
+ClassAssertion(oho:Frame_Riveting_Station oho:T7_Lift_Frame)
+
+# Individual: oho:T8_Rework_on_failed_joints (oho:T8_Rework_on_failed_joints)
+
+AnnotationAssertion(rdfs:comment oho:T8_Rework_on_failed_joints "Task 8: Re-work on failed joints")
+ClassAssertion(oho:Rework_Station oho:T8_Rework_on_failed_joints)
+
+# Individual: oho:T9_Transfer_Frame (oho:T9_Transfer_Frame)
+
+AnnotationAssertion(rdfs:comment oho:T9_Transfer_Frame "Task 9: Transfer frame to cladding line")
+ClassAssertion(oho:Frame_Transfer_Station oho:T9_Transfer_Frame)
+
+# Individual: oho:TEKScrewStation1 (oho:TEKScrewStation1)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:TEKScrewStation1 "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelFrameSubAssembly oho:TEKScrewStation1)
+DataPropertyAssertion(oho:hasActivityCost oho:TEKScrewStation1 "1420.8000000000002"^^xsd:double)
+
+# Individual: oho:TEKScrewStation2 (oho:TEKScrewStation2)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:TEKScrewStation2 "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelCladdingS-A oho:TEKScrewStation2)
+DataPropertyAssertion(oho:hasActivityCost oho:TEKScrewStation2 "1420.8000000000002"^^xsd:double)
+
+# Individual: oho:Taps (oho:Taps)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:Taps "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:Taps)
+DataPropertyAssertion(oho:hasActivityCost oho:Taps "480.0"^^xsd:double)
+
+# Individual: oho:TeamBriefing (oho:TeamBriefing)
+
+ClassAssertion(oho:Activity oho:TeamBriefing)
+
+# Individual: oho:TelephoneAndTVDistribution (oho:TelephoneAndTVDistribution)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:TelephoneAndTVDistribution "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:TelephoneAndTVDistribution)
+DataPropertyAssertion(oho:hasActivityCost oho:TelephoneAndTVDistribution "3200.0"^^xsd:double)
+
+# Individual: oho:Timber (oho:Timber)
+
+ClassAssertion(oho:Panel oho:Timber)
+ClassAssertion(oho:PanelCladdingSubAssembly oho:Timber)
+DataPropertyAssertion(oho:hasActivityCost oho:Timber "1560.0"^^xsd:double)
+
+# Individual: oho:TimberStuds (oho:TimberStuds)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:TimberStuds "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:TimberStuds)
+DataPropertyAssertion(oho:hasActivityCost oho:TimberStuds "480.0"^^xsd:double)
+
+# Individual: oho:ToolingSetUpStation (oho:ToolingSetUpStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:ToolingSetUpStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelFrameSubAssembly oho:ToolingSetUpStation)
+DataPropertyAssertion(oho:hasActivityCost oho:ToolingSetUpStation "1996.8000000000004"^^xsd:double)
+
+# Individual: oho:TransportationOP (oho:TransportationOP)
+
+ClassAssertion(oho:TransportationOP oho:TransportationOP)
+DataPropertyAssertion(oho:hasActivityCost oho:TransportationOP "330.0"^^xsd:double)
+
+# Individual: oho:TransportationPanelised (oho:TransportationPanelised)
+
+ClassAssertion(oho:TransportationCost oho:TransportationPanelised)
+DataPropertyAssertion(oho:hasActivityCost oho:TransportationPanelised "708.0"^^xsd:double)
+
+# Individual: oho:TransportationStick (oho:TransportationStick)
+
+ClassAssertion(oho:TransportationCost oho:TransportationStick)
+DataPropertyAssertion(oho:hasActivityCost oho:TransportationStick "236.0"^^xsd:double)
+
+# Individual: oho:Trolley (oho:Trolley)
+
+ClassAssertion(oho:Movable_Tools oho:Trolley)
+
+# Individual: oho:Truck-A (oho:Truck-A)
+
+ClassAssertion(oho:Transport oho:Truck-A)
+
+# Individual: oho:Type1_House (oho:Type1_House)
+
+AnnotationAssertion(rdfs:comment oho:Type1_House "Type 1  House: Semi-detached; Pod frame + Infilled panel; automated factory production; a particular location and particular selection of roof and building service system choices)")
+DataPropertyAssertion(oho:NoOfHousesPerProject oho:Type1_House "200.0"^^xsd:double)
+DataPropertyAssertion(oho:NoOfHousesPerProjectAC oho:Type1_House "45.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedBusinessOperationCostPP oho:Type1_House "20000.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedFacilitiesUtilitiesCostSA1 oho:Type1_House "360.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedTotalCustomerRelationsCostPP oho:Type1_House "345.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedTotalFactoryAdministrationCost oho:Type1_House "456.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedTotalPlanningSchedulingCost oho:Type1_House "500.0"^^xsd:double)
+DataPropertyAssertion(oho:hasAssignedTotalProcurementInventoryCost oho:Type1_House "4342.0"^^xsd:double)
+DataPropertyAssertion(oho:hasDirectlyProcuredLabourCostSA1 oho:Type1_House "345.0"^^xsd:double)
+DataPropertyAssertion(oho:hasDirectlyProcuredMaterialsCostSA1 oho:Type1_House "500.0"^^xsd:double)
+DataPropertyAssertion(oho:hasLabourContent oho:Type1_House "300.0"^^xsd:double)
+DataPropertyAssertion(oho:hasLabourRate oho:Type1_House "35.0"^^xsd:double)
+DataPropertyAssertion(oho:hasNoAnticipatedNB oho:Type1_House "34.0"^^xsd:double)
+DataPropertyAssertion(oho:hasNoOfHousesBatch oho:Type1_House "50.0"^^xsd:double)
+DataPropertyAssertion(oho:hasPeriodOfProduction oho:Type1_House "12.0"^^xsd:double)
+DataPropertyAssertion(oho:hasPlantEquipmentCostSA1 oho:Type1_House "345.0"^^xsd:double)
+DataPropertyAssertion(oho:hasTotalAssignedIndividualConsultantCostPerProduct oho:Type1_House "564.0"^^xsd:double)
+
+# Individual: oho:UPVC (oho:UPVC)
+
+ClassAssertion(oho:Panel oho:UPVC)
+ClassAssertion(oho:PanelCladdingSubAssembly oho:UPVC)
+DataPropertyAssertion(oho:hasActivityCost oho:UPVC "1497.0"^^xsd:double)
+
+# Individual: oho:UnloadStation (oho:UnloadStation)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:UnloadStation "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelCladdingS-A oho:UnloadStation)
+DataPropertyAssertion(oho:hasActivityCost oho:UnloadStation "0.0"^^xsd:double)
+
+# Individual: oho:VisualInspectionOnBonding (oho:VisualInspectionOnBonding)
+
+ClassAssertion(oho:Activity oho:VisualInspectionOnBonding)
+
+# Individual: oho:VisualInspectionOnsub-frameFixing (oho:VisualInspectionOnsub-frameFixing)
+
+ClassAssertion(oho:Activity oho:VisualInspectionOnsub-frameFixing)
+
+# Individual: oho:VolumetricProject (oho:VolumetricProject)
+
+AnnotationAssertion(rdfs:comment oho:VolumetricProject "Volumetric (All Pods) (Semi-automated line production for panels and manual assembled pods)")
+ClassAssertion(oho:ProjectCost oho:VolumetricProject)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:AssignedFacilitiesAndUtilities80)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:BussinesOperation80)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:DesignAndEngineering80)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:DirectlyProcuredLabourVolumatric80)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:DirectlyProcuredMaterialVolumetric)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:GoldInUse)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:MCProfitPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:OnsiteAssemblyRenderingVolumatric)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:OnsiteSubstructureAndExternalWall)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:PitchedRoofWithClayTileCovering)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:PlantAndEquipmentVolumetric)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:Timber)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:TransportationPanelised)
+ObjectPropertyAssertion(oho:hasCost oho:VolumetricProject oho:WithRendering)
+DataPropertyAssertion(oho:hasDetached oho:VolumetricProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasDistance oho:VolumetricProject "20.0"^^xsd:double)
+DataPropertyAssertion(oho:hasSemiDetached oho:VolumetricProject "2.0"^^xsd:double)
+DataPropertyAssertion(oho:hasTerrace oho:VolumetricProject "4.0"^^xsd:double)
+
+# Individual: oho:Wall-1 (oho:Wall-1)
+
+ClassAssertion(oho:Product oho:Wall-1)
+
+# Individual: oho:WaterCistern (oho:WaterCistern)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:WaterCistern "Quantity conversation factor datasheet")
+ClassAssertion(oho:DPMforPod_Sub_Assembly oho:WaterCistern)
+DataPropertyAssertion(oho:hasActivityCost oho:WaterCistern "800.0"^^xsd:double)
+
+# Individual: oho:Window-1 (oho:Window-1)
+
+ClassAssertion(oho:Component oho:Window-1)
+
+# Individual: oho:WindowAndFrenchDoor (oho:WindowAndFrenchDoor)
+
+AnnotationAssertion(rdfs:isDefinedBy oho:WindowAndFrenchDoor "BIM Model")
+ClassAssertion(oho:DPMforPanelCladdingS-A oho:WindowAndFrenchDoor)
+DataPropertyAssertion(oho:hasActivityCost oho:WindowAndFrenchDoor "22080.0"^^xsd:double)
+
+# Individual: oho:WithBricklSlip (oho:WithBricklSlip)
+
+ClassAssertion(oho:Panel oho:WithBricklSlip)
+ClassAssertion(oho:PanelCladdingSubAssembly oho:WithBricklSlip)
+DataPropertyAssertion(oho:hasActivityCost oho:WithBricklSlip "14949.0"^^xsd:double)
+
+# Individual: oho:WithRendering (oho:WithRendering)
+
+ClassAssertion(oho:Panel oho:WithRendering)
+ClassAssertion(oho:PanelCladdingSubAssembly oho:WithRendering)
+DataPropertyAssertion(oho:hasActivityCost oho:WithRendering "7658.0"^^xsd:double)
+
+# Individual: oho:WithWeatherboard (oho:WithWeatherboard)
+
+ClassAssertion(oho:Panel oho:WithWeatherboard)
+ClassAssertion(oho:PanelCladdingSubAssembly oho:WithWeatherboard)
+DataPropertyAssertion(oho:hasActivityCost oho:WithWeatherboard "12779.0"^^xsd:double)
+
+# Individual: oho:brick-slipSystem (oho:brick-slipSystem)
+
+ClassAssertion(oho:Activity oho:brick-slipSystem)
+
+# Individual: oho:designcosttest (oho:designcosttest)
+
+ClassAssertion(oho-cost:DesignChoice oho:designcosttest)
+ObjectPropertyAssertion(oho:hasNextActivity oho:designcosttest oho:PanelisedProject)
+DataPropertyAssertion(oho:hasActivityCost oho:designcosttest "5000000.0"^^xsd:double)
+
+# Individual: oho:mmBT (oho:mmBT)
+
+ClassAssertion(oho:mmTHK_LSF_BT oho:mmBT)
+DataPropertyAssertion(oho:hasCount oho:mmBT "2"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmBT "1.0225"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmBT "1.07"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmBT "1.36"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmBT "3.123"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmBT "24.99"^^xsd:double)
+
+# Individual: oho:mmCS (oho:mmCS)
+
+ClassAssertion(oho:mmTHK_CS oho:mmCS)
+DataPropertyAssertion(oho:hasCount oho:mmCS "12"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmCS "0.3"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmCS "24.99"^^xsd:double)
+
+# Individual: oho:mmFS (oho:mmFS)
+
+ClassAssertion(oho:LSF_Flat_Strap oho:mmFS)
+DataPropertyAssertion(oho:hasCount oho:mmFS "4"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmFS "2.8"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmFS "24.99"^^xsd:double)
+
+# Individual: oho:mmHT (oho:mmHT)
+
+ClassAssertion(oho:mmTHK_LSF_HT oho:mmHT)
+DataPropertyAssertion(oho:hasCount oho:mmHT "2"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmHT "1.36"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmHT "5.2155"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmHT "24.99"^^xsd:double)
+
+# Individual: oho:mmS (oho:mmS)
+
+ClassAssertion(oho:mmTHK_Stud oho:mmS)
+DataPropertyAssertion(oho:hasCount oho:mmS "8"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmS "2.7"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmS "24.99"^^xsd:double)
+
+# Individual: oho:mmSS (oho:mmSS)
+
+ClassAssertion(oho:X150X60_SS oho:mmSS)
+DataPropertyAssertion(oho:hasCount oho:mmSS "2"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmSS "2.7"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmSS "24.99"^^xsd:double)
+
+# Individual: oho:mmStud (oho:mmStud)
+
+ClassAssertion(oho:mmTHK_Stud oho:mmStud)
+DataPropertyAssertion(oho:hasCount oho:mmStud "20"^^xsd:integer)
+DataPropertyAssertion(oho:hasCount oho:mmStud "4"^^xsd:integer)
+DataPropertyAssertion(oho:hasCount oho:mmStud "6"^^xsd:integer)
+DataPropertyAssertion(oho:hasLength oho:mmStud "0.6"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmStud "0.925"^^xsd:double)
+DataPropertyAssertion(oho:hasLength oho:mmStud "2.7"^^xsd:double)
+DataPropertyAssertion(oho:hasMaterialUnitRate oho:mmStud "24.99"^^xsd:double)
+
+# Individual: oho:test (oho:test)
+
+ClassAssertion(oho:Interface oho:test)
+DataPropertyAssertion(oho:hasActivityCost oho:test "1.0"^^xsd:double)
+
+# Individual: oho:test1 (oho:test1)
+
+ClassAssertion(oho:House oho:test1)
+DataPropertyAssertion(oho:hasActivityCost oho:test1 "1.0"^^xsd:double)
+
+# Individual: oho:test3 (oho:test3)
+
+DataPropertyAssertion(oho:hasActivityCost oho:test3 "1.0"^^xsd:double)
+
+# Individual: oho:type-1 (oho:type-1)
+
+ClassAssertion(Annotation(rdfs:label " Housing Project A") oho:ProjectCost oho:type-1)
+ObjectPropertyAssertion(oho:hasCost oho:type-1 <https://w3id.org/oho#100-200>)
+
+# Individual: oho:type-2 (oho:type-2)
+
+ClassAssertion(oho:ProjectCost oho:type-2)
+ObjectPropertyAssertion(oho:hasCost oho:type-2 <https://w3id.org/oho#1-20>)
+
+# Individual: oho:type-3 (oho:type-3)
+
+ClassAssertion(oho:ProjectCost oho:type-3)
+ObjectPropertyAssertion(oho:hasCost oho:type-3 <https://w3id.org/oho#100-200>)
+
+# Individual: oho:xProjectCostEstimation (oho:xProjectCostEstimation)
+
+DataPropertyAssertion(oho:hasActivityCost oho:xProjectCostEstimation "0.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#1-20> (<https://w3id.org/oho#1-20>)
+
+ClassAssertion(oho:Business_Operation <https://w3id.org/oho#1-20>)
+DataPropertyAssertion(oho:C1 <https://w3id.org/oho#1-20> "7000"^^xsd:integer)
+
+# Individual: <https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)> (<https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)>)
+
+ClassAssertion(oho:Activity <https://w3id.org/oho#1.24InstallCandyWallSystem(backingboard)>)
+
+# Individual: <https://w3id.org/oho#100-200> (<https://w3id.org/oho#100-200>)
+
+ClassAssertion(oho:Business_Operation <https://w3id.org/oho#100-200>)
+DataPropertyAssertion(oho:C1 <https://w3id.org/oho#100-200> "3500.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#150> (<https://w3id.org/oho#150>)
+
+ClassAssertion(oho:Business_Operation <https://w3id.org/oho#150>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#150> "2959.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#200> (<https://w3id.org/oho#200>)
+
+ClassAssertion(oho:Business_Operation <https://w3id.org/oho#200>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#200> "3038.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#21-100> (<https://w3id.org/oho#21-100>)
+
+ClassAssertion(oho:Business_Operation <https://w3id.org/oho#21-100>)
+DataPropertyAssertion(oho:C1 <https://w3id.org/oho#21-100> "5250"^^xsd:integer)
+
+# Individual: <https://w3id.org/oho#Bolts(TypeA)> (<https://w3id.org/oho#Bolts(TypeA)>)
+
+ClassAssertion(oho:DPMforPod_Frame_Sub_Assembly <https://w3id.org/oho#Bolts(TypeA)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#Bolts(TypeA)> "856.8"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#Bolts(TypeB)> (<https://w3id.org/oho#Bolts(TypeB)>)
+
+ClassAssertion(oho:DPMforPod_Frame_Sub_Assembly <https://w3id.org/oho#Bolts(TypeB)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#Bolts(TypeB)> "252.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)> (<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)>)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)> "BIM Model Extraction")
+ClassAssertion(oho:DPMforPanelFrameS-A <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeA)> "4920.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)> (<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)>)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)> "BIM Model Extraction")
+ClassAssertion(oho:DPMforPanelFrameS-A <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeB)> "27552.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)> (<https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)>)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)> "BIM Model Extraction")
+ClassAssertion(oho:DPMforPanelFrameS-A <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#ColdRolledSteelMemberForPanel(TypeC)> "8035.999999999999"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)> (<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)>)
+
+ClassAssertion(oho:DPMforPod_Frame_Sub_Assembly <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeA)> "8656.0"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)> (<https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)>)
+
+ClassAssertion(oho:DPMforPod_Frame_Sub_Assembly <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#HotRolledSteelMemberForPanel(TypeB)> "20709.479999999996"^^xsd:double)
+
+# Individual: <https://w3id.org/oho#Rework/bufferStation> (<https://w3id.org/oho#Rework/bufferStation>)
+
+AnnotationAssertion(rdfs:isDefinedBy <https://w3id.org/oho#Rework/bufferStation> "Productivity datasheet")
+ClassAssertion(oho:DPLforPanelCladdingS-A <https://w3id.org/oho#Rework/bufferStation>)
+DataPropertyAssertion(oho:hasActivityCost <https://w3id.org/oho#Rework/bufferStation> "355.20000000000005"^^xsd:double)
+
+
+DisjointClasses(oho:Acoustic_Insulation oho:Gypsum_Fireboard oho:INT_CP_Board oho:Plaster_Board)
+DisjointClasses(oho:Base_Track oho:Diagonal_Bracing oho:Head_Track oho:Stud)
+DisjointClasses(oho:Base_Track_Fixing oho:CP_Board_Fixing oho:Concrete_Fixing oho:Diagonal_Bracing_Fixing oho:Head_Track_Fixing oho:Insulation_Fixing oho:SubFrame_Fixing)
+DisjointClasses(oho:Brackets oho:Breather_Membrane oho:Brick_Slip oho:CP_Board oho:CandiWall_Rail oho:CandiWall_System oho:Cavity_Insulation_Board oho:EPDM oho:Insulation_Board oho:Sheating_Board)
+DisjointClasses(oho:Conveying_Station oho:FrameBeam_Load_Station oho:Frame_Riveting_Station oho:Frame_Transfer_Station oho:Offload_Station oho:Rework_Station oho:Tooling_Transfer_Station)
+DisjointClasses(oho:Door_Pod oho:External_Door oho:Internal_Door oho:Skirting oho:Window_Pod)
+DisjointClasses(oho:Loading oho:Ordering_Materials oho:Packaging oho:Quality_Inspection oho:Receiving_Materials oho:Tool_Maintenance oho:Transporting)
+DisjointClasses(oho:NecessaryNonValueAdded oho:NonValueAdded oho:ValueAdded)
+SubObjectPropertyOf(ObjectPropertyChain(oho:hasActivity oho:usesResources) oho:usesResources)
+SubObjectPropertyOf(ObjectPropertyChain(oho:hasMethod oho:hasStation) oho:hasStation)
+SubObjectPropertyOf(ObjectPropertyChain(oho:hasStation oho:hasActivity) oho:hasActivity)
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S7"^^xsd:string) Body(DataPropertyAtom(oho:hasProcessTime Variable(oho:a) Variable(oho:p)) ObjectPropertyAtom(oho:workingOnActivity Variable(oho:s) Variable(oho:a)) DataPropertyAtom(oho:hasLabourHrRate Variable(oho:s) Variable(oho:r)) ClassAtom(oho:Activity Variable(oho:a)) ClassAtom(oho:Labour Variable(oho:s)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:rezult) Variable(oho:p) Variable(oho:r)))Head(DataPropertyAtom(oho:hasActivityCost Variable(oho:a) Variable(oho:rezult))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S4") Body(ObjectPropertyAtom(oho:hasActivity Variable(oho:p) Variable(oho:a)) ClassAtom(oho:Activity Variable(oho:a)) ObjectPropertyAtom(oho:hasNextActivity Variable(oho:p) Variable(oho:a)) ObjectPropertyAtom(oho:isStartingActivity Variable(oho:a) Variable(oho:p)) ClassAtom(oho:Product Variable(oho:p)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:a))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Labour cost for semi skilled workers.") Annotation(rdfs:label "S3") Body(DataPropertyAtom(oho:hasProcessTime Variable(oho:a) Variable(oho:p)) ObjectPropertyAtom(oho:workingOnActivity Variable(oho:s) Variable(oho:a)) DataPropertyAtom(oho:hasLabourHrRate Variable(oho:s) Variable(oho:r)) ClassAtom(oho:Semi-Skilled_Operative Variable(oho:s)) ClassAtom(oho:Activity Variable(oho:a)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:rezult) Variable(oho:p) Variable(oho:r)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum> Variable(oho:rezult)) BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:s))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Direct Material Cost of Wall Panels") Annotation(rdfs:label "R3") Body(ClassAtom(oho:Wall_Panel Variable(oho:w)) DataPropertyAtom(oho:hasMaterialCost Variable(oho:c) Variable(oho:m)) ObjectPropertyAtom(oho:hasComponentPart Variable(oho:w) Variable(oho:c)) ClassAtom(oho:Material Variable(oho:c)))Head(DataPropertyAtom(oho:hasDirectMaterialCost Variable(oho:w) Variable(oho:m))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Calculate Total Direct Material Cost") Annotation(rdfs:label "S1") Body(DataPropertyAtom(oho:hasDirectMaterialCost Variable(oho:p) Variable(oho:m)) ClassAtom(oho:Option1_LSF3BED Variable(oho:p)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:p)) BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum> Variable(oho:m))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Calculate Total Direct Material Cost") Annotation(rdfs:label "Q1") Body(ClassAtom(oho:Option1_LSF3BED Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p>)) DataPropertyAtom(oho:hasDirectMaterialCost Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m>)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#p>)) BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#sum> Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#m>))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Assign business cost to a project based on the batch size."^^xsd:string) Annotation(rdfs:label "S13"^^xsd:string) Body(ObjectPropertyAtom(oho:hasCost Variable(oho:h) Variable(oho:t)) DataPropertyAtom(oho:hasActivityCost Variable(oho:t) Variable(oho:c)) ClassAtom(oho:Panel Variable(oho:h)))Head(DataPropertyAtom(oho:hasActivityCost Variable(oho:h) Variable(oho:c))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Calculate Transportation Cost using the distance and number of house per unit"^^xsd:string) Annotation(rdfs:label "S14"^^xsd:string) Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:s) "3"^^xsd:integer Variable(oho:result)) DataPropertyAtom(oho:hasDistance Variable(oho:p) Variable(oho:d)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:truck) Variable(oho:r) "2.2"^^xsd:decimal) DataPropertyAtom(oho:hasTerrace Variable(oho:p) Variable(oho:t)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:r) Variable(oho:s) "2"^^xsd:integer Variable(oho:d)) ClassAtom(oho:Panelised Variable(oho:p)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:totalcost) Variable(oho:fuel) Variable(oho:truck) Variable(oho:driver)) DataPropertyAtom(oho:hasDetached Variable(oho:p) Variable(oho:dt)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:driver) Variable(oho:r) "2.2"^^xsd:decimal) DataPropertyAtom(oho:hasSemiDetached Variable(oho:p) Variable(oho:sd)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:result) Variable(oho:dt) Variable(oho:t) Variable(oho:sd)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:fuel) Variable(oho:r) "1.5"^^xsd:decimal) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:transportationCost) Variable(oho:totalcost) Variable(oho:result)))Head(DataPropertyAtom(oho:hasActivityCost Variable(oho:p) Variable(oho:transportationCost))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "All activities envolved in producing a wall panel") Annotation(rdfs:label "S9") Body(ObjectPropertyAtom(oho:hasStartingActivity Variable(oho:Panel) Variable(oho:StartActivity)) ObjectPropertyAtom(oho:hasNextActivity Variable(oho:t) Variable(oho:g)) ClassAtom(oho:Product Variable(oho:Panel)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:Panel) Variable(oho:StartActivity) Variable(oho:t) Variable(oho:g))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S2") Body(ClassAtom(oho:Product Variable(oho:p)) ObjectPropertyAtom(oho:hasComponentPart Variable(oho:p) Variable(oho:Component)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:Component))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S8") Body(ObjectPropertyAtom(oho:hasNextActivity Variable(oho:t) Variable(oho:g)) ObjectPropertyAtom(oho:hasStartingActivity Variable(oho:p) Variable(oho:t)) ClassAtom(oho:Product Variable(oho:p)))Head(BuiltInAtom(<http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select> Variable(oho:t) Variable(oho:g))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S11"^^xsd:string) Body(ObjectPropertyAtom(oho:hasCost Variable(oho:h) Variable(oho:t)) DataPropertyAtom(oho:C1 Variable(oho:t) Variable(oho:c)) ClassAtom(oho:ProjectCost Variable(oho:h)))Head(DataPropertyAtom(oho:hasActivityCost Variable(oho:h) Variable(oho:c))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S10") Body(DataPropertyAtom(oho:hasCount Variable(oho:t) Variable(oho:a)) ClassAtom(oho:Time Variable(oho:t)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#greaterThan> Variable(oho:a) "200"^^xsd:integer))Head(DataPropertyAtom(oho:hasMaterialCost Variable(oho:t) Variable(oho:a))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Cost of wall framing components") Annotation(rdfs:label "R2") Body(ClassAtom(oho:Wall_Framing Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#w>)) DataPropertyAtom(oho:hasMaterialUnitRate Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#w>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#r>)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#c>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#q>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#r>)) DataPropertyAtom(oho:hasMaterialQuantity Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#w>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#q>)))Head(DataPropertyAtom(oho:hasMaterialCost Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#w>) Variable(<https://w3id.org/oho#s17102250/ontologies/2019/9/untitled-ontology-5#c>))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Quantity of wall framing components") Annotation(rdfs:label "R1") Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(<urn:swrl:var#a>) Variable(<urn:swrl:var#c>) Variable(<urn:swrl:var#l>)) DataPropertyAtom(oho:hasCount Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#c>)) ClassAtom(oho:Wall_Framing Variable(<urn:swrl:var#w>)) DataPropertyAtom(oho:hasLength Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#l>)))Head(DataPropertyAtom(oho:hasMaterialQuantity Variable(<urn:swrl:var#w>) Variable(<urn:swrl:var#a>))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "S12") Body(ObjectPropertyAtom(oho:hasCost Variable(oho:p) Variable(oho:np)) DataPropertyAtom(oho:hasCostFromStart Variable(oho:p) Variable(oho:ptd)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:nptd) Variable(oho:ptd) Variable(oho:npd)) ObjectPropertyAtom(oho:hasCost Variable(oho:np) Variable(oho:npd)))Head(DataPropertyAtom(oho:hasCostFromStart Variable(oho:np) Variable(oho:nptd))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Activity Cost From Start") Annotation(rdfs:label "S6") Body(DataPropertyAtom(oho:hasActivityCost Variable(oho:np) Variable(oho:npd)) ObjectPropertyAtom(oho:hasNextActivity Variable(oho:p) Variable(oho:np)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:nptd) Variable(oho:ptd) Variable(oho:npd)) DataPropertyAtom(oho:hasActivityCostFromStart Variable(oho:p) Variable(oho:ptd)))Head(DataPropertyAtom(oho:hasActivityCostFromStart Variable(oho:np) Variable(oho:nptd))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Iniciate the value for hasActivityCostFromStart") Annotation(rdfs:label "S5") Body(ObjectPropertyAtom(oho:isStartingActivity Variable(oho:a) Variable(oho:b)) DataPropertyAtom(oho:hasActivityCost Variable(oho:a) Variable(oho:c)))Head(DataPropertyAtom(oho:hasActivityCostFromStart Variable(oho:a) Variable(oho:c))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "C1") Annotation(rdfs:label "C1") Body(DataPropertyAtom(oho:NoOfHousesPerProject Variable(oho:p) Variable(oho:h)) DataPropertyAtom(oho:hasAssignedBusinessOperationCostPP Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)))Head(DataPropertyAtom(oho:hasBussinesOperationCostC1 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "AC1") Annotation(rdfs:label "C3-AC1") Body(DataPropertyAtom(oho:hasAssignedTotalCustomerRelationsCostPP Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)) DataPropertyAtom(oho:NoOfHousesPerProjectAC Variable(oho:p) Variable(oho:h)))Head(DataPropertyAtom(oho:hasCostumerRelationCostAC1 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "AC4") Annotation(rdfs:label "C3-AC4") Body(DataPropertyAtom(oho:hasAssignedTotalFactoryAdministrationCost Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)) DataPropertyAtom(oho:NoOfHousesPerProjectAC Variable(oho:p) Variable(oho:h)))Head(DataPropertyAtom(oho:hasFactoryAdministrationCostAC4 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "AC2") Annotation(rdfs:label "C3-AC2") Body(DataPropertyAtom(oho:hasAssignedTotalPlanningSchedulingCost Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)) DataPropertyAtom(oho:NoOfHousesPerProjectAC Variable(oho:p) Variable(oho:h)))Head(DataPropertyAtom(oho:hasPlanningSchedulingCostAC2 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "AC3") Annotation(rdfs:label "C3-AC3") Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)) DataPropertyAtom(oho:hasAssignedTotalProcurementInventoryCost Variable(oho:p) Variable(oho:b)) DataPropertyAtom(oho:NoOfHousesPerProjectAC Variable(oho:p) Variable(oho:h)))Head(DataPropertyAtom(oho:hasProcurementInventoryCostAC3 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "C4") Annotation(rdfs:label "C4") Body(DataPropertyAtom(oho:hasAssignedCostPerDistance Variable(oho:p) Variable(oho:m)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:_z) Variable(oho:m) Variable(oho:l)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:x) Variable(oho:_z) Variable(oho:e)) DataPropertyAtom(oho:hasDistancePerJourney Variable(oho:p) Variable(oho:l)) DataPropertyAtom(oho:hasNoOfJourneyPerHouse Variable(oho:p) Variable(oho:e)))Head(DataPropertyAtom(oho:hasTransportationCostC4 Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Estimated Cost for Facilities and Utilities per No. of  house Type 1") Annotation(rdfs:label "C3-A5-SA1-Facilities") Body(DataPropertyAtom(oho:hasPeriodOfProductionFacilities Variable(oho:p) Variable(oho:f)) DataPropertyAtom(oho:hasAssignedFacilitiesUtilitiesCost Variable(oho:p) Variable(oho:u)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:_r) Variable(oho:u) Variable(oho:f)) DataPropertyAtom(oho:hasNoOfHousesBatchFacilities Variable(oho:p) Variable(oho:n)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:x) Variable(oho:_r) Variable(oho:n)))Head(DataPropertyAtom(oho:hasAssignedFacilitiesUtilitiesCostSA1 Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Panel Frame Sub-Assembly Cost") Annotation(rdfs:label "C3-AC5-SA1") Body(DataPropertyAtom(oho:hasPlantEquipmentCostSA1 Variable(oho:p) Variable(oho:c)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:y) Variable(oho:x) Variable(oho:c)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:x) Variable(oho:a) Variable(oho:b)) DataPropertyAtom(oho:hasDirectlyProcuredMaterialsCostSA1 Variable(oho:p) Variable(oho:d)) DataPropertyAtom(oho:hasAssignedFacilitiesUtilitiesCostSA1 Variable(oho:p) Variable(oho:a)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:y1) Variable(oho:y) Variable(oho:d)) DataPropertyAtom(oho:hasDirectlyProcuredLabourCostSA1 Variable(oho:p) Variable(oho:b)))Head(DataPropertyAtom(oho:hasPanelFrameSubAssemblyCostSA1 Variable(oho:p) Variable(oho:y1))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment ""^^xsd:string) Annotation(rdfs:label "C3-AC5-SA1-Plant") Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:_r) Variable(oho:u) Variable(oho:f)) DataPropertyAtom(oho:hasLifePlantEquipment Variable(oho:p) Variable(oho:f)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:x) Variable(oho:_y) Variable(oho:n)) DataPropertyAtom(oho:hasPeriodofProduction Variable(oho:p) Variable(oho:lr)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:y) Variable(oho:_r) Variable(oho:lr)) DataPropertyAtom(oho:hasAssignedPlantEquipmentCost Variable(oho:p) Variable(oho:u)) DataPropertyAtom(oho:hasNoOfHousesPerBatch Variable(oho:p) Variable(oho:n)))Head(DataPropertyAtom(oho:hasPlantEquipmentCostSA1 Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Module Assembly Cost") Annotation(rdfs:label "C5-AC1-SA2") Body(DataPropertyAtom(oho:hasPlantEquipmentCost Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:x) Variable(oho:a) Variable(oho:b)) DataPropertyAtom(oho:hasDirectlyProcuredLabourCost Variable(oho:p) Variable(oho:a)))Head(DataPropertyAtom(oho:hasModuleAssemblyCost Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Estimated Cost for In Use cost Eq. 16") Annotation(rdfs:label "C6") Body(DataPropertyAtom(oho:hasEnergyCostPerAnnum Variable(oho:p) Variable(oho:a)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:x) Variable(oho:a) "60"^^xsd:integer))Head(DataPropertyAtom(oho:hasInUseCostC6 Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Directly procured labour for SA1") Annotation(rdfs:label "C3-A5-SA1-Labour") Body(DataPropertyAtom(oho:hasPeriodOfProduction Variable(oho:p) Variable(oho:f)) DataPropertyAtom(oho:hasLabourContent Variable(oho:p) Variable(oho:u)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:x) Variable(oho:_y) Variable(oho:n)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:y) Variable(oho:_r) Variable(oho:lr)) DataPropertyAtom(oho:hasNoOfHousesBatch Variable(oho:p) Variable(oho:n)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:_r) Variable(oho:u) Variable(oho:f)) DataPropertyAtom(oho:hasLabourRate Variable(oho:p) Variable(oho:lr)))Head(DataPropertyAtom(oho:hasDirectlyProcuredLabourCostSA1 Variable(oho:p) Variable(oho:x))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Directly procured materials for Panel Frame Sub-Assembly") Annotation(rdfs:label "C3-AC5-SA1-Materials") Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#multiply> Variable(oho:z) Variable(oho:m) Variable(oho:l)) DataPropertyAtom(oho:hasMaterialQuantitySA1 Variable(oho:p) Variable(oho:l)) DataPropertyAtom(oho:hasMaterialUnitRateSA1 Variable(oho:p) Variable(oho:m)))Head(DataPropertyAtom(oho:hasDirectlyProcuredMaterialsCostSA1 Variable(oho:p) Variable(oho:z))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "C2 Eq. 3") Annotation(rdfs:label "C2") Body(DataPropertyAtom(oho:hasNoAnticipatedNB Variable(oho:p) Variable(oho:h)) DataPropertyAtom(oho:hasTotalAssignedIndividualConsultantCostPerProduct Variable(oho:p) Variable(oho:b)) BuiltInAtom(<http://www.w3.org/2003/11/swrlb#divide> Variable(oho:r) Variable(oho:b) Variable(oho:h)))Head(DataPropertyAtom(oho:hasDesignEngineeringCostC2 Variable(oho:p) Variable(oho:r))))
+DLSafeRule(Annotation(<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean) Annotation(rdfs:comment "Estimated Cost for Onsite Production per No. of  house Type 1") Annotation(rdfs:label "C5") Body(BuiltInAtom(<http://www.w3.org/2003/11/swrlb#add> Variable(oho:x) Variable(oho:a) Variable(oho:b)) DataPropertyAtom(oho:hasOnsiteSupportCost Variable(oho:p) Variable(oho:b)) DataPropertyAtom(oho:hasOnsiteWorksCost Variable(oho:p) Variable(oho:a)))Head(DataPropertyAtom(oho:hasOnsiteCostC5 Variable(oho:p) Variable(oho:x))))
+)
